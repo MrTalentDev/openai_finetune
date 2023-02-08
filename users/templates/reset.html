@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="content-center">
+    <legend class="mb-4 mt-5 title">SmartResponse</legend>
+    <div class="content-section">
+        <legend class="mb-4 description">Done! We've sent an email with a reset link. Click the link in the email to set a new passwork.</legend>
+    </div>
+    <a class="btn bg-purple mt-4 pl-4 pr-4" href="{% url 'users:login' %}">Go back to login page</a>
+</div>
+{% endblock content %}

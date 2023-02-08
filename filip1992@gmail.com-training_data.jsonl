@@ -1,0 +1,759 @@
+{"prompt": "What is Twilio Docs?\n\n###\n\n", "completion": "Twilio Docs is a reference documentation and quickstarts for APIs\n"}
+{"prompt": "What languages are supported by Twilio Docs?\n\n###\n\n", "completion": "Deutsch, English, Espa\u00f1ol (M\u00e9xico), Fran\u00e7ais, Portugu\u00eas (Brasil)\n"}
+{"prompt": "What is Twilio Flex?\n\n###\n\n", "completion": "Twilio Flex is a contact center that allows you to add remote agents, new channels, chatbots, and IVR\n"}
+{"prompt": "What can you do with Twilio Programmable SMS?\n\n###\n\n", "completion": "You can send and receive text messages using the programming languages you already know and love\n"}
+{"prompt": "What can you build with Twilio Voice?\n\n###\n\n", "completion": "You can build unique phone call experiences with one API to make, receive, control, and monitor calls around the globe\n"}
+{"prompt": "What can you build with Twilio Video?\n\n###\n\n", "completion": "You can build real-time video and HD audio applications using WebRTC and cloud infrastructure\n"}
+{"prompt": "What does Twilio SendGrid provide?\n\n###\n\n", "completion": "Twilio SendGrid provides one scalability\n"}
+{"prompt": "What is the flexible email API and marketing tools used to increase customer engagement?\n\n###\n\n", "completion": "Flexible email API and marketing tools\n"}
+{"prompt": "What messaging app is officially supported by WhatsApp?\n\n###\n\n", "completion": "WhatsApp\n"}
+{"prompt": "What is Elastic SIP Trunking used for?\n\n###\n\n", "completion": "Global connectivity for VoIP infrastructure\n"}
+{"prompt": "What does Conversations orchestrate across chat, WhatsApp, SMS, and MMS?\n\n###\n\n", "completion": "Multiparty conversations\n"}
+{"prompt": "What can Super SIM be used for?\n\n###\n\n", "completion": "Cellular IoT connectivity\n"}
+{"prompt": "How can phone number ownership be verified quickly?\n\n###\n\n", "completion": "SMS or Voice\n"}
+{"prompt": "Where can you find the API Reference docs for Programmable Video, TaskRouter, Twilio Sync, Twilio Notify, Super SIM and more?\n\n###\n\n", "completion": "Twilio Docs: API Referen\n"}
+{"prompt": "What languages are supported by Twilio Docs?\n\n###\n\n", "completion": "Deutsch, English, Espa\u00f1ol (M\u00e9xico), Fran\u00e7ais, Portugu\u00eas (Brasil)\n"}
+{"prompt": "What is Twilio Flex?\n\n###\n\n", "completion": "A contact center with the ability to add remote agents, new channels, chatbots, and IVR.\n"}
+{"prompt": "What can you do with Twilio Programmable SMS?\n\n###\n\n", "completion": "Send and receive text messages using the programming languages you already know and love.\n"}
+{"prompt": "What can you build with Twilio Voice?\n\n###\n\n", "completion": "Unique phone call experiences with one API to make, receive, control, and monitor calls around the globe.\n"}
+{"prompt": "What can you build with Twilio Video?\n\n###\n\n", "completion": "Real-time video and HD audio applications using WebRTC and cloud infrastructure.\n"}
+{"prompt": "What does Twilio SendGrid provide?\n\n###\n\n", "completion": "One, scalable solution for all th\n"}
+{"prompt": "What is the email API used for?\n\n###\n\n", "completion": "To increase customer engagement\n"}
+{"prompt": "What is WhatsApp API used for?\n\n###\n\n", "completion": "To reach users on the world's most popular messaging app through one streamlined API\n"}
+{"prompt": "What is Elastic SIP Trunking used for?\n\n###\n\n", "completion": "Global connectivity for VoIP infrastructure, deployable in minutes\n"}
+{"prompt": "What is Conversations used for?\n\n###\n\n", "completion": "Orchestrate multiparty conversations across chat, WhatsApp, SMS, and MMS\n"}
+{"prompt": "What is Super SIM used for?\n\n###\n\n", "completion": "Cellular IoT connectivity you can control at any place, and at any scale\n"}
+{"prompt": "What is Verify used for?\n\n###\n\n", "completion": "To quickly verify phone number ownership via SMS or Voice, reduce fraudulent accounts, and speed up account onboarding\n"}
+{"prompt": "Where can I find the API Reference docs?\n\n###\n\n", "completion": "Our API Reference docs for Programmable Video, TaskRouter, Twilio Sync, Twilio Notify, Super SIM, and much more\n"}
+{"prompt": "Who owns Twilio Inc.?\n\n###\n\n", "completion": "Twilio Inc.\n"}
+{"prompt": "When was Twilio Inc. established?\n\n###\n\n", "completion": "2023\n"}
+{"prompt": "What rights are reserved by Twilio Inc.?\n\n###\n\n", "completion": "All Rights Reserved.\n"}
+{"prompt": "Is Twilio Inc. protected by reCAPTCHA?\n\n###\n\n", "completion": "Yes\n"}
+{"prompt": "What language is the latest information available in?\n\n###\n\n", "completion": "English\n"}
+{"prompt": "What type of documentation does Twilio provide?\n\n###\n\n", "completion": "API reference documentation and quickstart guides\n"}
+{"prompt": "What languages are supported by Twilio SDKs?\n\n###\n\n", "completion": "Web, iOS, and Android\n"}
+{"prompt": "What is Twilio Flex?\n\n###\n\n", "completion": "A complete contact center platform\n"}
+{"prompt": "What is Twilio Programmable SMS?\n\n###\n\n", "completion": "Twilio Programmable SMS allows you to send and receive text messages with the programming languages you already know and love.\n"}
+{"prompt": "What can you do with Twilio's Voice API?\n\n###\n\n", "completion": "With Twilio's Voice API, you can develop a unique telephone environment to make, receive, control, and monitor calls around the globe.\n"}
+{"prompt": "How can you create interactive live video and audio streaming experiences?\n\n###\n\n", "completion": "You can create interactive live video and audio streaming experiences for an unlimited audience.\n"}
+{"prompt": "What does Twilio SendGrid offer?\n\n###\n\n", "completion": "Twilio SendGrid offers a scalable solution for all emails you send out, with a flexible email API and marketing tools for stronger customer engagement.\n"}
+{"prompt": "What is the WhatsApp API used for?\n\n###\n\n", "completion": "The WhatsApp API is used to reach users of the world's most popular messaging app through a single, optimized API officially supported by WhatsApp.\n"}
+{"prompt": "What is Elastic SIP-Trunking?\n\n###\n\n", "completion": "Elastic SIP-Trunking is global connectivity.\n"}
+{"prompt": "What is the VoIP-Infrastrukturen capable of?\n\n###\n\n", "completion": "VoIP-Infrastrukturen is capable of being ready to use within minutes.\n"}
+{"prompt": "What is Conversations used for?\n\n###\n\n", "completion": "Conversations is used to coordinate conversations with multiple participants over chat, WhatsApp, SMS and MMS.\n"}
+{"prompt": "What is Super SIM used for?\n\n###\n\n", "completion": "Super SIM is used for mobile-IoT connectivity that can be controlled anywhere and in any size.\n"}
+{"prompt": "What can Verify be used to do?\n\n###\n\n", "completion": "Verify can be used to quickly verify the identity of phone numbers via SMS or Voice, reduce fraudulent accounts and speed up account onboarding.\n"}
+{"prompt": "Where can you find all the API documents?\n\n###\n\n", "completion": "All API documents can be found on Twilio Docs.\n"}
+{"prompt": "When was Twilio Inc. founded?\n\n###\n\n", "completion": "Twilio Inc. was founded in 2023.\n"}
+{"prompt": "What languages are supported by Twilio?\n\n###\n\n", "completion": "Deutsch, English, Espaol (M\u00e9xico), Fran\u00e7ais, Portugu\u00eas (Brasil)\n"}
+{"prompt": "What is Twilio Flex?\n\n###\n\n", "completion": "Take complete control of your contact center. Add remote agents, new channels, chatbots, and IVR.\n"}
+{"prompt": "What is Twilio Programmable SMS?\n\n###\n\n", "completion": "Send and receive text messages using the programming languages you already know and love.\n"}
+{"prompt": "What can you do with Twilio Voice?\n\n###\n\n", "completion": "Make, receive, control, and monitor calls around the globe.\n"}
+{"prompt": "What is Twilio Video used for?\n\n###\n\n", "completion": "Build real-time video and HD audio applications using WebRTC and cloud infrastructure.\n"}
+{"prompt": "What does Twilio SendGrid provide?\n\n###\n\n", "completion": "One, scalable solution for all the email that you send. Reach customers using a flexible email API and marketing tools to increase cust.\n"}
+{"prompt": "What is the WhatsApp API?\n\n###\n\n", "completion": "The WhatsApp API is a streamlined API officially supported by WhatsApp that allows users to reach people on the world's most popular messaging app.\n"}
+{"prompt": "What is Elastic SIP Trunking?\n\n###\n\n", "completion": "Elastic SIP Trunking is global connectivity for VoIP infrastructure that can be deployed in minutes and scaled elastically using a battle-tested network.\n"}
+{"prompt": "What is Conversations?\n\n###\n\n", "completion": "Conversations allows users to orchestrate multiparty conversations across chat, WhatsApp, SMS, and MMS.\n"}
+{"prompt": "What is Super SIM?\n\n###\n\n", "completion": "Super SIM is cellular IoT connectivity that can be controlled at any place and at any scale.\n"}
+{"prompt": "What is Verify?\n\n###\n\n", "completion": "Verify quickly verifies phone number ownership via SMS or Voice, reduces fraudulent accounts, and speeds up account onboarding.\n"}
+{"prompt": "Where can I find all the API docs?\n\n###\n\n", "completion": "All API docs can be found in the API Reference docs.\n"}
+{"prompt": "Who owns Twilio Inc.?\n\n###\n\n", "completion": "Twilio Inc. is owned by Twilio Inc.\n"}
+{"prompt": "What year was Twilio Inc. founded in?\n\n###\n\n", "completion": "Twilio Inc. was founded in 2008.\n"}
+{"prompt": "Where can I find Twilio's API Reference docs, tutorials and integrations?\n\n###\n\n", "completion": "Twilio's API Reference docs, tutorials and integrations can be found on Twilio's website.\n"}
+{"prompt": "\u00bfQu\u00e9 lenguajes de programaci\u00f3n conoces y adoras?\n\n###\n\n", "completion": "JavaScript, Python, Ruby, PHP\n"}
+{"prompt": "\u00bfQu\u00e9 ofrece Voice para crear experiencias de llamadas telef\u00f3nicas \u00fanicas?\n\n###\n\n", "completion": "Una sola API para realizar, recibir, controlar y supervisar llamadas en todo el mundo\n"}
+{"prompt": "\u00bfC\u00f3mo puedes crear aplicaciones de video en tiempo real y audio HD?\n\n###\n\n", "completion": "Mediante el uso de WebRTC e infraestructura en la nube\n"}
+{"prompt": "\u00bfQu\u00e9 experiencias interactivas de transmisi\u00f3n de video y audio en vivo puedes crear?\n\n###\n\n", "completion": "Experiencias interactivas de transmisi\u00f3n de video y audio en vivo para una audiencia ilimitada\n"}
+{"prompt": "\u00bfQu\u00e9 proporciona Twilio SendGrid para el correo electr\u00f3nico que env\u00edas?\n\n###\n\n", "completion": "Una soluci\u00f3n escalable para todo el correo electr\u00f3nico que env\u00edas; herramientas de marketing para aumentar la interacci\u00f3n con el cliente\n"}
+{"prompt": "\u00bfC\u00f3mo puedes comunicarte con usuarios a trav\u00e9s de la aplicaci\u00f3n de mensajer\u00eda m\u00e1s popular del mundo?\n\n###\n\n", "completion": "A trav\u00e9s de una API optimizada, que es oficialmente compatible con WhatsApp\n"}
+{"prompt": "\u00bfQu\u00e9 ofrece Enlaces SIP el\u00e1sticos para la infraestructura de VoIP?\n\n###\n\n", "completion": "Conectividad global para la infraestructura de VoIP que se puede implementar en minutos; escala de manera el\u00e1stica\n"}
+{"prompt": "\u00bfQu\u00e9 es Red Probada en Batalla?\n\n###\n\n", "completion": "Red Probada en Batalla es una conectividad celular de IoT que se puede controlar en cualquier lugar y a cualquier escala.\n"}
+{"prompt": "\u00bfQu\u00e9 tipos de conversaciones se pueden organizar?\n\n###\n\n", "completion": "Las conversaciones se pueden organizar a trav\u00e9s del chat, WhatsApp, SMS y MMS.\n"}
+{"prompt": "\u00bfQu\u00e9 es Super SIM?\n\n###\n\n", "completion": "Super SIM es una conectividad celular de IoT que se puede controlar en cualquier lugar y a cualquier escala.\n"}
+{"prompt": "\u00bfC\u00f3mo funciona Verify?\n\n###\n\n", "completion": "Verify verifica r\u00e1pidamente la propiedad del n\u00famero de tel\u00e9fono mediante SMS o Voice, reduciendo las cuentas fraudulentas y acelerando la incorporaci\u00f3n de cuentas.\n"}
+{"prompt": "\u00bfQu\u00e9 documentos API est\u00e1n disponibles?\n\n###\n\n", "completion": "Los documentos API disponibles son los documentos de referencia de API para video programable, TaskRouter, Twilio Sync, Twilio Notify, Super SIM y mucho m\u00e1s.\n"}
+{"prompt": "\u00bfCu\u00e1les son los t\u00e9rminos y condiciones de Twilio?\n\n###\n\n", "completion": "Los t\u00e9rminos y condiciones de Twilio son los derechos de copyright 2023 Twilio Inc., todos los derechos reservados y protegidos por reCAPTCHA, privacidad y t\u00e9rminos.\n"}
+{"prompt": "What language options are available on the page?\n\n###\n\n", "completion": "Deutsch, English, Espaol (Mxico), Franais, Portugus (Brasil)\n"}
+{"prompt": "Where can you find the latest information?\n\n###\n\n", "completion": "Reportezvous  la documentation en anglais pour obtenir les dernires informations.\n"}
+{"prompt": "What resources are available for developers?\n\n###\n\n", "completion": "SDKs, exemples d'applications pour le Web, iOS et Android.\n"}
+{"prompt": "What does Twilio Flex offer?\n\n###\n\n", "completion": "Prenez le controle total de votre centre de contact. Ajoutez des agents a distance, de nouveaux canaux, des chatbots et des SVI (Serveur Vocal Interactif).\n"}
+{"prompt": "What can you do with Twilio Programmable SMS?\n\n###\n\n", "completion": "Envoyer et recevoir des messages texte a l'aide des langages de programmation.\n"}
+{"prompt": "Quelle est la fonction principale de Deja.Voice?\n\n###\n\n", "completion": "Passer, recevoir, controler et surveiller des appels dans le monde entier\n"}
+{"prompt": "Comment Twilio SendGrid peut-il aider les entreprises?\n\n###\n\n", "completion": "Une solution unique et evolutive pour tous les e-mails que vous envoyez et des outils marketing pour accroitre l'engagement client\n"}
+{"prompt": "Quels sont les avantages de l'API WhatsApp?\n\n###\n\n", "completion": "Une API simplifiee, officiellement prise en charge par WhatsApp\n"}
+{"prompt": "Qu'est-ce que le Elastic SIP Trunking?\n\n###\n\n", "completion": "Connectivite globale pour l'infrastructure VoIP avec deploiement en quelques minutes et evolutivite elastique grace a un reseau teste sur le terrain\n"}
+{"prompt": "Quel type de conversations peut-on orchestrer avec Twilio?\n\n###\n\n", "completion": "Chat, WhatsApp, SMS et MMS\n"}
+{"prompt": "Q1: Quelle est la connectivite IoT cellulaire que Twilio propose ?\n\n###\n\n", "completion": "Q1: SIMUne connectivite IoT cellulaire\n"}
+{"prompt": "Q2: Comment Twilio verifie rapidement la propriete du numero de telephone ?\n\n###\n\n", "completion": "Q2: Par SMS ou synthese vocale\n"}
+{"prompt": "Q3: Quels documents sont disponibles sur Twilio ?\n\n###\n\n", "completion": "Q3: Documentations de reference d'API pour Programmable Video, TaskRouter, Twilio Sync, Twilio Notify, Super SIM et bien plus encore\n"}
+{"prompt": "Q4: Quels sont les langues disponibles sur Twilio ?\n\n###\n\n", "completion": "Q4: Deutsch, English, Espaol (Mxico), Franais, Portugus (Brasil)\n"}
+{"prompt": "Qual o idioma da documentacao mais recente?\n\n###\n\n", "completion": "Ingles\n"}
+{"prompt": "Onde voce pode encontrar a versao em ingles da pagina?\n\n###\n\n", "completion": "V para a verso em ingls da pgina\n"}
+{"prompt": "Quais servicos a Twilio oferece?\n\n###\n\n", "completion": "API, tutoriais de inicio rapido, SDKs, amostra de aplicativos para Web, iOS e Android, Twilio Flex, SMS, Voice e Vdeo\n"}
+{"prompt": "Como voce pode enviar e receber mensagens de texto usando a Twilio?\n\n###\n\n", "completion": "Usando as linguagens de programacao de sua preferencia\n"}
+{"prompt": "Quais experiencias unicas de chamadas telefonicas voce pode proporcionar com a API da Twilio?\n\n###\n\n", "completion": "Fazer, receber, controlar e monitorar chamadas em todo o mundo\n"}
+{"prompt": "What is WebRTC?\n\n###\n\n", "completion": "WebRTC is a real-time communication using cloud infrastructure.\n"}
+{"prompt": "What does Twilio SendGrid provide?\n\n###\n\n", "completion": "Twilio SendGrid provides a unique and scalable solution for all emails sent.\n"}
+{"prompt": "What is the WhatsApp API?\n\n###\n\n", "completion": "The WhatsApp API is a simplified, officially compatible API with WhatsApp to reach users on the world's most popular messaging app.\n"}
+{"prompt": "What is Elastic SIP Trunking?\n\n###\n\n", "completion": "Elastic SIP Trunking is global connectivity for VoIP infrastructure that can be implemented in minutes.\n"}
+{"prompt": "What can you do with Conversations?\n\n###\n\n", "completion": "Conversations allows you to organize conversations with multiple people via chat, WhatsApp, SMS, and MMS.\n"}
+{"prompt": "What is Super SIM?\n\n###\n\n", "completion": "Super SIM is IoT connectivity for cell phones that you can control anywhere and at any scale.\n"}
+{"prompt": "How does Verify work?\n\n###\n\n", "completion": "Verify quickly verifies phone number ownership via SMS or Voice, reduces fraudulent accounts, and accelerates integration.\n"}
+{"prompt": "O que \u00e9 o Twilio Portal?\n\n###\n\n", "completion": "Twilio Portal \u00e9 um servi\u00e7o de comunica\u00e7\u00f5es da nuvem da Web API para construir aplicativos de voz e SMS.\n"}
+{"prompt": "Como posso come\u00e7ar a usar uma conta gratuita do Twilio?\n\n###\n\n", "completion": "Voc\u00ea pode come\u00e7ar a usar uma conta gratuita do Twilio obtendo uma conta e fazendo login. Nenhum cart\u00e3o de cr\u00e9dito \u00e9 necess\u00e1rio.\n"}
+{"prompt": "Quais s\u00e3o os documentos de refer\u00eancia da API para Programmable Video, TaskRouter, Twilio Sync, Twilio Notify, Super SIM e mais?\n\n###\n\n", "completion": "Documentos de refer\u00eancia da API para Programmable Video, TaskRouter, Twilio Sync, Twilio Notify, Super SIM e mais podem ser encontrados em nossos documentos.\n"}
+{"prompt": "Quais s\u00e3o as aplica\u00e7\u00f5es que posso construir com o Twilio?\n\n###\n\n", "completion": "Com o Twilio, voc\u00ea pode construir SMS marketing, centro de contato omnichannel e chamadas.\n"}
+{"prompt": "Qual \u00e9 o Copyright do Twilio Inc. em 2023?\n\n###\n\n", "completion": "Copyright 2023 Twilio Inc. Todos os direitos reservados.\n"}
+{"prompt": "What is the minimum character length for the password?\n\n###\n\n", "completion": "16\n"}
+{"prompt": "What should be avoided when creating a password?\n\n###\n\n", "completion": "3 or more consecutive repeated characters and Twilio, Sendgrid, or variations\n"}
+{"prompt": "What do you need to accept in order to start a free trial?\n\n###\n\n", "completion": "Twilio Terms of Service and Twilio Privacy Notice (if applicable, European Electronic Communications Code Rights Waiver)\n"}
+{"prompt": "What is recommended when creating a password?\n\n###\n\n", "completion": "Using a password manager to generate and manage your Twilio password or choosing a unique phrase\n"}
+{"prompt": "What is Twilio Cloud Communications?\n\n###\n\n", "completion": "Twilio Cloud Communications is a web service API for building voice and SMS applications.\n"}
+{"prompt": "What type of applications can be built with Twilio?\n\n###\n\n", "completion": "Applications such as SMS marketing, omnichannel contact center, call tracking, web chat, push notifications, alerts and notifications, and phone verification can be built with Twilio.\n"}
+{"prompt": "What is required to get started with a free Twilio account?\n\n###\n\n", "completion": "No credit card is required to get started with a free Twilio account.\n"}
+{"prompt": "What are some examples of what you can build with Twilio?\n\n###\n\n", "completion": "Examples of what you can build with Twilio include SMS marketing, omnichannel contact center, call tracking, web chat, push notifications, alerts and notifications, and phone verification.\n"}
+{"prompt": "What are the guidelines for creating a password for a Twilio account?\n\n###\n\n", "completion": "The guidelines for creating a password for a Twilio account include using a strong and unique password or choosing a unique phrase (e.g. Owls are such lovely creatures!) that is at least 16 characters long.\n"}
+{"prompt": "What is the minimum character length for a password?\n\n###\n\n", "completion": "16 or more characters\n"}
+{"prompt": "What are the three words that cannot be included in a password?\n\n###\n\n", "completion": "Twilio, Sendgrid, variations\n"}
+{"prompt": "What must be accepted to start a free trial?\n\n###\n\n", "completion": "Twilio Terms of Service, Twilio Privacy Notice, European Electronic Communications Code Rights Waiver\n"}
+{"prompt": "What is Twilio?\n\n###\n\n", "completion": "API provider for communication services\n"}
+{"prompt": "Which language has the most up-to-date documentation?\n\n###\n\n", "completion": "English\n"}
+{"prompt": "What language options are available on Twilio Docs?\n\n###\n\n", "completion": "Deutsch, English, Espaol (M\u00e9xico), Fran\u00e7ais, Portugu\u00eas (Brasil)\n"}
+{"prompt": "What services does Twilio offer?\n\n###\n\n", "completion": "API, SDK, Web/iOS/Android, IVR, SMS, Voice API, Video WebRTC HD Live, Email, Twilio SendGrid API, WhatsApp API, Elastic SIP Trunking VoIP Conversations WhatsApp SMS MMS Super SIM IoT Verify SMS API Programmable Video Task Router Twilio Sync Twilio Notify\n"}
+{"prompt": "What is Twilio Flex?\n\n###\n\n", "completion": "Twilio Flex is a cloud contact center platform\n"}
+{"prompt": "When was Twilio Inc. founded?\n\n###\n\n", "completion": "2023\n"}
+{"prompt": "What is reCAPTCHA?\n\n###\n\n", "completion": "reCAPTCHA is a free service that protects websites from spam and abuse\n"}
+{"prompt": "What language is aisPortugus (Brasil) written in?\n\n###\n\n", "completion": "Portuguese\n"}
+{"prompt": "Where can you find the latest information?\n\n###\n\n", "completion": "English-language documentation\n"}
+{"prompt": "What can you do with Twilio Flex?\n\n###\n\n", "completion": "Take full control of your contact center, add remote employees, new channels, chatbots and IVR\n"}
+{"prompt": "What can you do with Twilio Programmable SMS?\n\n###\n\n", "completion": "Send and receive text messages with the programming languages you already know and love\n"}
+{"prompt": "What can you do with Twilio Voice API?\n\n###\n\n", "completion": "Make calls around the globe, receive calls, control and monitor calls with an API\n"}
+{"prompt": "What can you do with Twilio Video?\n\n###\n\n", "completion": "Develop a unique phone environment\n"}
+{"prompt": "What can you do with WebRTC and Cloud-Infrastructure?\n\n###\n\n", "completion": "Real-time video and HD audio applications\n"}
+{"prompt": "What kind of interactive live video and audio streaming experiences can you create for an unlimited audience?\n\n###\n\n", "completion": "Interactive live video and audio streaming experiences\n"}
+{"prompt": "What does Twilio SendGrid offer?\n\n###\n\n", "completion": "A scalable solution for all emails you send, an flexible email API and marketing tools for stronger customer engagement\n"}
+{"prompt": "How can you reach users of the world's most popular messaging app?\n\n###\n\n", "completion": "A single, optimized API officially supported by WhatsApp\n"}
+{"prompt": "What is Elastic SIP-Trunking?\n\n###\n\n", "completion": "Global connectivity for VoIP infrastructures that is ready to use within minutes, with elastic scaling through a field-tested network\n"}
+{"prompt": "What can you coordinate conversations with multiple participants through?\n\n###\n\n", "completion": "Chat, WhatsApp, SMS and MMS\n"}
+{"prompt": "What is Super SIM?\n\n###\n\n", "completion": "Mobile IoT connectivity that you can control anywhere and in any scale\n"}
+{"prompt": "How can you quickly verify the identity of phone numbers?\n\n###\n\n", "completion": "SMS or Voi\n"}
+{"prompt": "What can Twilio do to reduce fraudulent accounts and speed up onboarding?\n\n###\n\n", "completion": "Reduce fraudulent accounts and speed up onboarding.\n"}
+{"prompt": "What documents are available on Twilio?\n\n###\n\n", "completion": "API reference documents, tutorials, and integration.\n"}
+{"prompt": "What year is Twilio's copyright?\n\n###\n\n", "completion": "2023\n"}
+{"prompt": "What languages are available on Twilio Docs?\n\n###\n\n", "completion": "Deutsch, English, Espaol (Mxico), Franais, Portugus (Brasil)\n"}
+{"prompt": "What services does Twilio offer?\n\n###\n\n", "completion": "SMS, Voice, Serverless, Video, Studio\n"}
+{"prompt": "What is FlexTake?\n\n###\n\n", "completion": "FlexTake is a contact center that allows users to add remote agents, new channels, chatbots, and IVR.\n"}
+{"prompt": "What does Twilio Programmable SMS do?\n\n###\n\n", "completion": "Twilio Programmable SMS lets users send and receive text messages using the programming languages they already know and love.\n"}
+{"prompt": "What can you build with Twilio Voice?\n\n###\n\n", "completion": "Users can build unique phone call experiences with one API to make, receive, control, and monitor calls around the globe with Twilio Voice.\n"}
+{"prompt": "What does Twilio SendGrid provide?\n\n###\n\n", "completion": "Twilio SendGrid provides one, scalable solution for all the email that users send. It also provides a flexible email API and marketing tools to increase customer engagement.\n"}
+{"prompt": "What is the WhatsApp API used for?\n\n###\n\n", "completion": "The WhatsApp API is used to reach users on the world's most popular messaging app through one streamlined API, officially supported by WhatsApp.\n"}
+{"prompt": "What is Elastic SIP Trunking?\n\n###\n\n", "completion": "Elastic SIP Trunking is global connectivity for VoIP infrastructure that can be deployed in minutes. It also allows users to scale elastically using a battle-tested network.\n"}
+{"prompt": "What is Conversations used for?\n\n###\n\n", "completion": "Conversations is used to orchestrate multiparty conversations across chat, WhatsApp, SMS, and MMS.\n"}
+{"prompt": "What is Super SIM?\n\n###\n\n", "completion": "Super SIM is cellular IoT connectivity.\n"}
+{"prompt": "What can you control?\n\n###\n\n", "completion": "At any place and at any scale\n"}
+{"prompt": "How can you quickly verify phone number ownership?\n\n###\n\n", "completion": "Via SMS or Voice\n"}
+{"prompt": "What are the API Reference docs for?\n\n###\n\n", "completion": "Programmable Video, TaskRouter, Twilio Sync, Twilio Notify, Super SIM, and much more\n"}
+{"prompt": "When is the copyright for Twilio Inc.?\n\n###\n\n", "completion": "2023\n"}
+{"prompt": "What languages are available on Twilio Docs?\n\n###\n\n", "completion": "Deutsch, English, Espa\u00f1ol (M\u00e9xico), Fran\u00e7ais, Portugu\u00eas (Brasil)\n"}
+{"prompt": "\u00bfQu\u00e9 es Twilio Flex?\n\n###\n\n", "completion": "Twilio Flex es un contact center que permite agregar agentes remotos, nuevos canales, chatbots e IVR.\n"}
+{"prompt": "\u00bfQu\u00e9 lenguajes de programaci\u00f3n soporta Twilio SMS?\n\n###\n\n", "completion": "Twilio SMS soporta los lenguajes de programaci\u00f3n que ya conoces y adoras.\n"}
+{"prompt": "\u00bfQu\u00e9 ofrece la API de Voice de Twilio?\n\n###\n\n", "completion": "La API de Voice de Twilio ofrece la capacidad de realizar, recibir, controlar y supervisar llamadas en todo el mundo.\n"}
+{"prompt": "\u00bfQu\u00e9 se puede crear con Video de Twilio?\n\n###\n\n", "completion": "Con Video de Twilio se pueden crear aplicaciones de video en tiempo real y audio HD mediante el uso de WebRTC e infraestructura en la nube.\n"}
+{"prompt": "\u00bfQu\u00e9 tipo de experiencias interactivas se pueden crear con En Vivo de Twilio?\n\n###\n\n", "completion": "Con En Vivo de Twilio se pueden crear experiencias interactivas de transmisi\u00f3n de video y audio en vivo para una audiencia.\n"}
+{"prompt": "\u00bfQu\u00e9 ofrece Twilio SendGrid para el correo electr\u00f3nico?\n\n###\n\n", "completion": "Una soluci\u00f3n escalable para todo el correo electr\u00f3nico que env\u00edas, llegando a los clientes mediante la API de correo electr\u00f3nico flexible y las herramientas de marketing para aumentar la interacci\u00f3n con el cliente.\n"}
+{"prompt": "\u00bfC\u00f3mo se puede comunicar con los usuarios a trav\u00e9s de la API de WhatsApp?\n\n###\n\n", "completion": "A trav\u00e9s de una API optimizada, que es oficialmente compatible con WhatsApp.\n"}
+{"prompt": "\u00bfQu\u00e9 proporciona la conectividad global para la infraestructura de VoIP?\n\n###\n\n", "completion": "Conectividad global para la infraestructura de VoIP, que se puede implementar en minutos. Escala de manera el\u00e1stica con una red probada en batalla.\n"}
+{"prompt": "\u00bfC\u00f3mo se organizan las conversaciones de varias partes a trav\u00e9s del chat, WhatsApp, SMS y MMS?\n\n###\n\n", "completion": "Organiza conversaciones de varias partes a trav\u00e9s del chat, WhatsApp, SMS y MMS.\n"}
+{"prompt": "\u00bfQu\u00e9 es Super SIM?\n\n###\n\n", "completion": "Conectividad celular de IoT que puedes controlar, en cualquier lugar y a cualquier escala.\n"}
+{"prompt": "\u00bfC\u00f3mo se verifica r\u00e1pidamente la propiedad del n\u00famero de tel\u00e9fono mediante SMS o Voice?\n\n###\n\n", "completion": "Verifica con rapidez la propiedad del n\u00famero de tel\u00e9fono mediante SMS o Voice, reduce las cuentas fraudulentas y acelera la incorporaci\u00f3n de cuentas.\n"}
+{"prompt": "\u00bfD\u00f3nde puedo revisar todos los documentos API?\n\n###\n\n", "completion": "Revisar en la p\u00e1gina web oficial.\n"}
+{"prompt": "What documents are available on Twilio Docs?\n\n###\n\n", "completion": "API reference, tutorials, and integration for TaskRouter, Twilio Sync, Twilio Notify, Super SIM, and more.\n"}
+{"prompt": "What languages are available on Twilio Docs?\n\n###\n\n", "completion": "Deutsch, English, Espa\u00f1ol (M\u00e9xico), Fran\u00e7ais, Portugu\u00eas (Brasil)\n"}
+{"prompt": "When was Twilio Inc. founded?\n\n###\n\n", "completion": "2023\n"}
+{"prompt": "What is reCAPTCHA used for?\n\n###\n\n", "completion": "Protection of privacy and terms\n"}
+{"prompt": "Where can I find the latest information about Twilio Docs?\n\n###\n\n", "completion": "English version of the page\n"}
+{"prompt": "Quelle est la documentation de reference d'API de Twilio ?\n\n###\n\n", "completion": "La documentation de reference d'API de Twilio est consultable sur leur site web.\n"}
+{"prompt": "Quels sont les SDK disponibles chez Twilio ?\n\n###\n\n", "completion": "Twilio offre des SDK dans les langages preferes, ainsi que des exemples d'applications pour le Web, iOS et Android.\n"}
+{"prompt": "Qu'est-ce que Twilio Flex ?\n\n###\n\n", "completion": "Twilio Flex permet de prendre le controle total d'un centre de contact en ajoutant des agents a distance, de nouveaux canaux, des chatbots et des SVI (Serveur Vocal Interactif).\n"}
+{"prompt": "Que permet Twilio Programmable SMS ?\n\n###\n\n", "completion": "Twilio Programmable SMS permet d'envoyer et de recevoir des messages texte a l'aide des langages de programmation que vous connaissez et appreciez deja.\n"}
+{"prompt": "Comment Twilio Voice peut-il aider a creer des experiences d'appel telephonique uniques ?\n\n###\n\n", "completion": "Twilio Voice peut creer des experiences d'appel telephonique uniques grace a une seule API pour passer, recevoir, controler et surveiller des appels dans le monde entier.\n"}
+{"prompt": "Comment Twilio Video peut-elle aider a creer des applications video et audio HD en temps reel ?\n\n###\n\n", "completion": "Twilio Video peut creer des applications video et audio HD en temps reel a l'aide de WebRTC et de l'infrastructure cloud.\n"}
+{"prompt": "Comment Twilio Live peut-elle aider a creer des experiences interactives de streaming live audio et video pour un public illimite ?\n\n###\n\n", "completion": "Twilio Live peut creer des experiences interactives de streaming live audio et video pour un public illimite.\n"}
+{"prompt": "Quelle est la solution offerte par Twilio SendGrid pour l'envoi d'e-mails ?\n\n###\n\n", "completion": "Twilio SendGrid offre une solution pour l'envoi d'e-mails.\n"}
+{"prompt": "Quelle est la solution unique et evolutive pour tous les e-mails que vous envoyez?\n\n###\n\n", "completion": "Une solution unique et evolutive pour tous les e-mails que vous envoyez\n"}
+{"prompt": "Comment contacter vos clients grace a l'API d'e-mail flexible et aux outils marketing?\n\n###\n\n", "completion": "Contactez vos clients grace a l'API d'e-mail flexible et aux outils marketing pour accroitre l'engagement client\n"}
+{"prompt": "Comment contacter les utilisateurs de l'application de messagerie la plus populaire au monde?\n\n###\n\n", "completion": "Contactez les utilisateurs de l'application de messagerie la plus populaire au monde grace a une API simplifiee, officiellement prise en charge par WhatsApp\n"}
+{"prompt": "Quels sont les avantages du Elastic SIP Trunking?\n\n###\n\n", "completion": "Connectivite globale pour l'infrastructure VoIP, deploiement en quelques minutes, evolutivite elastique grace a un reseau teste sur le terrain\n"}
+{"prompt": "Quelles sont les conversations que vous pouvez orchestrer via chat, WhatsApp, SMS et MMS?\n\n###\n\n", "completion": "Orchestrez des conversations multipartites via chat, WhatsApp, SMS et MMS\n"}
+{"prompt": "Quels sont les avantages de Super SIM pour la connectivite IoT cellulaire?\n\n###\n\n", "completion": "Une connectivite IoT cellulaire que vous pouvez controler, ou que vous soyez, a n'importe quelle echelle\n"}
+{"prompt": "Comment verifier rapidement la propriete du numero de telephone par SMS ou synthese vocale?\n\n###\n\n", "completion": "Verifiez rapidement la propriete du numero de telephone par SMS ou synthese vocale, reduisez les comptes frauduleux et accelerez l'integration des comptes\n"}
+{"prompt": "Ou trouver toutes les documentations API?\n\n###\n\n", "completion": "Consultez nos documentations de reference d'API pour Programmable Video, TaskRouter, Twilio Sync, Tw\n"}
+{"prompt": "What is ilio Notify?\n\n###\n\n", "completion": "ilio Notify is a product of Twilio Inc.\n"}
+{"prompt": "What are the legal mentions of Twilio Inc.?\n\n###\n\n", "completion": "The legal mentions of Twilio Inc. are copyright 2023 Twilio Inc., all rights reserved, protected by reCAPTCHA, privacy terms.\n"}
+{"prompt": "What are the documents provided by Twilio?\n\n###\n\n", "completion": "The documents provided by Twilio are tutorials, integration and API reference.\n"}
+{"prompt": "What languages are available on Twilio Docs?\n\n###\n\n", "completion": "The languages available on Twilio Docs are Deutsch, English, Espa\u00f1ol (M\u00e9xico), Fran\u00e7ais and Portugu\u00eas (Brasil).\n"}
+{"prompt": "Where can I find the most recent information about Twilio Docs?\n\n###\n\n", "completion": "The most recent information about Twilio Docs can be found in the English documentation.\n"}
+{"prompt": "Qual e o objetivo do Twilio Flex?\n\n###\n\n", "completion": "O objetivo do Twilio Flex \u00e9 assumir o controle total do seu contact center, adicionando agentes remotos, novos canais, chatbots e URA.\n"}
+{"prompt": "Como o Programmable SMS da Twilio funciona?\n\n###\n\n", "completion": "O Programmable SMS da Twilio permite enviar e receber mensagens de texto usando as linguagens de programa\u00e7\u00e3o de sua prefer\u00eancia.\n"}
+{"prompt": "Quais experiencias unicas de chamadas telefonicas a API Voice permite?\n\n###\n\n", "completion": "A API Voice permite fazer, receber, controlar e monitorar chamadas em todo o mundo.\n"}
+{"prompt": "Como o WebRTC e a infraestrutura em nuvem podem ser usados para criar aplicativos de video e audio em HD em tempo real?\n\n###\n\n", "completion": "O WebRTC e a infraestrutura em nuvem podem ser usados para criar aplicativos de video e audio em HD em tempo real.\n"}
+{"prompt": "O que o Twilio SendGrid fornece para alcancar os clientes?\n\n###\n\n", "completion": "O Twilio SendGrid fornece uma solu\u00e7\u00e3o \u00fanica e escal\u00e1vel para todos os emails que voc\u00ea envia, al\u00e9m de ferramentas de marketing para aumentar o engajamento dos clientes.\n"}
+{"prompt": "Como a API do WhatsApp da Twilio pode ser usada para alcancar os usuarios?\n\n###\n\n", "completion": "A API do WhatsApp da Twilio pode ser usada para alcan\u00e7ar os usu\u00e1rios atrav\u00e9s do WhatsApp.\n"}
+{"prompt": "Qual \u00e9 o aplicativo de mensagens mais popular do mundo?\n\n###\n\n", "completion": "WhatsApp\n"}
+{"prompt": "O que \u00e9 Elastic SIP Trunking?\n\n###\n\n", "completion": "Conectividade global para infraestrutura VoIP que pode ser implementada em minutos, dimensionada de forma flex\u00edvel usando uma rede testada.\n"}
+{"prompt": "Quais s\u00e3o as funcionalidades da Conversations?\n\n###\n\n", "completion": "Organizar conversas com v\u00e1rias pessoas por chat, WhatsApp, SMS e MMS.\n"}
+{"prompt": "O que \u00e9 Super SIM?\n\n###\n\n", "completion": "Conectividade de IoT para celulares que voc\u00ea pode controlar em qualquer lugar e em qualquer escala.\n"}
+{"prompt": "Como o Verify pode ajudar a reduzir contas fraudulentas?\n\n###\n\n", "completion": "Verificar rapidamente a propriedade do n\u00famero de telefone via SMS ou Voice.\n"}
+{"prompt": "Quais documentos de API est\u00e3o dispon\u00edveis no Twilio?\n\n###\n\n", "completion": "Programmable Video, TaskRouter, Twilio Sync, Twilio Notify, Super SIM e muito mais!\n"}
+{"prompt": "Quem det\u00e9m os direitos autorais do Twilio em 2023?\n\n###\n\n", "completion": "Twilio Inc.\n"}
+{"prompt": "What is Twilio?\n\n###\n\n", "completion": "Twilio is a cloud communications platform.\n"}
+{"prompt": "What are the services offered by Twilio?\n\n###\n\n", "completion": "The services offered by Twilio include Programmable SMS, Programmable Voice, Serverless, Video, Studio, SDKs, and Help.\n"}
+{"prompt": "What is the Twilio CLI?\n\n###\n\n", "completion": "The Twilio CLI is a command line interface that allows users to unleash the power of Twilio from their command line.\n"}
+{"prompt": "What is Twilio Autopilot?\n\n###\n\n", "completion": "Twilio Autopilot is a platform for building robust messaging bots and voice assistants powered by Twilio's Natural Language Understanding platform.\n"}
+{"prompt": "What is Programmable Video?\n\n###\n\n", "completion": "Programmable Video is an SDK and infrastructure for real-time video.\n"}
+{"prompt": "What is Twilio Verify?\n\n###\n\n", "completion": "Twilio Verify is a phone verification service to stop account fraud.\n"}
+{"prompt": "What is the Internet of Things?\n\n###\n\n", "completion": "The Internet of Things (IoT) is a cellular connectivity service for IoT devices.\n"}
+{"prompt": "What are the solutions deployed across the world by Twilio?\n\n###\n\n", "completion": "Twilio Flex, Studio, Authy, Notify, TaskRouter, Channels, Proxy, Elastic SIP Trunking, Phone Numbers and Short Codes\n"}
+{"prompt": "What is Twilio Flex?\n\n###\n\n", "completion": "The cloud contact center platform\n"}
+{"prompt": "What is Studio used for?\n\n###\n\n", "completion": "A drag-and-drop visual builder for Twilio\n"}
+{"prompt": "What is Authy used for?\n\n###\n\n", "completion": "Two-factor authentication for online accounts and transactions\n"}
+{"prompt": "What is Notify used for?\n\n###\n\n", "completion": "Notifications coordinated across multiple channels\n"}
+{"prompt": "What is TaskRouter used for?\n\n###\n\n", "completion": "Skills-based routing for your contact center\n"}
+{"prompt": "What is Channels used for?\n\n###\n\n", "completion": "Send and receive messages on multiple channels\n"}
+{"prompt": "What is Proxy used for?\n\n###\n\n", "completion": "Phone number privacy for text and voice conversations\n"}
+{"prompt": "What is Elastic SIP Trunking used for?\n\n###\n\n", "completion": "Global voice connectivity for VoIP infrastructure\n"}
+{"prompt": "What are Phone Numbers used for?\n\n###\n\n", "completion": "Local, national, mobile, and toll-free numbers\n"}
+{"prompt": "What are Short Codes used for?\n\n###\n\n", "completion": "Send high volume text and picture me\n"}
+{"prompt": "What is Interconnect?\n\n###\n\n", "completion": "A private connection to the Twilio Cloud for secure SIP Trunking and enterprise communications\n"}
+{"prompt": "What is Lookup?\n\n###\n\n", "completion": "Know the details behind every phone number\n"}
+{"prompt": "What is Functions?\n\n###\n\n", "completion": "A serverless environment to build and run your Twilio code\n"}
+{"prompt": "What is Sync?\n\n###\n\n", "completion": "Synchronize state across your web and mobile apps\n"}
+{"prompt": "What is Twilio API for WhatsApp?\n\n###\n\n", "completion": "Reach users on the worlds most popular messaging app through one streamlined API, officially supported by WhatsApp.\n"}
+{"prompt": "What is Frontline?\n\n###\n\n", "completion": "NewProgrammable app for digital customer relationships\n"}
+{"prompt": "What is TrustHub?\n\n###\n\n", "completion": "NewBuild trust with customers using the KYC platform.\n"}
+{"prompt": "What language does the Twilio website support?\n\n###\n\n", "completion": "English, Deutsch, Espaol (Mxico), Franais, and Portuguese\n"}
+{"prompt": "What is Twilio MessagingX?\n\n###\n\n", "completion": "Twilio MessagingX is a product that allows users to send and receive text messages, SMS, WhatsApp, and Chat\n"}
+{"prompt": "What is Twilio Engage?\n\n###\n\n", "completion": "Twilio Engage is a platform that allows users to create omnichannel campaigns with a unified, data-first platform\n"}
+{"prompt": "What is Twilio Flex?\n\n###\n\n", "completion": "Twilio Flex is a cloud contact center that allows users to build with the most flexible cloud contact center\n"}
+{"prompt": "What is Twilio Verify?\n\n###\n\n", "completion": "Twilio Verify is a product that helps prevent sign up fraud, account takeovers, and protect transactions\n"}
+{"prompt": "What is Twilio SendGrid Email API?\n\n###\n\n", "completion": "Twilio SendGrid Email API is a product that allows users to deliver email messages reliably at scale\n"}
+{"prompt": "What is Twilio Programmable Voice?\n\n###\n\n", "completion": "Twilio Programmable Voice is a product that allows users to make, receive, and monitor calls around the world\n"}
+{"prompt": "What is Twilio Programmable Video?\n\n###\n\n", "completion": "Twilio Programmable Video is a product that allows users to build HD real-time video applications\n"}
+{"prompt": "What is Twilio Segment?\n\n###\n\n", "completion": "Twilio Segment is a product that unifies customer data to power personalized engagement\n"}
+{"prompt": "What is Twilio Marketing Campaigns?\n\n###\n\n", "completion": "Twilio Marketing Campaigns is a product that allows users to create and manage email marketing campaigns\n"}
+{"prompt": "What is Twilio Frontline?\n\n###\n\n", "completion": "Twilio Frontline is a product that connects employees to customers\n"}
+{"prompt": "What is Twilio?\n\n###\n\n", "completion": "Twilio is a trusted platform for data-driven customer engagement across any channel.\n"}
+{"prompt": "What resources are available in the Resource Center?\n\n###\n\n", "completion": "The Resource Center offers content library resources on how to create lasting customer relationships.\n"}
+{"prompt": "What is the Twilio Beta Center?\n\n###\n\n", "completion": "The Twilio Beta Center is a place to discover current beta programs and find out how to participate.\n"}
+{"prompt": "What is A2P 10DLC?\n\n###\n\n", "completion": "A2P 10DLC is a requirement for preparing for the new A2P 10DLC requirements.\n"}
+{"prompt": "What services does Twilio offer for developers?\n\n###\n\n", "completion": "Twilio offers developers open book documentation, Twilio Flex, SMS, Programmable Voice, Video, Email, WhatsApp API, Elastic SIP Trunking, Super SIM, Verify, Functions, Studio and Twilio CLI services.\n"}
+{"prompt": "Where can I find tutorials and product updates?\n\n###\n\n", "completion": "Tutorials and product updates can be found in the blog.\n"}
+{"prompt": "How can I get help from the Twilio community?\n\n###\n\n", "completion": "Help from the Twilio community can be found on Stack Overflow.\n"}
+{"prompt": "How can I become a Twilio community Champion?\n\n###\n\n", "completion": "Becoming a Twilio community Champion can be done by joining upcoming group events.\n"}
+{"prompt": "Where can I find code samples for faster builds?\n\n###\n\n", "completion": "Code samples for faster builds can be found on CodeExchange.\n"}
+{"prompt": "Where can I see updates and additions to Twilio products?\n\n###\n\n", "completion": "Updates and additions to Twilio products can be seen on the Changelog.\n"}
+{"prompt": "What services does Twilio offer?\n\n###\n\n", "completion": "Real-time monitoring of APIs and all services, live training, student programs, professional services, technical and strategic advice from Twilio experts, training, customer service support, SMS, WhatsApp API, Conversations, Twilio Engage, Verify Lookup, Twilio Flex Channels, Programmable Voice Video Email Applications Marketing Campaigns Twilio Frontline Twilio Segment Serverless Connectivity Super SIM Wireless Narrowband Elastic SIP Trunking\n"}
+{"prompt": "What is Twilio Education?\n\n###\n\n", "completion": "Twilio Education is a program that offers practical coding skills\n"}
+{"prompt": "What is the Twilio Build Program?\n\n###\n\n", "completion": "The Twilio Build Program is a partnership program that allows technology or consulting partners to buy or build the right solution\n"}
+{"prompt": "What are some of the featured products offered by Twilio?\n\n###\n\n", "completion": "SMS, WhatsApp API, Conversations, Twilio Engage, Verify Lookup, Twilio Flex Channels, Programmable Voice Video Email Applications Marketing Campaigns Twilio Frontline Twilio Segment Serverless Connectivity Super SIM Wireless Narrowband Elastic SIP Trunking\n"}
+{"prompt": "How can I contact sales for more information about pricing?\n\n###\n\n", "completion": "To contact sales for more information about pricing you can visit the pricing page on the website and click on the 'Contact Sales' button.\n"}
+{"prompt": "What is Twilio Engage?\n\n###\n\n", "completion": "Twilio Engage is a platform to create omnichannel campaigns with a unified, data-first platform\n"}
+{"prompt": "What is Twilio Flex?\n\n###\n\n", "completion": "Twilio Flex is a cloud contact center that is the most flexible\n"}
+{"prompt": "What does Trusted Activation do?\n\n###\n\n", "completion": "Trusted Activation prevents sign up fraud, account takeovers, and protect transactions\n"}
+{"prompt": "What does the SendGrid Email API do?\n\n###\n\n", "completion": "The SendGrid Email API delivers email messages reliably at scale\n"}
+{"prompt": "What is Programmable Voice?\n\n###\n\n", "completion": "Programmable Voice makes, receives, and monitors calls around the world\n"}
+{"prompt": "What is Programmable Video?\n\n###\n\n", "completion": "Programmable Video builds HD real-time video applications\n"}
+{"prompt": "What is Twilio Segment?\n\n###\n\n", "completion": "Twilio Segment unifies customer data to power personalized engagement\n"}
+{"prompt": "What is Twilio Marketing Campaigns?\n\n###\n\n", "completion": "Twilio Marketing Campaigns creates and manages email marketing campaigns\n"}
+{"prompt": "What is Twilio Frontline?\n\n###\n\n", "completion": "Twilio Frontline connects employees to customers securely from anywhere\n"}
+{"prompt": "What can you do with the Twilio Developer Center?\n\n###\n\n", "completion": "You can build, deploy, and run apps with Twilio's serverless environment using the Twilio Developer Center\n"}
+{"prompt": "What does the Twilio IoT do?\n\n###\n\n", "completion": "The Twilio IoT connects Internet of Things\n"}
+{"prompt": "What is Twilio Elastic SIP Trunking?\n\n###\n\n", "completion": "Deploy SIP trunks globally in minutes\n"}
+{"prompt": "What types of phone numbers can be accessed with Twilio Phone Numbers?\n\n###\n\n", "completion": "Local, national, and toll-free phone numbers\n"}
+{"prompt": "What are Twilio Short Codes used for?\n\n###\n\n", "completion": "Send text and picture messages at scale\n"}
+{"prompt": "What industries does Twilio provide solutions for?\n\n###\n\n", "completion": "Financial Services, Healthcare, Hospitality, Public Sector, Real Estate, Retail\n"}
+{"prompt": "Who is Twilio's platform designed for?\n\n###\n\n", "completion": "Data-driven customer engagement across any channel\n"}
+{"prompt": "Where can I find customer stories about Twilio?\n\n###\n\n", "completion": "Customer Stories section of the Twilio website\n"}
+{"prompt": "What are the current beta programs offered by Twilio Beta Center?\n\n###\n\n", "completion": "Discover our current beta programs and find out how you can participate\n"}
+{"prompt": "What are the requirements for A2P 10DLC?\n\n###\n\n", "completion": "Prepare for the new A2P 10DLC requirements\n"}
+{"prompt": "What is Twilio Flex?\n\n###\n\n", "completion": "Twilio Flex is a cloud contact center platform\n"}
+{"prompt": "What services does Twilio Verify provide?\n\n###\n\n", "completion": "Verify provides phone number verification, two-factor authentication, and fraud prevention services\n"}
+{"prompt": "How can I get inspired by the latest from the developer community?\n\n###\n\n", "completion": "Get inspired by the latest from our developer community by reading the blog\n"}
+{"prompt": "Where can I ask the Twilio community for help?\n\n###\n\n", "completion": "Ask the Twilio community for help on Stack Overflow\n"}
+{"prompt": "How can I become a Twilio community Champion?\n\n###\n\n", "completion": "Become a Twilio community Champion by joining upcoming group events\n"}
+{"prompt": "Where can I find usable code samples for faster builds?\n\n###\n\n", "completion": "Find usable code samples for faster builds on CodeExchange\n"}
+{"prompt": "How can I check real-time monitoring of APIs and all services?\n\n###\n\n", "completion": "Check real-time monitoring of APIs and all services on API Status\n"}
+{"prompt": "What kind of practical coding skills can I learn through Twilio Education?\n\n###\n\n", "completion": "Learn practical coding skills through live training, student programs, and TwilioQuest\n"}
+{"prompt": "What is Twilio's mission?\n\n###\n\n", "completion": "Twilio's mission is to unlock the imagination of builders\n"}
+{"prompt": "What services does Twilio offer?\n\n###\n\n", "completion": "Twilio offers Professional Services, Support, Training, SMS, WhatsApp API, Conversations, Twilio Engage, Verify, Lookup, Twilio Flex, Channels, Programmable Voice, Video, Email Applications, Marketing Campaigns, Twilio Frontline, Twilio Segment Serverless Connectivity Super SIM Wireless Narrowband Elastic SIP Trunking\n"}
+{"prompt": "What is the Twilio Build Program?\n\n###\n\n", "completion": "The Twilio Build Program is a partnership program for technology and consulting partners\n"}
+{"prompt": "What type of support does Twilio provide?\n\n###\n\n", "completion": "Twilio provides SupportTalk to SupportHelp CenterFrequently Asked QuestionsSupport Plans\n"}
+{"prompt": "How can I learn how to use Twilio products?\n\n###\n\n", "completion": "You can learn how to use Twilio products through Training\n"}
+{"prompt": "What products are featured on the Twilio pricing page?\n\n###\n\n", "completion": "The featured products on the Twilio pricing page are SMS WhatsApp API Conversations Twilio Engage Verify Lookup Twilio Flex Channels Programmable Voice Video Email Applications Marketing Campaigns Twilio Frontline Twilio Segment Serverless Connectivity Super SIM Wireless Narrowband Elastic SIP Trunking\n"}
+{"prompt": "What tools does Twilio provide?\n\n###\n\n", "completion": "Twilio provides simple tools that solve hard problems, delivered as a developer-first cloud platform with global reach and no shenanigans pricing.\n"}
+{"prompt": "What is the Twilio Magic?\n\n###\n\n", "completion": "The Twilio Magic is the core values and principles of Twilio.\n"}
+{"prompt": "What are Twilio's core values and principles?\n\n###\n\n", "completion": "Twilio's core values and principles are Builders, Owners, and Curious.\n"}
+{"prompt": "What do Builders believe in?\n\n###\n\n", "completion": "Builders believe in the indomitable power of people's ability to create a better world through ingenuity and resourcefulness, reject the cant be done, and believe bold ideas and fearless iteration can resolve the most challenging problems for customers.\n"}
+{"prompt": "What do Owners take accountability for?\n\n###\n\n", "completion": "Owners take accountability for outcomes and see things through. They take the long view, sweat the details, and think about how their work makes Twilio better every day.\n"}
+{"prompt": "How do Curious individuals strive to get better?\n\n###\n\n", "completion": "Curious individuals strive to get better every day by seeing themselves as works in progress, humbly seeking the truth, and recognizing that they do their best work when they feel both empowered and accountable for outcomes.\n"}
+{"prompt": "What is the company's name?\n\n###\n\n", "completion": "Positrons\n"}
+{"prompt": "What is a positron?\n\n###\n\n", "completion": "A positively charged electron\n"}
+{"prompt": "What do they believe in?\n\n###\n\n", "completion": "Positive energy is contagious and caring is critical; they stand up and work for what they believe is good and right for their customers, their company, their communities, and the world at large\n"}
+{"prompt": "How many offices does Twilio have?\n\n###\n\n", "completion": "18 offices in 15 countries\n"}
+{"prompt": "Where are some of the offices located?\n\n###\n\n", "completion": "Atlanta, Bengaluru, Bogot, Denver, Dublin, London, Madrid, Malm, Munich, Paris, San Francisco, So Paulo, Seattle, Sing\n"}
+{"prompt": "What is Lybra's role at Twilio?\n\n###\n\n", "completion": "Global Head of Diversity & Inclusion\n"}
+{"prompt": "What did Lybra manage and oversee at PayPal?\n\n###\n\n", "completion": "All global diversity initiatives\n"}
+{"prompt": "What organizations does Lybra serve on the Board of Directors for?\n\n###\n\n", "completion": "@Makers, How Women Lead Silicon Valley Executive Board of Advisors\n"}
+{"prompt": "What is Elena Donio's role at Twilio?\n\n###\n\n", "completion": "President of Revenue\n"}
+{"prompt": "What teams are under Elena's responsibility?\n\n###\n\n", "completion": "Sales, marketing, services, support, and partners\n"}
+{"prompt": "How many years of experience does Elena have in tech companies?\n\n###\n\n", "completion": "25 years\n"}
+{"prompt": "What role did Elena have at SAP Concur?\n\n###\n\n", "completion": "President\n"}
+{"prompt": "What was the value of SAP's acquisition of Concur?\n\n###\n\n", "completion": "$8B\n"}
+{"prompt": "What did Joyce Kim lead as Chief Marketing Officer?\n\n###\n\n", "completion": "global marketing\n"}
+{"prompt": "What kind of experience does Joyce Kim bring to Twilio?\n\n###\n\n", "completion": "two decades of experience scaling commercial innovation and growth in the technology sector through large scale digital transformation and brand elevation strategies\n"}
+{"prompt": "What areas of Go-To-Market does Joyce Kim have expertise in?\n\n###\n\n", "completion": "digital, brand, communications, channels and product strategy for global technology and SaaS companies\n"}
+{"prompt": "What is Joyce's role at Genesys?\n\n###\n\n", "completion": "Marketing Officer\n"}
+{"prompt": "What organizations is Joyce an active member of?\n\n###\n\n", "completion": "CMO Council, Executive Council Member of the Forbes CMO Practice, Wall Street Journal CMO Network, and Fast Company Executive Board\n"}
+{"prompt": "What degrees does Joyce have from California Polytechnic State University?\n\n###\n\n", "completion": "Business Finance and Architecture\n"}
+{"prompt": "Who is Christy Lake?\n\n###\n\n", "completion": "Chief People Officer\n"}
+{"prompt": "What is Christy's role at Twilio?\n\n###\n\n", "completion": "Leads the People Department\n"}
+{"prompt": "What is Christy's role at Twilio?\n\n###\n\n", "completion": "She is responsible for driving the talent development and acquisition strategy, and building infrastructure to support a thriving culture of belonging, diversity and inclusion across the company.\n"}
+{"prompt": "What is Christy's educational background?\n\n###\n\n", "completion": "Bachelor of Arts in Political Science from the University of Connecticut.\n"}
+{"prompt": "What was Eyal's role at Google Cloud?\n\n###\n\n", "completion": "Vice President of Engineering and Product\n"}
+{"prompt": "What is Twilio's vision?\n\n###\n\n", "completion": "To build the leading customer engagement platform.\n"}
+{"prompt": "What products does Stio Security offer?\n\n###\n\n", "completion": "Mesh, Billing, Cloud Functions, Cloud Run, Marketplace, Monetization and other products\n"}
+{"prompt": "What was Eyal's role at Google prior to leading YouTube's engineering teams?\n\n###\n\n", "completion": "Spearheaded the development of Display Advertising products, including starting up Advertising Exchange and Real Time Bidding\n"}
+{"prompt": "What did Eyal found before joining Google?\n\n###\n\n", "completion": "Voice and Video SaaS streaming startup\n"}
+{"prompt": "What is Erin Reilly's role at Twilio?\n\n###\n\n", "completion": "Chief Social Impact Officer; drives the company to use its unique assets - products, people, and funding - to do good; runs the business unit that empowers nonprofits to use Twilio to scale their impact\n"}
+{"prompt": "How many people are being helped by the social impact organizations using Twilio each year?\n\n###\n\n", "completion": "100 million people\n"}
+{"prompt": "What is Erin's career experience?\n\n###\n\n", "completion": "20+ year career at Google, Yahoo!, and Nike\n"}
+{"prompt": "What did the National Diversity Council recognize Erin for?\n\n###\n\n", "completion": "Leadership in the social impact space and accomplishments in corporate citizenship\n"}
+{"prompt": "What degrees does Erin hold?\n\n###\n\n", "completion": "BA in Human Biology / Environmental Management from Stanford University and an MBA from the University of California, Berkeley\n"}
+{"prompt": "What is Khozema Shipchandler's role at COOK?\n\n###\n\n", "completion": "COO\n"}
+{"prompt": "What areas does Khozema oversee as COO of COOK?\n\n###\n\n", "completion": "Finance, Business Operations, Corporate Development, Corporate Security, Health and Safety, IT, Real Estate and Workplace, and Sourcing\n"}
+{"prompt": "Where did Khozema previously serve in a variety of positions?\n\n###\n\n", "completion": "GE\n"}
+{"prompt": "What is Khozema's educational background?\n\n###\n\n", "completion": "Khozema earned his bachelors degree from the Indiana University Bloomington and graduate coursework at The University of Chicago Booth School of Business.\n"}
+{"prompt": "What is Mark Simms' role at Twilio?\n\n###\n\n", "completion": "Mark Simms' role at Twilio is Chief Technology Officer.\n"}
+{"prompt": "What was Mark Simms' most recent role at Microsoft?\n\n###\n\n", "completion": "Mark Simms' most recent role at Microsoft was director of architecture in the Office of the CTO for Azure.\n"}
+{"prompt": "What does Mark Simms focus on as Chief Technology Officer of Twilio?\n\n###\n\n", "completion": "Mark Simms focuses on building, delivering, and operating services across Twilios product portfolio as Chief Technology Officer of Twilio.\n"}
+{"prompt": "What experience does Mark Simms have in technical leadership roles?\n\n###\n\n", "completion": "Mark Simms has experience in technical strategy (inclusive of configuration, regional service design, privacy, and security), design and implementation reviews, and enabling customers to build scalable and resilient solutions in technical leadership roles.\n"}
+{"prompt": "What degree does Mark Simms hold?\n\n###\n\n", "completion": "Mark Simms holds a degree.\n"}
+{"prompt": "What degree does Reeny Sondhi have?\n\n###\n\n", "completion": "Bachelor of Science degree in Computer Engineering from Memorial University of Newfoundland\n"}
+{"prompt": "What was Reeny Sondhi's role at Autodesk?\n\n###\n\n", "completion": "Chief Security Officer\n"}
+{"prompt": "Where did Reeny Sondhi lead security engineering prior to Autodesk?\n\n###\n\n", "completion": "EMC, now part of Dell\n"}
+{"prompt": "What board does Reeny Sondhi serve on?\n\n###\n\n", "completion": "Rapid7, a growth business in cybersecurity\n"}
+{"prompt": "What was Dana Wagner's most recent role before joining Twilio?\n\n###\n\n", "completion": "Chief Legal Officer at Impossible Foods\n"}
+{"prompt": "What areas did Dana Wagner oversee at Impossible Foods?\n\n###\n\n", "completion": "Legal, policy, and quality\n"}
+{"prompt": "What organization is Wagner currently sitting on the Board of Directors of?\n\n###\n\n", "completion": "Centre Consortium\n"}
+{"prompt": "What did Wagner receive his undergraduate degrees in?\n\n###\n\n", "completion": "Economics and Comparative Literature\n"}
+{"prompt": "What company does Aidan Viggiano work for?\n\n###\n\n", "completion": "Twilio\n"}
+{"prompt": "What is Aidan Viggiano's role at Twilio?\n\n###\n\n", "completion": "SVP of Finance\n"}
+{"prompt": "What expertise does Aidan have in finance and investor relations?\n\n###\n\n", "completion": "Technology, FP&A, investor relations and more\n"}
+{"prompt": "Where did Aidan earn her bachelors degree from?\n\n###\n\n", "completion": "Wharton School of the University of Pennsylvania\n"}
+{"prompt": "What is Glenn Weinstein's role at Twilio?\n\n###\n\n", "completion": "Chief Customer Officer\n"}
+{"prompt": "Where did Glenn receive his BS in Computer Science from?\n\n###\n\n", "completion": "U.S. Naval Academy\n"}
+{"prompt": "What was Jeff Lawson's role at NineStar?\n\n###\n\n", "completion": "Founder & CTO\n"}
+{"prompt": "What was Jeff Lawson's role at Stubhub.com?\n\n###\n\n", "completion": "Founding CTO\n"}
+{"prompt": "What was Jeff Lawson's role at Versity?\n\n###\n\n", "completion": "Founder, CEO & CTO\n"}
+{"prompt": "What was one of Jeff Lawson's original product management roles?\n\n###\n\n", "completion": "Amazon Web Services\n"}
+{"prompt": "What motivated Jeff to create a platform for developers and companies?\n\n###\n\n", "completion": "The fundamental need for a platform for developers and companies to easily build communications-based business solutions.\n"}
+{"prompt": "Where did Jeff grow up?\n\n###\n\n", "completion": "Suburbs of Detroit\n"}
+{"prompt": "What degree did Jeff earn from University of Michigan?\n\n###\n\n", "completion": "BS in Computer Science & Film/Video\n"}
+{"prompt": "What was Richard Dalzell's title at Amazon.com, Inc. prior to his retirement in 2007?\n\n###\n\n", "completion": "Senior Vice President and Chief Information Officer\n"}
+{"prompt": "What positions did Richard Dalzell hold at Amazon.com, Inc. prior to his retirement in 2007?\n\n###\n\n", "completion": "Senior Vice President of Worldwide Architecture and Platform Software and Chief Information Officer from 2001 to 2007, Senior Vice President and Chief Information Officer from 2000 to 2001 and Vice President and Chief Information Officer from 1997 to 2000.\n"}
+{"prompt": "Where did Richard Dalzell work before joining Amazon.com, Inc.?\n\n###\n\n", "completion": "Vice President of the Information Systems Division at Wal-Mart Stores, Inc. from 1994 to 1997.\n"}
+{"prompt": "What experience and background does Byron Deeter bring to Bessemer Venture Partners?\n\n###\n\n", "completion": "Experience and background in internet information technology gained from his service as the Chief Information Officer of Amazon.com, Inc. and corporate leadership experience gained from his service in various senior executive roles at Amazon.com, Inc.\n"}
+{"prompt": "What investments has Byron Deeter lead at Bessemer Venture Partners?\n\n###\n\n", "completion": "Twilio investment, Cornerstone OnDemand (CSOD), Criteo (CRTO), Eloqua (ELOQ), Adap.tv (Acq => AOL), Playdom (Acq => Disney), Box, Clearslide, DocuSign, and SendGrid\n"}
+{"prompt": "What is Donna Dubinsky best known for?\n\n###\n\n", "completion": "CEO of Palm Computing and then Handspring\n"}
+{"prompt": "Where did Donna Dubinsky work prior to Numenta?\n\n###\n\n", "completion": "Executive at IBM after the acquisition of Trigo, where he served as president & CEO\n"}
+{"prompt": "What is the mission of Numenta?\n\n###\n\n", "completion": "to figure out how the brain works and then apply it to create more powerful machine intelligence\n"}
+{"prompt": "Where did Donna earn her B.A. and M.B.A. from?\n\n###\n\n", "completion": "Yale University and Harvard Business School\n"}
+{"prompt": "What companies does Donna serve on the board of?\n\n###\n\n", "completion": "Numenta and Twilio (NYSE: TWLO)\n"}
+{"prompt": "What does Jeff Epstein specialize in at Bessemer Venture Partners?\n\n###\n\n", "completion": "marketplaces and enterprise software\n"}
+{"prompt": "Which companies does Jeff Epstein serve on the Board of Directors of?\n\n###\n\n", "completion": "Kaiser Permanente, Booking Holdings, Twilio, Shutterstock and several priv\n"}
+{"prompt": "What is Jeff's current role?\n\n###\n\n", "completion": "Venture Partner\n"}
+{"prompt": "What was the market value of Oracle when Jeff served as its Executive Vice President and Chief Financial Officer?\n\n###\n\n", "completion": "$150 billion\n"}
+{"prompt": "Where did Jeff receive his MBA from?\n\n###\n\n", "completion": "Stanford University Graduate School of Business\n"}
+{"prompt": "What company did Jeff serve as Chief Financial Officer prior to joining Oracle?\n\n###\n\n", "completion": "DoubleClick\n"}
+{"prompt": "What was Jeff's role at New Enterprise Associates?\n\n###\n\n", "completion": "Venture Partner on both the technology and healthcare investing teams\n"}
+{"prompt": "What innovative transformations did Jeff lead during his tenure as CEO of GE?\n\n###\n\n", "completion": "Doubled industrial earnings, reshaped the portfolio, re-established market leadership, grew a strong share position in essential industries, and quadrupled emerging market revenue\n"}
+{"prompt": "What awards has Jeff received for business leadership?\n\n###\n\n", "completion": "15 honorary degrees and numerous awards for business leadership\n"}
+{"prompt": "What degree did Jeff earn from Dartmouth College?\n\n###\n\n", "completion": "B.A. degree in applied mathematics\n"}
+{"prompt": "Which magazine named GE Americas Most Admired Company while Jeff was CEO?\n\n###\n\n", "completion": "Fortune magazine\n"}
+{"prompt": "How many times has Jeff been named one of the Worlds Best CEOs by Barrons?\n\n###\n\n", "completion": "Three times\n"}
+{"prompt": "Where did Deval Patrick come from originally?\n\n###\n\n", "completion": "South Side of Chicago\n"}
+{"prompt": "What organization awarded him a scholarship to Milton Academy?\n\n###\n\n", "completion": "A Better Chance\n"}
+{"prompt": "What did he do after Harvard College and Harvard Law School?\n\n###\n\n", "completion": "Clerked for a federal appellate judge and then launched a career as an attorney and business executive, becoming a partner at two Boston law firms and a senior executive at Texaco and Coca-Cola\n"}
+{"prompt": "What position did President Clinton appoint him to in 1994?\n\n###\n\n", "completion": "Assistant Attorney General for Civil Rights\n"}
+{"prompt": "In what year did he become Massachusetts' first African-American governor?\n\n###\n\n", "completion": "2006\n"}
+{"prompt": "What did he oversee during his two terms as Governor?\n\n###\n\n", "completion": "Expansion of the economy, health care reform, and education reform\n"}
+{"prompt": "What initiatives did Patrick launch to stimulate clean energy and biotechnology?\n\n###\n\n", "completion": "Launched initiatives stimulating clean energy and biotechnology\n"}
+{"prompt": "What is TogetherFUND?\n\n###\n\n", "completion": "TogetherFUND is a political action committee to support progressive politics and grassroots groups working to drive turnout and engagement among disenfranchised and marginalized voters\n"}
+{"prompt": "What are some of the fellowships Patrick has been awarded?\n\n###\n\n", "completion": "Rockefeller Fellow, a Crown Fellow of the Aspen Institute\n"}
+{"prompt": "What books has Patrick written?\n\n###\n\n", "completion": "A Reason to Believe: Lessons from an Improbable Life and Faith in the Dream: A Call to the Nation to Reclaim American Values\n"}
+{"prompt": "Who is Erika Rottenberg?\n\n###\n\n", "completion": "Erika Rottenberg is the Former General Counsel of the Chan Zuckerberg Initiative\n"}
+{"prompt": "What type of law did Erika practice at Cooley LLP?\n\n###\n\n", "completion": "Corporate and employment law\n"}
+{"prompt": "What organizations does Erika serve on the boards of directors for?\n\n###\n\n", "completion": "Girl Scouts USA, Silicon Valley Law Foundation, and Nasdaq-listed Wix.com\n"}
+{"prompt": "What is Erika's educational background?\n\n###\n\n", "completion": "Bachelors degree in Special and Elementary Education from the State University of New York at Geneseo and a juris doctorate from the University of California, Berkeley, Boalt Hall School of Law\n"}
+{"prompt": "What experience does Miyuki Suzuki bring to Twilio's board?\n\n###\n\n", "completion": "Technology leadership and board member experience in B2B and B2C companies across industries, including telecommunications, hosting and managed services, networking and collaboration and cyber-security\n"}
+{"prompt": "What industries has Miyuki Suzuki had leadership experience in?\n\n###\n\n", "completion": "Telecommunications, hosting and managed services, networking and collaboration and cyber-security\n"}
+{"prompt": "What is Wilio's current global status?\n\n###\n\n", "completion": "Wilio continues to expand globally.\n"}
+{"prompt": "What companies does Suzuki serve on the board of?\n\n###\n\n", "completion": "Suzuki serves on the boards of Western Digital Corporation, JERA Co Inc, and MetLife Japan KK.\n"}
+{"prompt": "What was Suzuki's last role at Cisco Systems?\n\n###\n\n", "completion": "Senior Vice President of Cisco Asia-Pacific, Japan, and China\n"}
+{"prompt": "What organizations has Suzuki led in the past?\n\n###\n\n", "completion": "KVH Co. Ltd (a Japanese telecommunications and IT services company), LexisNexis for Asia Pacific, Jetstar Japan, Japan Telecom, and Reuters South East Asia\n"}
+{"prompt": "What degree does Suzuki hold from Oxford University?\n\n###\n\n", "completion": "Honors degree in history\n"}
+{"prompt": "What is Twilio.org's mission statement?\n\n###\n\n", "completion": "We believe the tools we build can improve lives everywhere.\n"}
+{"prompt": "What does Twilio.org provide?\n\n###\n\n", "completion": "Twilio.org provides technology, funding, and time to help organizations expand their impact using communications technologies.\n"}
+{"prompt": "How can organizations expand their impact using communications technologies?\n\n###\n\n", "completion": "Organizations can expand their impact using communications technologies by utilizing the technology, funding, and time provided by Twilio.org.\n"}
+{"prompt": "How can individuals join the global team of Twilions?\n\n###\n\n", "completion": "Individuals can join the global team of Twilions by visiting the jobs page.\n"}
+{"prompt": "What can you learn from Twilio's press page?\n\n###\n\n", "completion": "You can learn about Twilio's recent company announcements and press coverage or get in touch with Twilio's Public Relations team from the press page.\n"}
+{"prompt": "Where can I find the official version of Twilio's logo, colors, and images?\n\n###\n\n", "completion": "View our brand page\n"}
+{"prompt": "What products does Twilio offer?\n\n###\n\n", "completion": "Voice, Video, Messaging, Authentication, IoT, Customer Data Platform, Account Security, SMS Marketing, Commerce Communications, Contact Center\n"}
+{"prompt": "What is the Twilio Customer Engagement Platform?\n\n###\n\n", "completion": "The Twilio Customer Engagement Platform is a trusted communications platform that enables businesses to build customer relationships and create better customer experiences.\n"}
+{"prompt": "Where can I find help with Twilio products?\n\n###\n\n", "completion": "Docs, Quickstarts, Tutorials, API Reference, Helper Libraries\n"}
+{"prompt": "Where can I find press and media information about Twilio?\n\n###\n\n", "completion": "Press & Media\n"}
+{"prompt": "Where can I find investor relations information about Twilio?\n\n###\n\n", "completion": "Investors\n"}
+{"prompt": "Where can I find job opportunities at Twilio?\n\n###\n\n", "completion": "Jobs at Twilio\n"}
+{"prompt": "Where can I find the Twilio Terms of Service?\n\n###\n\n", "completion": "Twilio Terms of Service\n"}
+{"prompt": "What is MessagingX?\n\n###\n\n", "completion": "MessagingX is a platform to send and receive text messages, SMS, WhatsApp, and Chat.\n"}
+{"prompt": "What does Twilio Engage do?\n\n###\n\n", "completion": "Twilio Engage is used to create omnichannel campaigns with a unified, data-first platform.\n"}
+{"prompt": "What is Twilio Flex?\n\n###\n\n", "completion": "Twilio Flex is a cloud contact center that can be built with the most flexible tools.\n"}
+{"prompt": "What is Trusted Activation used for?\n\n###\n\n", "completion": "Trusted Activation is used to prevent sign up fraud and account takeover fraud.\n"}
+{"prompt": "What is Twilio Segment?\n\n###\n\n", "completion": "Twilio Segment is an application.\n"}
+{"prompt": "What does the SendGrid Email API do?\n\n###\n\n", "completion": "The SendGrid Email API delivers email messages reliably at scale.\n"}
+{"prompt": "What can you do with Programmable Voice?\n\n###\n\n", "completion": "With Programmable Voice, you can make, receive, and monitor calls around the world.\n"}
+{"prompt": "What is the purpose of Programmable Video?\n\n###\n\n", "completion": "The purpose of Programmable Video is to build HD real-time video applications.\n"}
+{"prompt": "How does Twilio protect transactions?\n\n###\n\n", "completion": "Twilio protects transactions by providing takeovers. \n"}
+{"prompt": "How can I unify my customer data?\n\n###\n\n", "completion": "Unify your customer data to power personalized engagement marketing campaigns.\n"}
+{"prompt": "What are the benefits of personalized engagement marketing campaigns?\n\n###\n\n", "completion": "Benefits include increased customer engagement, improved customer loyalty, and better ROI.\n"}
+{"prompt": "How do I create and manage email marketing campaigns?\n\n###\n\n", "completion": "Create and manage email marketing campaigns using tools such as MailChimp or Constant Contact.\n"}
+{"prompt": "What is Twilio Frontline?\n\n###\n\n", "completion": "Twilio Frontline is a cloud-based communication platform that enables employees to securely connect with customers from anywhere.\n"}
+{"prompt": "How does Twilio Frontline connect employees to customers securely from anywhere?\n\n###\n\n", "completion": "Twilio Frontline provides secure connections between employees and customers through its cloud-based platform.\n"}
+{"prompt": "What is Twilio's serverless environment used for?\n\n###\n\n", "completion": "Twilio's serverless environment can be used to build, deploy, and run apps.\n"}
+{"prompt": "What type of connectivity does Twilio offer?\n\n###\n\n", "completion": "Twilio offers a range of connectivity solutions including voice, SMS, video, chat, and more.\n"}
+{"prompt": "What is the Internet of Things?\n\n###\n\n", "completion": "The Internet of Things is a network of physical devices, vehicles, home appliances, and other items embedded with electronics, software, sensors, actuators, and network connectivity which enable these objects to connect and exchange data.\n"}
+{"prompt": "How can I connect IoT devices to global cellular networks?\n\n###\n\n", "completion": "You can connect IoT devices to global cellular networks by using the company's services.\n"}
+{"prompt": "What is Elastic SIP Trunking?\n\n###\n\n", "completion": "Elastic SIP Trunking is a service that allows you to make and receive phone calls over the internet using Voice over IP (VoIP) technology.\n"}
+{"prompt": "How can I deploy SIP trunks globally in minutes?\n\n###\n\n", "completion": "You can deploy SIP trunks globally in minutes by using the company's services.\n"}
+{"prompt": "Where can I access local, national, and toll-free phone numbers?\n\n###\n\n", "completion": "You can access local, national, and toll-free phone numbers through the company's services.\n"}
+{"prompt": "What are Short Codes and how can I use them to send text and picture messages at scale?\n\n###\n\n", "completion": "Short Codes are special telephone numbers that are used to send text and picture messages at scale. You can use the company's services to send text and picture messages at scale using Short Codes.\n"}
+{"prompt": "What solutions does the company offer by use case?\n\n###\n\n", "completion": "The company offers solutions by use case such as Internet of Things (IoT), Elastic SIP Trunking, Phone Numbers, and Short Codes.\n"}
+{"prompt": "What is a Customer Engagement Platform?\n\n###\n\n", "completion": "A Customer Engagement Platform is a tool used to build durable customer relationships with personalized, data-driven engagement.\n"}
+{"prompt": "How can I build durable customer relationships?\n\n###\n\n", "completion": "You can build durable customer relationships with personalized, data-driven engagement.\n"}
+{"prompt": "What are some ways to keep customers engaged?\n\n###\n\n", "completion": "You can keep customers engaged on any channel through SMS Marketing, Alerts & Notifications, and Identity & Verification.\n"}
+{"prompt": "How can I streamline workforce operations and customer fulfillment?\n\n###\n\n", "completion": "You can streamline workforce operations and customer fulfillment through Alerts & Notifications and Identity & Verification.\n"}
+{"prompt": "What are some ways to deliver personalized customer experiences?\n\n###\n\n", "completion": "You can deliver personalized customer experiences at scale through Contact CenterI.\n"}
+{"prompt": "What is SMS Marketing?\n\n###\n\n", "completion": "SMS Marketing is a way to keep customers engaged on any channel.\n"}
+{"prompt": "What are Alerts & Notifications?\n\n###\n\n", "completion": "Alerts & Notifications are a way to streamline workforce operations and customer fulfillment.\n"}
+{"prompt": "What is Identity & Verification?\n\n###\n\n", "completion": "Identity & Verification is a way to streamline workforce operations and customer fulfillment.\n"}
+{"prompt": "What is Contact CenterI?\n\n###\n\n", "completion": "Contact CenterI is a way to deliver personalized customer experiences at scale.\n"}
+{"prompt": "What is Retail?\n\n###\n\n", "completion": "Retail is the sale of goods and services from businesses to consumers.\n"}
+{"prompt": "What are the Business Enterprise options for Retail?\n\n###\n\n", "completion": "Business Enterprise options for Retail include Enterprise resources.\n"}
+{"prompt": "What are the Startup options for Retail?\n\n###\n\n", "completion": "Startup options for Retail include Startup resources.\n"}
+{"prompt": "What are the Nonprofit options for Retail?\n\n###\n\n", "completion": "Nonprofit options for Retail include Nonprofit resources.\n"}
+{"prompt": "What Resources are available for Retail?\n\n###\n\n", "completion": "Resources available for Retail include Why Twilio.\n"}
+{"prompt": "Why should I use Twilio?\n\n###\n\n", "completion": "Twilio provides reliable communication services that can help businesses reach their customers quickly and efficiently.\n"}
+{"prompt": "What is Twilio?\n\n###\n\n", "completion": "Twilio is a trusted platform for data-driven customer engagement across any channel.\n"}
+{"prompt": "What can customers build with Twilio?\n\n###\n\n", "completion": "Customers can build with Twilio.\n"}
+{"prompt": "Where can I find more resources on how to create lasting customer relationships?\n\n###\n\n", "completion": "You can find more resources on how to create lasting customer relationships in the Resource Center.\n"}
+{"prompt": "What are Twilio's current beta programs?\n\n###\n\n", "completion": "Twilio's current beta programs can be found in the Twilio Beta Center.\n"}
+{"prompt": "What is A2P 10DLC?\n\n###\n\n", "completion": "A2P 10DLC is a program offered by Twilio.\n"}
+{"prompt": "What are the new A2P 10DLC requirements?\n\n###\n\n", "completion": "The new A2P 10DLC requirements are not specified in the text.\n"}
+{"prompt": "What resources are available to developers to help them prepare for the new A2P 10DLC requirements?\n\n###\n\n", "completion": "Developers have access to documentation to help them prepare for the new A2P 10DLC requirements.\n"}
+{"prompt": "What products does Twilio Flex offer?\n\n###\n\n", "completion": "Twilio Flex offers cloud contact center solutions.\n"}
+{"prompt": "What services does Twilio provide for SMS?\n\n###\n\n", "completion": "Twilio provides SMS services such as sending and receiving messages, delivery tracking, and message scheduling.\n"}
+{"prompt": "What services does Twilio provide for Programmable Voice?\n\n###\n\n", "completion": "Twilio provides Programmable Voice services such as voice calling, call recording, and call routing.\n"}
+{"prompt": "What services does Twilio provide for Video?\n\n###\n\n", "completion": "Twilio provides Video services such as video conferencing, streaming, and recording.\n"}
+{"prompt": "What is Email?\n\n###\n\n", "completion": "Email is a method of electronic communication.\n"}
+{"prompt": "What is WhatsApp API?\n\n###\n\n", "completion": "WhatsApp API is an application programming interface for the messaging service.\n"}
+{"prompt": "What is Elastic SIP Trunking?\n\n###\n\n", "completion": "Elastic SIP Trunking is a technology that allows businesses to make and receive phone calls over the internet.\n"}
+{"prompt": "What is Super SIM?\n\n###\n\n", "completion": "Super SIM is a type of SIM card that can be used in multiple devices.\n"}
+{"prompt": "What is Verify?\n\n###\n\n", "completion": "Verify is a process of confirming the identity of a user or device.\n"}
+{"prompt": "What are Functions?\n\n###\n\n", "completion": "Functions are sets of instructions that can be executed to perform specific tasks.\n"}
+{"prompt": "What is Studio?\n\n###\n\n", "completion": "Studio is not specified in the text.\n"}
+{"prompt": "What is Twilio CLI?\n\n###\n\n", "completion": "Twilio CLI is not specified in the text.\n"}
+{"prompt": "Where can I find all the documentation?\n\n###\n\n", "completion": "All the documentation can be found by clicking 'See all docs'.\n"}
+{"prompt": "How can I get inspired by the developer community?\n\n###\n\n", "completion": "You can get inspired by the developer community by clicking 'Get inspired by the latest from our developer community'.\n"}
+{"prompt": "Where can I read tutorials, community projects, and product updates?\n\n###\n\n", "completion": "Tutorials, community projects, and product updates can be read by clicking 'Blog'.\n"}
+{"prompt": "Where can I find help on Stack Overflow?\n\n###\n\n", "completion": "Help on Stack Overflow can be found by clicking 'Stack Overflow'.\n"}
+{"prompt": "What is the Twilio community?\n\n###\n\n", "completion": "The Twilio community is a place to ask for help and connect with other Twilio users.\n"}
+{"prompt": "How can I become a Twilio community Champion?\n\n###\n\n", "completion": "You can become a Twilio community Champion by signing up on the Twilio website.\n"}
+{"prompt": "What kind of group events are available?\n\n###\n\n", "completion": "Upcoming group events include developer events and beta testing opportunities.\n"}
+{"prompt": "What tools and resources are available?\n\n###\n\n", "completion": "Tools and resources available include CodeExchange, which provides usable code samples for faster builds.\n"}
+{"prompt": "What is CodeExchange?\n\n###\n\n", "completion": "CodeExchange is a platform that provides usable code samples for faster builds.\n"}
+{"prompt": "Where can I find updates and additions to Twilio?\n\n###\n\n", "completion": "Updates and additions to Twilio can be found in the Changelog. \n"}
+{"prompt": "What products does Twilio offer?\n\n###\n\n", "completion": "Twilio products\n"}
+{"prompt": "What is the API Status?\n\n###\n\n", "completion": "Check real-time monitoring of APIs and all services\n"}
+{"prompt": "How can I learn practical coding skills?\n\n###\n\n", "completion": "Learn practical coding skills through live training, student programs, and TwilioQuest\n"}
+{"prompt": "What services and support does Twilio provide?\n\n###\n\n", "completion": "Services & Support\n"}
+{"prompt": "How can I find a partner?\n\n###\n\n", "completion": "Find a partner\n"}
+{"prompt": "How can I work with a Twilio partner?\n\n###\n\n", "completion": "Work with a Twilio partner to buy or build the right solution\n"}
+{"prompt": "How can I partner with Twilio?\n\n###\n\n", "completion": "Partner with us\n"}
+{"prompt": "What is the Build Program?\n\n###\n\n", "completion": "The Build Program is a technology or consulting partner program offered by Twilio.\n"}
+{"prompt": "What services does Twilio offer?\n\n###\n\n", "completion": "Twilio offers services such as Professional Services, Training, and Support.\n"}
+{"prompt": "What kind of advice can I get from Twilio experts?\n\n###\n\n", "completion": "You can get technical and strategic advice from Twilio experts.\n"}
+{"prompt": "What kind of training does Twilio provide?\n\n###\n\n", "completion": "Twilio provides training on how to architect, build, and support your apps.\n"}
+{"prompt": "How can I talk to Support?\n\n###\n\n", "completion": "You can talk to Support by contacting them directly.\n"}
+{"prompt": "What are the frequently asked questions?\n\n###\n\n", "completion": "No answer provided.\n"}
+{"prompt": "What support plans are available?\n\n###\n\n", "completion": "No answer provided.\n"}
+{"prompt": "What is the pricing for the featured products?\n\n###\n\n", "completion": "No answer provided.\n"}
+{"prompt": "What services does SMS provide?\n\n###\n\n", "completion": "No answer provided.\n"}
+{"prompt": "What features does WhatsApp API offer?\n\n###\n\n", "completion": "No answer provided.\n"}
+{"prompt": "What is Twilio Engage?\n\n###\n\n", "completion": "Twilio Engage is a customer engagement platform.\n"}
+{"prompt": "What is Verify?\n\n###\n\n", "completion": "Verify is a service for verifying user identities.\n"}
+{"prompt": "What is Lookup?\n\n###\n\n", "completion": "Lookup is a service for retrieving contact information.\n"}
+{"prompt": "What is Twilio Flex?\n\n###\n\n", "completion": "Twilio Flex is a cloud contact center platform.\n"}
+{"prompt": "What are Channels?\n\n###\n\n", "completion": "Channels are communication methods such as SMS, voice, and chat.\n"}
+{"prompt": "What is Programmable Voice?\n\n###\n\n", "completion": "Programmable Voice is a communication platform that enables developers to build, scale, and operate voice applications.\n"}
+{"prompt": "What is Video?\n\n###\n\n", "completion": "Video is a form of multimedia that uses moving images and sound to tell stories or present information.\n"}
+{"prompt": "What is Email?\n\n###\n\n", "completion": "Email is an electronic communication service that allows users to send and receive messages over the internet.\n"}
+{"prompt": "What are Applications?\n\n###\n\n", "completion": "Applications are software programs designed to perform specific tasks for users.\n"}
+{"prompt": "What are Marketing Campaigns?\n\n###\n\n", "completion": "Marketing Campaigns are strategies used by businesses to promote their products or services.\n"}
+{"prompt": "What is Twilio Frontline?\n\n###\n\n", "completion": "Twilio Frontline is a customer engagement platform that helps companies create personalized customer experiences.\n"}
+{"prompt": "What is Twilio Segment?\n\n###\n\n", "completion": "Twilio Segment is a cloud communications platform.\n"}
+{"prompt": "What is Serverless?\n\n###\n\n", "completion": "Serverless is a cloud computing execution model.\n"}
+{"prompt": "What is Connectivity?\n\n###\n\n", "completion": "Connectivity is the ability of devices to connect and communicate with each other.\n"}
+{"prompt": "What is Super SIM?\n\n###\n\n", "completion": "Super SIM is a multi-network SIM card that allows users to switch between different mobile networks.\n"}
+{"prompt": "What is Wireless?\n\n###\n\n", "completion": "Wireless is the transfer of information over a distance without the use of electrical conductors or wires.\n"}
+{"prompt": "What is Narrowband?\n\n###\n\n", "completion": "Narrowband is a type of wireless communication technology that uses low bandwidths for data transmission.\n"}
+{"prompt": "What is Elastic SIP Trunking?\n\n###\n\n", "completion": "Elastic SIP Trunking is a service offered by Twilio.\n"}
+{"prompt": "How do I sign up for Elastic SIP Trunking?\n\n###\n\n", "completion": "You can sign up for Elastic SIP Trunking by clicking the 'Sign up' button on the website.\n"}
+{"prompt": "Where can I find the Terms of Service for Elastic SIP Trunking?\n\n###\n\n", "completion": "The Terms of Service for Elastic SIP Trunking can be found in the Legal section of the website.\n"}
+{"prompt": "What is the Security Overview for Elastic SIP Trunking?\n\n###\n\n", "completion": "The Security Overview for Elastic SIP Trunking outlines the security measures taken to protect customer data.\n"}
+{"prompt": "What are the Supplier Purchase Order Terms and Conditions for Elastic SIP Trunking?\n\n###\n\n", "completion": "The Supplier Purchase Order Terms and Conditions for Elastic SIP Trunking can be found in the Supplier Agreements section of the website.\n"}
+{"prompt": "Where can I find the Twilio Frontline End User App Terms?\n\n###\n\n", "completion": "The Twilio Frontline End User App Terms can be found in the Mobile Application & Twilio Community Terms section of the website.\n"}
+{"prompt": "What is the effective date of the Twilio Terms of Service?\n\n###\n\n", "completion": "September 15, 2022\n"}
+{"prompt": "What is included in the Twilio Community Terms of Use?\n\n###\n\n", "completion": "Intellectual Property, Trademark, Privacy, Data Privacy at Twilio, Privacy Notice, Binding Corporate Rules, Sub-processors, GDPR, Privacy Shield, Customer Data Protection Addendum, Supplier Data Protection Addendum\n"}
+{"prompt": "What is the DMCA Policy?\n\n###\n\n", "completion": "The DMCA Policy is a policy that outlines how to handle copyright infringement claims.\n"}
+{"prompt": "What is the Privacy Shield?\n\n###\n\n", "completion": "The Privacy Shield is a framework that enables companies to transfer data from the European Union to the United States in compliance with EU law.\n"}
+{"prompt": "What are the Customer Data Protection Addendum and Supplier Data Protection Addendum?\n\n###\n\n", "completion": "The Customer Data Protection Addendum and Supplier Data Protection Addendum are agreements that outline how customer and supplier data should be handled.\n"}
+{"prompt": "What are Resources for Law Enforcement?\n\n###\n\n", "completion": "Resources for Law Enforcement include Government Requests, Transparency Report, Civil Requests and Submit a request or subpoena.\n"}
+{"prompt": "How can one submit a request or subpoena?\n\n###\n\n", "completion": "One can submit a request or subpoena by using the Submit a request or subpoena form.\n"}
+{"prompt": "What is included in Twilio's Code of Conduct & Ethics Hotline?\n\n###\n\n", "completion": "Twilio's Code of Conduct & Ethics Hotline includes the Twilio Code of Conduct and Ethics and Whistleblower Hotline.\n"}
+{"prompt": "What are Digital Promotions General Rules?\n\n###\n\n", "completion": "Digital Promotions General Rules are rules that govern digital promotions such as sweepstakes.\n"}
+{"prompt": "What is Customer Research and User Experience Acknowledgement and Waiver?\n\n###\n\n", "completion": "Customer Research and User Experience Acknowledgement and Waiver is an agreement that outlines how customer research and user experience should be handled.\n"}
+{"prompt": "Where can one find Legal Notices for Twilio's Web Site?\n\n###\n\n", "completion": "Legal Notices for Twilio's Web Site can be found on Twilio's website under the Impressum (Germany) section.\n"}
+{"prompt": "What is the date for the changes to these Terms of Service?\n\n###\n\n", "completion": "September 15, 2022\n"}
+{"prompt": "What is the most recent prior version of these Terms of Service?\n\n###\n\n", "completion": "Available here\n"}
+{"prompt": "What should you do if you do not agree to these terms?\n\n###\n\n", "completion": "Do not agree to them, create an account, or use our services\n"}
+{"prompt": "Who are our services generally intended for?\n\n###\n\n", "completion": "Business or professional use only\n"}
+{"prompt": "Do these terms apply if you have a separate agreement with us for the use of our services?\n\n###\n\n", "completion": "No, these terms will not apply to you\n"}
+{"prompt": "When are these terms effective?\n\n###\n\n", "completion": "The date you accept them\n"}
+{"prompt": "What is the purpose of the table below?\n\n###\n\n", "completion": "For more information\n"}
+{"prompt": "What happens once the Twilio Terms of Service are accepted?\n\n###\n\n", "completion": "They become a binding legal commitment between you and Twilio\n"}
+{"prompt": "Who is this agreement binding for?\n\n###\n\n", "completion": "You and Twilio\n"}
+{"prompt": "What type of use is the Services intended for?\n\n###\n\n", "completion": "Business use or use in connection with an individual's trade, craft, or profession only\n"}
+{"prompt": "Does this agreement apply if you have a separate written agreement with Twilio?\n\n###\n\n", "completion": "No, unless that written agreement does not cover a particular Service, in which case, these Twilio Terms of Service apply solely to your use of that particular Service\n"}
+{"prompt": "What is the effective date of this Agreement?\n\n###\n\n", "completion": "the date you accept or otherwise agree to the terms of this Agreement\n"}
+{"prompt": "Who is entering into this Agreement?\n\n###\n\n", "completion": "Twilio Inc., a Delaware corporation\n"}
+{"prompt": "What is the place of business for Twilio Inc.?\n\n###\n\n", "completion": "101 Spear Street, 1st Floor, San Francisco, California, 94105, United States of America\n"}
+{"prompt": "When did Twilio Inc. become a Delaware corporation?\n\n###\n\n", "completion": "If you created your account prior to August 3, 2021\n"}
+{"prompt": "What constitutes your acceptance of the updated version of this Agreement?\n\n###\n\n", "completion": "Your acceptance of the updated version of this Agreement constitutes your acceptance.\n"}
+{"prompt": "What happens if you do not agree to the updated version of this Agreement?\n\n###\n\n", "completion": "If you do not agree to the updated version of this Agreement, you must stop using the Services immediately.\n"}
+{"prompt": "If you reassign your account to a third-party reseller, are you still responsible for your obligations under these terms?\n\n###\n\n", "completion": "Yes, you are still responsible for your obligations under these terms.\n"}
+{"prompt": "If you are the party that agreed to the terms of this Agreement and you reassign your account to a third-party reseller for administration purposes, will such account reassignment excuse your obligations under this Agreement?\n\n###\n\n", "completion": "No, such account reassignment will not excuse your obligations under this Agreement. Your use of the Services will continue to be subject to this Agreement.\n"}
+{"prompt": "What do you understand and acknowledge by using the Services?\n\n###\n\n", "completion": "By using the Services, you agree to have fun and let your imagination run wild.\n"}
+{"prompt": "What does Twilio cannot wait to see what you build?\n\n###\n\n", "completion": "Twilio cannot wait to see what you build!\n"}
+{"prompt": "What does 'Affiliate' mean?\n\n###\n\n", "completion": "Any entity that directly or indirectly controls or is controlled by, or is under common control with, the party specified. For purposes of this definition, control means direct or indirect ownership of more than fifty percent (50%) of the voting interests of the subject entity.\n"}
+{"prompt": "What are 'Beta Offerings'?\n\n###\n\n", "completion": "Services that are identified as alpha, beta, not generally available, limited release, developer preview, or any similar Services offered by Twilio.\n"}
+{"prompt": "What is a 'Customer Application'?\n\n###\n\n", "completion": "Any software application or service that you make available to your End Users (as defined below) that interfaces with the Services.\n"}
+{"prompt": "What is 'Customer Data'?\n\n###\n\n", "completion": "Data and other information made available.\n"}
+{"prompt": "What is Documentation?\n\n###\n\n", "completion": "Documentation means Twilios documentation, including any usage guides and policies, for the Services, the current version of which is available at https://www.twilio.com/docs.\n"}
+{"prompt": "Who is an End User?\n\n###\n\n", "completion": "End User means any user of each Customer Application.\n"}
+{"prompt": "What is Malicious Code?\n\n###\n\n", "completion": "Malicious Code means code, files, scripts, agents, or programs intended to do harm, including, for example, viruses, worms, time bombs and Trojan horses.\n"}
+{"prompt": "What is an Order Form?\n\n###\n\n", "completion": "Order Form means an ordering document between you and Twilio, or any of their Affiliates, that specifies mutually agreed upon rates for certain Services and any commercial terms related thereto.\n"}
+{"prompt": "What are the Services provided by Twilio?\n\n###\n\n", "completion": "Services means the products and services provided by Twilio or its Affiliates, as applicable, that (a) you use, including, without limitation, products and services that are on a trial basis or otherwise free of charge or (b) you order under an Order Form. Services include products and services that provide both (x) platform services.\n"}
+{"prompt": "What is an application programming interface (API)?\n\n###\n\n", "completion": "An application programming interface (API) is a set of routines, protocols, and tools for building software applications.\n"}
+{"prompt": "What data is included in Service Usage Data?\n\n###\n\n", "completion": "Service Usage Data includes data such as volumes, frequencies, bounce rates, and Service performance data and subject to any restrictions under applicable law or regulation, data that is anonymized, de-identified, and/or aggregated such that it could no longer directly or indirectly identify you, your End Users, or any natural person.\n"}
+{"prompt": "Where can I find the Support Terms?\n\n###\n\n", "completion": "The Support Terms are available at https://www.twilio.com/support-plans.\n"}
+{"prompt": "Where can I find the Twilio Acceptable Use Policy?\n\n###\n\n", "completion": "The Twilio Acceptable Use Policy is available at https://www.twilio.com/legal/aup.\n"}
+{"prompt": "What is the Twilio Data Protection Addendum?\n\n###\n\n", "completion": "The Twilio Data Protection Addendum is terms relating to the processing of personal data pursuant to this Agreement.\n"}
+{"prompt": "Where can the current version of the Twilio Data Protection Addendum be found?\n\n###\n\n", "completion": "The current version of the Twilio Data Protection Addendum can be found at https://www.twilio.com/legal/data-protection-addendum.\n"}
+{"prompt": "What is the Twilio Privacy Notice?\n\n###\n\n", "completion": "The Twilio Privacy Notice is the privacy notice for the Services.\n"}
+{"prompt": "Where can the current version of the Twilio Privacy Notice be found?\n\n###\n\n", "completion": "The current version of the Twilio Privacy Notice can be found at https://www.twilio.com/legal/privacy.\n"}
+{"prompt": "What is the Twilio Security Overview?\n\n###\n\n", "completion": "The Twilio Security Overview is the security related terms for the Services.\n"}
+{"prompt": "Where can the current version of the Twilio Security Overview be found?\n\n###\n\n", "completion": "The current version of the Twilio Security Overview can be found at https://www.twilio.com/legal/security-overview.\n"}
+{"prompt": "What is the Twilio SLA?\n\n###\n\n", "completion": "The Twilio SLA is the service level agreement for the Services.\n"}
+{"prompt": "Where can the current version of the Twilio SLA be found?\n\n###\n\n", "completion": "The current version of the Twilio SLA can be found at https://www.twilio.com/legal/service-level-agreement.\n"}
+{"prompt": "How will we make our services available to you according to our published documentation on our website and our service level agreement?\n\n###\n\n", "completion": "We will make our services available to you according to our published documentation on our website and our service level agreement.\n"}
+{"prompt": "What measures does Twilio use to scan, detect, and delete Malicious Code?\n\n###\n\n", "completion": "Industry standard measures designed to scan, detect, and delete Malicious Code\n"}
+{"prompt": "What personnel does Twilio use to provide the Services?\n\n###\n\n", "completion": "Trained, qualified personnel\n"}
+{"prompt": "What security terms are set forth in the Twilio Security Overview?\n\n###\n\n", "completion": "Security terms for the Services\n"}
+{"prompt": "What support does Twilio provide for the Services?\n\n###\n\n", "completion": "Applicable support for the Services\n"}
+{"prompt": "How does Twilio comply with laws applicable to its provision of the Services?\n\n###\n\n", "completion": "Comply with laws applicable to Twilio's provision of the Services to its customers generally (i.e., without regard for your particular use of the Services)\n"}
+{"prompt": "What are the representations and warranties set forth in Section 5?\n\n###\n\n", "completion": "Representations, Warranties, and Disclaimer\n"}
+{"prompt": "What situations can lead to Twilio suspending the services?\n\n###\n\n", "completion": "Violating terms, sending fraudulent traffic, legal or regulatory conditions prohibiting services, threatening security or operability of services, and information in account not being true, accurate, or complete\n"}
+{"prompt": "What must be true about the information in your account for Twilio to not suspend services?\n\n###\n\n", "completion": "True, accurate, and complete\n"}
+{"prompt": "What are the impacts that result from API changes that are not backwards-compatible?\n\n###\n\n", "completion": "The impacts that result from API changes that are not backwards-compatible are not specified.\n"}
+{"prompt": "What is Twilio's responsibility to ensure each Customer Application is compatible with the Services?\n\n###\n\n", "completion": "Twilio's responsibility is to ensure each Customer Application is compatible with the Services.\n"}
+{"prompt": "How much notice will Twilio provide if a non-backwards compatible change to a Twilio API becomes necessary?\n\n###\n\n", "completion": "Twilio will provide at least sixty (60) days notice if a non-backwards compatible change to a Twilio API becomes necessary.\n"}
+{"prompt": "What should you do if a non-backwards compatible change to a Twilio API materially and negatively impacts your use of the Services?\n\n###\n\n", "completion": "If a non-backwards compatible change to a Twilio API materially and negatively impacts your use of the Services, you should notify Twilio of the Adverse API Change.\n"}
+{"prompt": "What may Twilio agree to do if you notify them of an Adverse API Change?\n\n###\n\n", "completion": "Twilio may agree to work with you to resolve or otherwise address the Adverse API Change, except where Twilio, in its sole discretion.\n"}
+{"prompt": "What is an Adverse API Change?\n\n###\n\n", "completion": "An Adverse API Change is a change required for security reasons, by telecommunications providers, or to comply with applicable law or regulation.\n"}
+{"prompt": "What are beta offerings?\n\n###\n\n", "completion": "Beta offerings are products that are not generally available (e.g., services that are in alpha, beta, limited release).\n"}
+{"prompt": "How can I access beta offerings?\n\n###\n\n", "completion": "You may choose to use a Beta Offering in your sole discretion.\n"}
+{"prompt": "Can Twilio discontinue a Beta Offering at any time?\n\n###\n\n", "completion": "Yes, Twilio may discontinue a Beta Offering at any time in its sole discretion.\n"}
+{"prompt": "Where can I find the fees for the services I use?\n\n###\n\n", "completion": "The fees for the services you use can be found in a signed order form or on our list of fees on our website.\n"}
+{"prompt": "Do I need to pay the fees set forth in the applicable Order Form(s)?\n\n###\n\n", "completion": "Yes, you agree to pay the fees set forth in the applicable Order Form(s).\n"}
+{"prompt": "What is the URL for Twilio's pricing page?\n\n###\n\n", "completion": "https://www.twilio.com/pricing\n"}
+{"prompt": "What should you do if you are exempt from paying taxes or communications surcharges?\n\n###\n\n", "completion": "Let us know at taxforms@twilio.com and provide us with the up-to-date exemption information or proof.\n"}
+{"prompt": "What types of taxes are excluded from the fees associated with this Agreement?\n\n###\n\n", "completion": "Sales, use, value-added, consumption, communications, or withholding taxes\n"}
+{"prompt": "Who is responsible for paying all Taxes associated with this Agreement?\n\n###\n\n", "completion": "You will pay all Taxes associated with this Agreement\n"}
+{"prompt": "What documents must Twilio provide in order to reduce or eliminate withheld Taxes?\n\n###\n\n", "completion": "the appropriate tax certificate or document\n"}
+{"prompt": "What will be shown as a separate line item on an invoice?\n\n###\n\n", "completion": "Taxes and Communications Surcharges\n"}
+{"prompt": "What fees are exclusive of any applicable communications service or telecommunication provider fees or surcharges?\n\n###\n\n", "completion": "Communications Surcharges\n"}
+{"prompt": "Who is responsible for paying all costs, fines, or penalties that are imposed on Twilio by a government or regulatory body or a telecommunications provider?\n\n###\n\n", "completion": "you\n"}
+{"prompt": "If you are exempt from paying certain Taxes or Communications Surcharges, what must you provide to Twilio?\n\n###\n\n", "completion": "proof of exemption\n"}
+{"prompt": "What information is required to be exempt from paying Taxes or Communications Surcharges?\n\n###\n\n", "completion": "Exemption information as requested by Twilio or a valid exemption certificate issued by the appropriate authority\n"}
+{"prompt": "What should be sent to taxforms@twilio.com in order to be exempt from paying Taxes or Communications Surcharges?\n\n###\n\n", "completion": "A valid exemption certificate issued by the appropriate authority\n"}
+{"prompt": "What happens if the appropriate authority determines that you are not exempt from paying any Taxes or Communications Surcharges?\n\n###\n\n", "completion": "You will promptly pay such Taxes or Communications Surcharges to Twilio, plus any applicable interest or penalties\n"}
+{"prompt": "What happens if you do not have sufficient funds in your account to cover the fees you owe Twilio?\n\n###\n\n", "completion": "We may suspend our services to all of your accounts\n"}
+{"prompt": "If invoicing is approved, what currency must the fees owed to Twilio be paid in?\n\n###\n\n", "completion": "US dollars, unless another currency is shown\n"}
+{"prompt": "What is the deadline for payment on an invoice?\n\n###\n\n", "completion": "30 days after the date of the invoice\n"}
+{"prompt": "What happens if payment is not received within 15 days of the late notice?\n\n###\n\n", "completion": "A late fee may be charged and services to all accounts may be suspended\n"}
+{"prompt": "Are fees, taxes, and communications surcharges cancelable once paid?\n\n###\n\n", "completion": "No, they are non-refundable\n"}
+{"prompt": "What payment methods are available to pay the fees due?\n\n###\n\n", "completion": "Credit card\n"}
+{"prompt": "What is the responsibility of the customer if they elect to add funds to their account by credit card?\n\n###\n\n", "completion": "The customer is responsible for ensuring the funds cover the fees due\n"}
+{"prompt": "What happens if your account does not have sufficient funds or your credit card declines a charge for the Fees due?\n\n###\n\n", "completion": "Twilio may suspend the provision of the Services to all of your accounts until the Fees due are paid in full.\n"}
+{"prompt": "Are you allowed to create new accounts until the Fees due are paid in full?\n\n###\n\n", "completion": "No, you are prohibited from creating new accounts until the Fees due are paid in full.\n"}
+{"prompt": "If you elect to receive invoices, how will they be sent to you?\n\n###\n\n", "completion": "Invoices will be sent to you each month, via email to the email address(es) you designate in your account.\n"}
+{"prompt": "What currency are the Fees payable in?\n\n###\n\n", "completion": "The Fees are payable in United States dollars.\n"}
+{"prompt": "What happens if you fail to pay the Fees and remedy such failure within fifteen (15) days of the date Twilio provides you with written notice of the same?\n\n###\n\n", "completion": "Twilio may suspend the provision of the Services to all of your accounts until the Fees due are paid in full.\n"}
+{"prompt": "What is the time period specified in the Fulfillment Agreement?\n\n###\n\n", "completion": "The time period specified in the Fulfillment Agreement is not specified in the text.\n"}
+{"prompt": "What does Twilio exclusively own and reserve all right, title, and interest in and to?\n\n###\n\n", "completion": "Twilio exclusively owns and reserves all right, title, and interest in and to the Services, the Documentation, Twilio's Confidential Information, Service Usage Data, and any feedback or suggestions you or your End Users provide.\n"}
+{"prompt": "What is included in Twilio's Confidential Information?\n\n###\n\n", "completion": "Twilio's Confidential Information includes information that is not generally known to the public.\n"}
+{"prompt": "What is included in Service Usage Data?\n\n###\n\n", "completion": "Service Usage Data includes data that is derived from the use of Twilio's services that does not identify or no longer identifies you, your end users, or any natural person.\n"}
+{"prompt": "What feedback or suggestions do you or your End Users provide to Twilio?\n\n###\n\n", "completion": "Feedback or suggestions provided by you or your End Users to Twilio include feedback about Twilio's services.\n"}
+{"prompt": "Who owns and reserves all right, title, and interest in and to the Customer Applications, your Confidential Information, and Customer Data?\n\n###\n\n", "completion": "You\n"}
+{"prompt": "How can Twilio use Customer Data?\n\n###\n\n", "completion": "To provide the Services in a manner that is consistent with this Agreement, the Twilio Data Protection Addendum, and the Twilio Privacy Notice\n"}
+{"prompt": "Who is responsible for the quality and integrity of Customer Data?\n\n###\n\n", "completion": "You\n"}
+{"prompt": "What are the obligations of each party regarding confidential information?\n\n###\n\n", "completion": "Not to tell anyone else about or use the confidential information that we got from each other, except to carry out each of our individual obligations under these terms\n"}
+{"prompt": "What happens if either party shares the other's confidential information?\n\n###\n\n", "completion": "It is prohibited\n"}
+{"prompt": "What remedies may be sought if needed?\n\n###\n\n", "completion": "Gag orders\n"}
+{"prompt": "What type of relief may be sought in the event of an actual or threatened breach of this Section 4.3?\n\n###\n\n", "completion": "Injunctive and other equitable relief\n"}
+{"prompt": "What rights does Twilio have to use your name, logo, and a description of how you use their services?\n\n###\n\n", "completion": "The right to use your name, logo, and a description of your use case(s) on Twilios website, in earnings releases and calls, and in marketing and promotional materials\n"}
+{"prompt": "What guidelines must Twilio follow when using your name, logo, and a description of how you use their services?\n\n###\n\n", "completion": "Standard trademark usage guidelines that you expressly provide to Twi\n"}
+{"prompt": "What does each party represent and warrant?\n\n###\n\n", "completion": "Each party represents and warrants that it has validly accepted or entered into this Agreement and has the legal power to do so.\n"}
+{"prompt": "What laws and regulations must each party follow?\n\n###\n\n", "completion": "Each party must follow anti-corruption, anti-money laundering, economic and trade sanctions, export controls, and other international trade laws, regulations, and government orders.\n"}
+{"prompt": "What must a party do if they or their end users become placed on any government sanctions or restricted party lists?\n\n###\n\n", "completion": "The party must stop using our services and remove any end users access to our services.\n"}
+{"prompt": "What does each party warrant with regards to anti-corruption and international trade laws?\n\n###\n\n", "completion": "Each party warrants that it will comply with all applicable anti-corruption and international trade laws.\n"}
+{"prompt": "What are the Anti-Corruption and Trade Laws?\n\n###\n\n", "completion": "Anti-Corruption and Trade Laws include corruption, anti-money laundering, economic and trade sanctions, export controls, and other international trade laws, regulations, and governmental orders.\n"}
+{"prompt": "What jurisdictions apply directly or indirectly to the Services?\n\n###\n\n", "completion": "The United States.\n"}
+{"prompt": "What should you do if you make, offer, promise to make, or authorize any payment or anything of value in violation of Anti-Corruption and Trade Laws?\n\n###\n\n", "completion": "Promptly notify Twilio in writing of any actual or potential violation of Anti-Corruption and Trade Laws in connection with the use of the Services.\n"}
+{"prompt": "What steps should you take to remedy or resolve violations of Anti-Corruption and Trade Laws?\n\n###\n\n", "completion": "Take all appropriate steps to remedy or resolve such violations, including any steps requested by Twilio.\n"}
+{"prompt": "Do you need to obtain any licenses or other authorizations to export, re-export, or transfer the Services?\n\n###\n\n", "completion": "Yes.\n"}
+{"prompt": "Do your End Users need to obtain any licenses or other authorizations to export, re-export, or transfer the Services?\n\n###\n\n", "completion": "Yes.\n"}
+{"prompt": "What happens when you attempt to log into your account in a prohibited country or region?\n\n###\n\n", "completion": "You will not be able to log in.\n"}
+{"prompt": "What data are you required to provide to Twilio?\n\n###\n\n", "completion": "Data for which you provided any required notices and received any required permissions, including in a manner as required by law or regulation.\n"}
+{"prompt": "What is Twilio's responsibility regarding the Services?\n\n###\n\n", "completion": "Twilio represents and warrants that the Services perform materially in accordance with the applicable Documentation.\n"}
+{"prompt": "What is the exclusive remedy for a breach of Section 5.4?\n\n###\n\n", "completion": "At Twilio's option, to (a) remediate any material non-conform.\n"}
+{"prompt": "What are the explicit promises in Section 5?\n\n###\n\n", "completion": "Offering services as is\n"}
+{"prompt": "What is Twilio's additional disclaimer related to telecommunications providers?\n\n###\n\n", "completion": "Twilio additionally disclaims all warranties related to telecommunications providers\n"}
+{"prompt": "What is the warranty offered by either party for the Services?\n\n###\n\n", "completion": "Neither party makes any warranty of any kind, whether express, implied, statutory, or otherwise\n"}
+{"prompt": "What happens if the Services do not comply with Section 5.4?\n\n###\n\n", "completion": "(a) provide you with a pro-rated refund of the Fees paid for the affected Services for the time period during which the affected Services do not comply with this Section 5.4 or (b) refund you the Fees paid for the time period during which the affected Services do not comply with this Section 5.4\n"}
+{"prompt": "What is Twilio's liability for any changes to, interception of, or loss of customer data while in transit via the internet or a telecommunications providers network?\n\n###\n\n", "completion": "Twilio will have no liability for any changes to, interception of, or loss of customer data while in transit via the internet or a telecommunications providers network.\n"}
+{"prompt": "What warranties are provided with Beta Offerings?\n\n###\n\n", "completion": "Beta Offerings are provided as is and as available with no warranties.\n"}
+{"prompt": "What will Twilio do if someone comes after you claiming that their provision of services violates their intellectual property rights?\n\n###\n\n", "completion": "Twilio will fight that fight for you and pay any awarded damages or settlement they enter into.\n"}
+{"prompt": "Who will Twilio indemnify from and against any claim, demand, suit, or proceeding made or brought against them by a third party?\n\n###\n\n", "completion": "Twilio will indemnify Customer Indemnified Parties (you, your Affiliates, and each of their directors, officers, and employees) from and against any claim, demand, suit, or proceeding made or brought against them by a third party.\n"}
+{"prompt": "What is a Twilio Indemnifiable Claim?\n\n###\n\n", "completion": "A Twilio Indemnifiable Claim is a claim that the Services infringes or misappropriates such third partys intellectual property rights.\n"}
+{"prompt": "What will Twilio do if they think their services infringe someone's intellectual property rights?\n\n###\n\n", "completion": "Twilio will either obtain the rights for you to continue to use their services or modify their services, so they do not infringe. If they cannot do either of these, they will terminate these terms and refund any prepaid and unused fees.\n"}
+{"prompt": "What are the options available to Twilio if their provision of the Services has become, or is likely to become, the subject of any Twilio Indemnifiable Claim for third-party intellectual property rights infringement or misappropriation?\n\n###\n\n", "completion": "Twilio may at its option and expense procure the rights for you to continue to use their services, modify their services, so they do not infringe, or terminate these terms and refund any prepaid and unused fees.\n"}
+{"prompt": "What are the services for which there is no charge?\n\n###\n\n", "completion": "Services for which there is no charge\n"}
+{"prompt": "What is the customer responsible for in Section 2.2?\n\n###\n\n", "completion": "Customer Responsibilities in Section 2.2\n"}
+{"prompt": "What does Customer Application refer to?\n\n###\n\n", "completion": "Software applications developed or services offered by the customer\n"}
+{"prompt": "What does Twilio Indemnified Parties refer to?\n\n###\n\n", "completion": "Twilio, its Affiliates, and each of their directors, officers, and employees\n"}
+{"prompt": "What type of claims can be made against a Twilio Indemnified Party?\n\n###\n\n", "completion": "Claims that a Customer Application, or your or your End Users use of a Customer Application, infringes or misappropriates the intellectual property rights of a third party\n"}
+{"prompt": "What is a Customer Indemnifiable Claim?\n\n###\n\n", "completion": "A Customer Indemnifiable Claim is a third party's intellectual property rights.\n"}
+{"prompt": "What is a Twilio Indemnifiable Claim?\n\n###\n\n", "completion": "A Twilio Indemnifiable Claim is a fine, penalty, damage, attorney fee, or cost awarded against a Twilio Indemnified Party or for settlement amounts that the indemnifying party approves.\n"}
+{"prompt": "What is required of the indemnifying party in order to fulfill their obligations?\n\n###\n\n", "completion": "The indemnifying party is required to promptly notify the indemnified party of any Customer Indemnifiable Claim or Twilio Indemnifiable Claim in writing.\n"}
+{"prompt": "What are the conditions of indemnification outlined in Section 6.3?\n\n###\n\n", "completion": "The conditions of indemnification outlined in Section 6.3 are that the indemnified party must promptly notify the indemnifying party of any Customer Indemnifiable Claim or Twilio Indemnifiable Claim in writing.\n"}
+{"prompt": "What happens if the indemnified party fails to give prompt written notice of a claim?\n\n###\n\n", "completion": "If the indemnified party fails to give prompt written notice of a claim, the indemnifying party will not be relieved of its obligations hereunder, except to the extent that it was actually prejudiced by such failure.\n"}
+{"prompt": "What is the sole liability of Indemnifying Party to Indemnified Party for any third-party claims?\n\n###\n\n", "completion": "Indemnifying Party's sole liability to Indemnified Party for any third-party claims is stated in Section 6.\n"}
+{"prompt": "What is the exclusive remedy of Indemnified Party against the other party for any third-party claims?\n\n###\n\n", "completion": "Indemnified Party's exclusive remedy against the other party for any third-party claims is stated in Section 6.\n"}
+{"prompt": "Will Indemnifying Party settle any Claim for which it has an obligation to indemnify under Section 6 admitting liability or fault on behalf of Indemnified Party?\n\n###\n\n", "completion": "No, Indemnifying Party will not settle any Claim for which it has an obligation to indemnify under Section 6 admitting liability or fault on behalf of Indemnified Party.\n"}
+{"prompt": "Will Indemnifying Party create any obligation on behalf of Indemnified Party without Indemnified Partys prior written consent?\n\n###\n\n", "completion": "No, Indemnifying Party will not create any obligation on behalf of Indemnified Party without Indemnified Partys prior written consent.\n"}
+{"prompt": "Will Indemnified Party's prior written consent be unreasonably withheld, conditioned, or delayed?\n\n###\n\n", "completion": "No, Indemnified Party's prior written consent will not be unreasonably withheld, conditioned, or delayed.\n"}
+{"prompt": "What types of damages are available in the event of a claim?\n\n###\n\n", "completion": "Lost profits, revenues, goodwill, indirect, special, incidental, consequential, cover, lost data, business interruption, or punitive damages\n"}
+{"prompt": "What is not responsible for damages that indirectly result from an incident?\n\n###\n\n", "completion": "Neither of us\n"}
+{"prompt": "What is the limitation on indirect, consequential, and related damages?\n\n###\n\n", "completion": "In no event will either party or its affiliates have any liability arising out of or related to this agreement for any lost profits, revenues, goodwill, or indirect, special, incidental, consequential, cover, lost data, business interruption, or punitive damages\n"}
+{"prompt": "What type of action does this disclaimer not apply to?\n\n###\n\n", "completion": "Actions prohibited by law\n"}
+{"prompt": "What is the cap on direct damages either party might owe to the other?\n\n###\n\n", "completion": "The amounts paid in the 12-month period\n"}
+{"prompt": "What are the limitations in Section 7.1 and Section 7.2?\n\n###\n\n", "completion": "Limitations on indirect, consequential, and related damages\n"}
+{"prompt": "What are the exceptions to the limitations in Section 7.1 and Section 7.2?\n\n###\n\n", "completion": "(a) Your breach of Section 2.2 (Customer Responsibilities); (b) Your and your affiliates breach of Section 3 (Fees and Payment Terms); or (c) Amounts payable pursuant to a party's indemnification obligations under Section 6 (Mutual Indemification)\n"}
+{"prompt": "When does this Agreement commence?\n\n###\n\n", "completion": "The Effective Date\n"}
+{"prompt": "How much advance notice is required to end these terms?\n\n###\n\n", "completion": "30 days\n"}
+{"prompt": "What is the minimum notice period for terminating this Agreement for convenience?\n\n###\n\n", "completion": "Thirty (30) days\n"}
+{"prompt": "What is the time frame for fixing a violation of these terms?\n\n###\n\n", "completion": "Fifteen (15) days\n"}
+{"prompt": "What happens when either party terminates this Agreement due to a material breach?\n\n###\n\n", "completion": "All Order Form(s) and Services that are in effect will be terminated\n"}
+{"prompt": "What happens when either party terminates this Agreement for convenience?\n\n###\n\n", "completion": "All such Order Form(s) have expired or have been terminated in accordance with the terms therein and closure of all of your accounts.\n"}
+{"prompt": "What is considered a material breach of this Agreement?\n\n###\n\n", "completion": "Twilio Acceptable Use Policy\n"}
+{"prompt": "What happens if Twilio terminates this Agreement because of a material breach?\n\n###\n\n", "completion": "Twilio will also close your accounts\n"}
+{"prompt": "Under what circumstances can either party end these terms?\n\n###\n\n", "completion": "If the other goes bankrupt or fails to continue its business, either of us may end these terms by providing the other with written notice\n"}
+{"prompt": "Which terms survive after these terms end?\n\n###\n\n", "completion": "Payment obligations to us and the specific sections mentioned on the right\n"}
+{"prompt": "What are the terms between you and us?\n\n###\n\n", "completion": "Strictly between you and us.\n"}
+{"prompt": "Do third parties have any rights under these terms?\n\n###\n\n", "completion": "No.\n"}
+{"prompt": "How do you need to notify Twilio?\n\n###\n\n", "completion": "Via email to legalnotices@twilio.com.\n"}
+{"prompt": "How will Twilio notify you?\n\n###\n\n", "completion": "Via email to the relevant contact(s) you designate in your account or via your account portal.\n"}
+{"prompt": "What law governs these terms?\n\n###\n\n", "completion": "The law specified in the table below, depending on where your business entity is registered.\n"}
+{"prompt": "Which courts will resolve a dispute between us?\n\n###\n\n", "completion": "The courts specified in the table below, depending on where your business entity is registered.\n"}
+{"prompt": "What is the governing law of this Agreement?\n\n###\n\n", "completion": "Any country outside of the (a) European Economic Area or its regions or territories, the United Kingdom, Switz\n"}
+{"prompt": "What courts have personal jurisdiction over this Agreement?\n\n###\n\n", "completion": "The applicable courts identified below\n"}
+{"prompt": "In the event of any adjudication of any dispute under this Agreement, who will be entitled to reimbursement of their attorneys fees and related costs?\n\n###\n\n", "completion": "The prevailing party in such action\n"}
+{"prompt": "Which countries are included in the European Economic Area?\n\n###\n\n", "completion": "Erland, Andorra, or Vatican City\n"}
+{"prompt": "Where is the Tokyo District Court located?\n\n###\n\n", "completion": "Tokyo, Japan\n"}
+{"prompt": "What type of disputes are excluded from arbitration?\n\n###\n\n", "completion": "Intellectual property disputes\n"}
+{"prompt": "What is the name of the state or federal court in San Francisco, California, United States of America?\n\n###\n\n", "completion": "State or federal courts of San Francisco, California, United States of America\n"}
+{"prompt": "Which country is included in the Asia-Pacific region other than Japan?\n\n###\n\n", "completion": "Singapore\n"}
+{"prompt": "What is the property of a party?\n\n###\n\n", "completion": "collectively, Disputes\n"}
+{"prompt": "What is the time period for attempting to resolve a Dispute?\n\n###\n\n", "completion": "thirty (30) days or within such other time period as the parties may agree in writing\n"}
+{"prompt": "What rules will be used for binding arbitration?\n\n###\n\n", "completion": "JAMSComprehensive Arbitration Rules and Procedures\n"}
+{"prompt": "In what court may judgment on the award rendered by the arbitrator be entered?\n\n###\n\n", "completion": "any court of competent jurisdiction\n"}
+{"prompt": "What authority does the arbitrator have?\n\n###\n\n", "completion": "specific performance or any other equitable or legal remedy, including provisional remedies\n"}
+{"prompt": "Who will be responsible for expenses arising out of any dispute resolution procedure?\n\n###\n\n", "completion": "each party\n"}
+{"prompt": "What are Force Majeure Events?\n\n###\n\n", "completion": "Force Majeure Events are events, existing or future, that are beyond the control and without negligence of such party, including action or inaction of governmental, civil or military authority, fire, strike, lockout, or other labor dispute, flood, terrorist act, war, riot, theft, earthquake, or other natural disaster.\n"}
+{"prompt": "What actions should the party affected by a Force Majeure Event take to minimize the consequences of any such event?\n\n###\n\n", "completion": "The party affected by a Force Majeure Event will take all reasonable actions to minimize the consequences of any such event.\n"}
+{"prompt": "If neither of us enforces any part of these terms, does that mean that we cannot enforce that part now or in the future?\n\n###\n\n", "completion": "No, we can still enforce that part now or in the future.\n"}
+{"prompt": "What is the order of precedence to resolve inconsistencies between the various terms and conditions that make up these terms?\n\n###\n\n", "completion": "The order of precedence to resolve inconsistencies between the various terms and conditions that make up these terms is (1) any order forms; (2) our Data Protection Addendum; (3) the terms set forth in the body of these Terms of Service; (4) our Acceptable Use Policy, including our service and country specific terms; (5) any other terms and conditions incorporated into.\n"}
+{"prompt": "What is the order of precedence in the event of any conflict or inconsistency among documents?\n\n###\n\n", "completion": "(1) the applicable Order Form(s), (2) the Twilio Data Protection Addendum, (3) the terms set forth in the body of this Twilio Terms of Service, (4) the Twilio Acceptable Use Policy, (5) any other terms incorporated by reference herein or any other exhibits or attachments hereto, and (6) the applicable Documentation.\n"}
+{"prompt": "What documents are included in the order of precedence?\n\n###\n\n", "completion": "(1) the applicable Order Form(s), (2) the Twilio Data Protection Addendum, (3) the terms set forth in the body of this Twilio Terms of Service, (4) the Twilio Acceptable Use Policy, (5) any other terms incorporated by reference herein or any other exhibits or attachments hereto, and (6) the applicable Documentation.\n"}
+{"prompt": "What will happen if any part of these terms is not legally enforceable?\n\n###\n\n", "completion": "The rest of these terms will still be legally enforceable.\n"}
+{"prompt": "What is the purpose of titles and headings of sections in this Agreement?\n\n###\n\n", "completion": "To provide convenience and will not affect the construction of any provision of this Agreement.\n"}
+{"prompt": "What is the minimum extent necessary to render a provision enforceable?\n\n###\n\n", "completion": "limited or eliminated to the minimum extent necessary\n"}
+{"prompt": "What does this Agreement supersede?\n\n###\n\n", "completion": "all prior and contemporaneous understandings, proposals, statements, sales materials, presentations, or non-disclosure or other agreements, whether oral or written\n"}
+{"prompt": "Will any terms and conditions outside of these terms be valid?\n\n###\n\n", "completion": "No\n"}
+{"prompt": "Will oral or written information or advice given by Twilio create a warranty?\n\n###\n\n", "completion": "No\n"}
+{"prompt": "What is the purpose of the warranties or obligations in this Agreement?\n\n###\n\n", "completion": "The purpose of the warranties or obligations in this Agreement is to increase the scope.\n"}
+{"prompt": "What effect will terms and conditions stated in your vendor registration form or registration portal have on this Agreement?\n\n###\n\n", "completion": "The terms and conditions stated in your vendor registration form or registration portal will be void and have no effect with regard to this Agreement, even if accepted by Twilio or signed by the parties after the Effective Date.\n"}
+{"prompt": "Who do the additional terms apply to?\n\n###\n\n", "completion": "The additional terms apply to U.S. Federal or U.S. state entities, or federally-recognized tribal entities performing governmental functions.\n"}
+{"prompt": "What entities are eligible for funding and services from the U.S. Department of the Interior?\n\n###\n\n", "completion": "U.S. federal entities, including without limitation, bureaus, offices, agencies, departments, or other entities of the United States government; U.S. states; and federally-recognized tribal entities are eligible for funding and services from the U.S. Department of the Interior.\n"}
+{"prompt": "What is a state entity?\n\n###\n\n", "completion": "A bureau, department, office, or other entity of a state or a local, county, borough, commonwealth city, municipality, town, township, special purpose district, or other entity established by the laws of a state and located in such state; or (c) a federally-recognized tribal entity performing governmental functions and eligible for funding and services from the United States Department of the Interior by virtue of its status as an Indian tribe, or in Alaska, a Native village or Alaska Regional Native corporation\n"}
+{"prompt": "What entities are established by the laws of a state?\n\n###\n\n", "completion": "Local, county, borough, commonwealth city, municipality, town, township, special purpose district\n"}
+{"prompt": "What is the maximum amount of interest Twilio may assess if you fail to pay the Fees?\n\n###\n\n", "completion": "The maximum amount allowable by applicable law\n"}
+{"prompt": "What does Section 4.3.2 (Use and Disclosure) of this Agreement prohibit you from disclosing?\n\n###\n\n", "completion": "The terms of this Agreement\n"}
+{"prompt": "What are the Public Disclosure Laws?\n\n###\n\n", "completion": "The Public Disclosure Laws are the laws applicable to the receiving party that require public disclosure.\n"}
+{"prompt": "What are the material legal terms included in this Agreement?\n\n###\n\n", "completion": "The material legal terms included in this Agreement are representations and warranties, indemnification, and limitation of liability.\n"}
+{"prompt": "What are the trade secrets, non-publicly available pricing, future business plans, future product plans or features, or business strategies of Twilio?\n\n###\n\n", "completion": "The trade secrets, non-publicly available pricing, future business plans, future product plans or features, or business strategies of Twilio are redacted.\n"}
+{"prompt": "What is a Compelled Disclosure?\n\n###\n\n", "completion": "A Compelled Disclosure is when the receiving party provides reasonable cooperation to the disclosing party in connection with a disclosure at the disclosing party's sole expense to the extent permitted by applicable law.\n"}
+{"prompt": "What is a Customer Application IP Infringement?\n\n###\n\n", "completion": "A Customer Application IP Infringement is when a customer application or use of a customer application infringes or misappropriates a third party's intellectual property rights.\n"}
+{"prompt": "What is the time period for resolving a Dispute?\n\n###\n\n", "completion": "thirty (30) days after the first request to engage in good faith negotiations or within such other time period as the parties may agree to in writing\n"}
+{"prompt": "What laws does Twilio agree to comply with?\n\n###\n\n", "completion": "48 C.F.R. 52.244-6 Subcontracts for Commercial Products and Commercial Services, Executive Order 11246, Section 402 of the Vietnam Era Veterans Readjustment Assistance Act of 1974 (38 USC 4212), Section 503 of the Rehabilitation Act of 1973, 41 C.F.R. 60-1 -60-60, 60-250, and 60-741\n"}
+{"prompt": "What are the regulations incorporated by reference into this Agreement?\n\n###\n\n", "completion": "the affirmative action clause and regulations contained in the preceding sentence\n"}
+{"prompt": "What is the classification of the Services?\n\n###\n\n", "completion": "Commercially available off-the-shelf (CO)\n"}
+{"prompt": "What is the European Electronic Communications Code Rights Waiver?\n\n###\n\n", "completion": "The European Electronic Communications Code Rights Waiver is an agreement that must be read and accepted by businesses in the European Economic Area or United Kingdom.\n"}
+{"prompt": "What terms apply to businesses registered in Brazil?\n\n###\n\n", "completion": "If a business entity is registered in Brazil, the terms of Section 10.3 of the Agreement apply.\n"}
+{"prompt": "What is the process for resolving disputes in Brazil?\n\n###\n\n", "completion": "The process for resolving disputes in Brazil involves senior representatives engaging in good faith negotiations to amicably resolve a dispute.\n"}
+{"prompt": "How long do parties have to resolve a dispute in Brazil?\n\n###\n\n", "completion": "Parties have thirty (30) days after the first request to engage in good faith negotiations or within such other time period as the parties may agree to in writing to resolve a dispute.\n"}
+{"prompt": "What language is spoken in the City and State of So Paulo, Brazil?\n\n###\n\n", "completion": "Portuguese\n"}
+{"prompt": "What type of use is the Services intended for?\n\n###\n\n", "completion": "Business use by corporate or business entities\n"}
+{"prompt": "What documents may be required to submit to Twilio?\n\n###\n\n", "completion": "Government-issued ID documents\n"}
+{"prompt": "What taxes are included in Section 3.2.1 of this Agreement?\n\n###\n\n", "completion": "Japanese consumption tax\n"}
+{"prompt": "What are the Communications Surcharges set forth in Section 3.2.2 of this Agreement?\n\n###\n\n", "completion": "The Communications Surcharges set forth in Section 3.2.2 of this Agreement are the ecommunication providers (e.g., carriers) that will be borne by you.\n"}
+{"prompt": "What currency are Fees payable in?\n\n###\n\n", "completion": "Fees are payable in Japanese Yen, except as otherwise set forth in writing, including in an applicable Order Form(s) or an invoice to the extent you procure the Services without an Order Form.\n"}
+{"prompt": "What intellectual property rights does Twilio have under this Agreement?\n\n###\n\n", "completion": "Twilio has the rights set forth in Article 27 (Right of Adaptation) and 28 (Original Authors Right in Derivative Works) of the Copyright Act of Japan, Act No. 48 of May 6, 1970 under this Agreement.\n"}
+{"prompt": "What moral rights do you agree not to exercise against Twilio?\n\n###\n\n", "completion": "You agree not to exercise against Twilio, or any other third parties designated by Twilio, any moral rights you may have in any contents, including, without limitation, the feedback or suggestions you or your End Users provide regarding the Services that Twilio is entitled to exploit under this Agreement.\n"}
+{"prompt": "What is meant by 'anti-social forces'?\n\n###\n\n", "completion": "Gangsters, right-wing groups, anti-social forces, and others equivalent thereto\n"}
+{"prompt": "What does it mean to have an 'exchange or involvement with anti-social forces'?\n\n###\n\n", "completion": "Cooperation or involvement in the maintenance, operation, or management of anti-social forces, through funding, or other means\n"}
+{"prompt": "What is the process for resolving disputes, claims, or controversies arising out of or in connection with this Agreement?\n\n###\n\n", "completion": "Good faith negotiations with the other partys senior representatives to amicably resolve\n"}
+{"prompt": "What is the time period for parties to resolve a Dispute?\n\n###\n\n", "completion": "thirty (30) days after the first request to engage in good faith negotiations or within such other time period as the parties may agree to in writing\n"}
+{"prompt": "What happens if the parties are unable to resolve a Dispute within the agreed time period?\n\n###\n\n", "completion": "either party may seek relief as set forth in Section 9.6 (Governing Law and Attorneys Fees)\n"}
+{"prompt": "What will prevail in case of any conflict between this Section 10.4 and any other terms of this Agreement?\n\n###\n\n", "completion": "this Section 10.4 will prevail\n"}

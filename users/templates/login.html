@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+    <legend class="mb-4 mt-5 title">SmartResponse</legend>
+    <div class="content-section">
+        <form method="POST">
+            {% csrf_token %}
+            {% if form.non_field_errors %}
+                {% for error in form.non_field_errors %}
+                <div class="alert alert-danger">
+                    {{ error }}
+                </div>
+                {% endfor %}
+            {% endif %}
+            <fieldset class="form-group">
+                <legend class="mb-4 subtitle">Log In</legend>
+                <legend class="mb-4 description">Get started with your account.</legend>
+                <div class="form-group">
+                    <label for="username">Email address</label>
+                    <input type="text" class="form-control" id="username" placeholder="example@gmail.com" name="username" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="****************" name="password" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+            </fieldset>
+            <small class="text-muted">
+                Forgot your password? <a class="ml-2" href="{% url 'users:reset' %}">Reset</a>
+            </small>
+            <div class="form-group">
+                <button class="btn bg-purple mt-4 pl-4 pr-4" type="submit">Login</button>
+            </div>
+        </form>
+        <div class="border-top pt-3">
+            <small class="text-muted">
+                Need An Account? <a class="ml-2" href="{% url 'users:signup' %}">Sign Up Now</a>
+            </small>
+        </div>
+    </div>
+</div>
+{% endblock content %}

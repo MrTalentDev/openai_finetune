@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="container my-bg">
+        <div class="row">
+            <div class="col col-md-3 content-center">
+                <legend class="mb-4 mt-5 subtitle">SmartResponse</legend>
+                <div>
+                    <fieldset class="form-group sidbar-subtitle">
+                        Question
+                    </fieldset>
+                    <legend class="mb-4 sidebar-description">Copy/past the tech question your prospect has and SmartResponse will generate you the most relevant answer basd on documentation you specified in "Settings"</legend>
+                </div>
+                <div class="sidebar-action">
+                    <a class="btn bg-purple mt-4 pl-4 pr-4 full" href="{% url 'home:answer' %}" >Get Answer</a>
+                    <a class="btn mt-4 pl-4 pr-4 full" href="{% url 'home:setting' %}" >Setting</a>
+                </div>
+            </div>
+            <div class="col col-8">
+                <div class="home-content">
+                    <form id="answer-form" method="POST" action="{% url 'home:answer' %}">
+                        {% csrf_token %}
+                        <label for = "question">Smart response</label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="question" name="question" value="{{ question }}">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="submit" id="sendbtn"  onclick="Loading()" ><i class="fas fa-location-arrow"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class = "form-group mt-10">
+                        <label for = "name">Smart response</label>
+                        <textarea class = "form-control" id="answer" name="answer" rows = "8">{{answer}}</textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn bg-yellow mt-4 pl-4 pr-4 item-right" onclick="CopyText()" id="copybtn">Copy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-1">
+                <div class="helpful-part content-center">
+                    <legend class="mb-4">How helpful was it</legend>
+                    <legend class="mb-4">Helpful</legend>
+                    <legend class="mb-4">Not helpful</legend>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+{% endblock content %}
+
+{% block scripts %}
+    <script>
+        function CopyText() {
+            var text = document.getElementById('answer')
+            text.select();
+            document.execCommand('copy')
+        }
+    </script>
+    <script>
+        function Loading() {
+            var btn = document.getElementById('sndbtn')
+            btn.disabled= true
+            var form = document.getElementById('answer-form')
+            form.submit()
+        }
+    </script>
+    <script>
+        let answer = document.getElementById('answer');
+        let btn = document.getElementById('copybtn');
+        if(!answer.value)
+            btn.disabled=true
+        let senbtn = document.getElementById('sendbtn');
+        let question = document.getElementById('question');
+        if(!question.value)
+            senbtn.disabled=true
+        question.addEventListener('change', ()=>{
+            if(!question.value)
+                senbtn.disabled=true
+            else
+                senbtn.disabled=false
+        });
+    </script>
+{% endblock scripts %}

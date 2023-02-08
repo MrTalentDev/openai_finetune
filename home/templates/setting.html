@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+{% block content %}   
+    <div class="container my-bg">
+      <div class="row">
+        <div class="col col-md-3 col-sm-6 content-center">
+            <legend class="mb-4 mt-5 subtitle">SmartResponse</legend>
+            <div>
+                <fieldset class="form-group sidbar-subtitle">
+                    Question
+                </fieldset>
+                <legend class="mb-4 sidebar-description">
+
+                    <p>*simply put the main documentation page link your company has and we will take case of the rest.
+                    </p>
+                    e.g. 
+                    <p>
+                        https://www.twillo.com/docs
+                    </p>
+                    <p>
+                        https://stripe.com/docs
+                    </p>
+                </legend>
+            </div>
+            <div class="sidebar-action">
+                <a class="btn mt-4 pl-4 pr-4 full" href="{% url 'home:answer' %}" >Get Answer</a>
+                <a class="btn bg-purple mt-4 pl-4 pr-4 full" href="{% url 'home:setting' %}" >Setting</a>
+            </div>
+        </div>
+        <div class="col col-9">
+            <div class="home-content-setting">
+                {% if model_id %}
+                <div class="alert alert-success">
+                    {{ model_id }}
+                </div>
+                {% endif %}
+                <form id="setting-form" method="POST" action="{% url 'home:setting' %}">
+                    {% csrf_token %}
+                    <fieldset class="form-group">
+                        <div class="form-group">
+                            <label class="content-label" for="password">Documentation URL</label>
+                            <input type="text" class="form-control" id="doc_url" name="doc_url" required value={{ doc_url }} >
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group">
+                        <button class="btn bg-yellow mt-4 pl-4 pr-4 item-right" id="updatebtn" type="submit" onclick="Loading()" >Update</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </div>
+        
+    </div> 
+
+{% endblock content %}
+
+{% block scripts %}
+    <script>
+        function Loading() {
+            var btn = document.getElementById('updatebtn')
+            btn.disabled= true
+            var form = document.getElementById('setting-form')
+            form.submit()
+            
+        }
+    </script>
+    <script>
+        $(document).ready(function() { 
+            $('#updatebtn').click(function() { 
+                $.blockUI({ css: { 
+                    border: 'none', 
+                    padding: '15px', 
+                    backgroundColor: '#000', 
+                    '-webkit-border-radius': '10px', 
+                    '-moz-border-radius': '10px', 
+                    opacity: .5, 
+                    color: '#fff' 
+                } }); 
+            }); 
+        }); 
+        
+    </script>
+{% endblock scripts %}
