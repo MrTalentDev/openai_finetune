@@ -119,5 +119,7 @@ def completion(modelID, prompt):
         temperature=0
     )
     print("answer---------", answer.choices[0].text)
-    return answer.choices[0].text.strip()
+    if answer.choices[0].text.find("###") > 0:
+        return answer.choices[0].text.split("###")[1].strip().split("\n")[0]
+    return answer.choices[0].text
 # main("")
