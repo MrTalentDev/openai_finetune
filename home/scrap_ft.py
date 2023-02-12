@@ -6,7 +6,6 @@ import json
 import re
 import os
 from subprocess import PIPE, run
-# openai.api_key = "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"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 file_name = "training_data.jsonl"
 
@@ -61,7 +60,7 @@ def scrapFromURL(url:str)->str:
             continue
         if aList[i].get("href")[0] == '/' or aList[i].get("href").find(baseURL) > 0:
             print('scraping related url', baseURL + aList[i].get("href"))
-            resultStr += BeautifulSoup(requests.get(baseURL + aList[i].get("href")).content, 'html.parser').get_text() + "-"*77
+            resultStr += BeautifulSoup(requests.get(baseURL + aList[i].get("href")).content, 'html.parser').get_text()
         i += 1
     return resultStr
 def createTrainData(questionArrayStr, answerArrayStr, userID):
@@ -84,8 +83,6 @@ def out(command):
     result = run(command, stdout=PIPE, stderr=PIPE, universal_newlines=True, shell=True)
     return result.stdout
 def main( doc_url, userID ):
-    
-
     Tcontext = scrapFromURL(doc_url)
     Tcontext = Tcontext.strip()
     Tcontext = "".join(re.findall("[a-zA-Z 0-9:!@#$%^&*?/,.<>\|';{}=+-_()]", Tcontext))
@@ -98,28 +95,34 @@ def main( doc_url, userID ):
         questionArrayStr = get_questions(context)
         answerArrayStr = get_answers(context, questionArrayStr)
         createTrainData(questionArrayStr, answerArrayStr, userID)
-    print("fine tune started!!!")
-    fineTuneConfirm = out("openai api fine_tunes.create -t " + userID + "-training_data.jsonl -m davinci")
-
+    print("fine tune started!!!",)
+    try:
+        fineTuneConfirm = out("openai api fine_tunes.create -t " + userID + "-training_data.jsonl -m davinci")
+    except:
+        return {"code": 500, "message": "failed", "body": "Install openai"}
     while fineTuneConfirm.find("succeeded") < 0:
         print("#########", fineTuneConfirm.split("\n"))
         fineTuneConfirm = out(fineTuneConfirm.split("\n")[-3])
         
     print("***********", fineTuneConfirm.split("\n"), "=======", fineTuneConfirm.split("\n")[-4])
-    return fineTuneConfirm.split("\n")[-4].split(":")[-2] + ":" + fineTuneConfirm.split("\n")[-4].split(":")[-1]
+    return {"code": 200, "message": "success", "body": fineTuneConfirm.split("\n")[-4].split(":")[-2] + ":" + fineTuneConfirm.split("\n")[-4].split(":")[-1]}
 def completion(modelID, prompt):
     print("modelID:", modelID)
     if modelID == "":
         modelID = "text-davinci-003"
-    answer = openai.Completion.create(
-        model=modelID,
-        prompt=prompt,
-        # top_p=1,
-        max_tokens=256, # Change amount of tokens for longer completion
-        temperature=0
-    )
+    try:
+        answer = openai.Completion.create(
+            model=modelID,
+            prompt=prompt,
+            # top_p=1,
+            max_tokens=256, # Change amount of tokens for longer completion
+            temperature=0
+        )
+    except Exception as ex:
+        return {"code": 500, "message": "failed", "body": type(ex).__name__}
     print("answer---------", answer.choices[0].text)
     if answer.choices[0].text.find("###") > 0:
-        return answer.choices[0].text.split("###")[1].strip().split("\n")[0]
-    return answer.choices[0].text
+        return {"code": 200, "message": "success", "body": answer.choices[0].text.split("###")[1].strip().split("\n")[0]}
+    return {"code": 200, "message": "success", "body": answer.choices[0].text}
+    
 # main("")

@@ -1,0 +1,1 @@
+/usr/bin/python3 /home/jeraldo/scraping-finetune/manage.py runserver

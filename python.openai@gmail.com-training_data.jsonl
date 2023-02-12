@@ -1,0 +1,58 @@
+{"prompt": "What is necessary to enable full functionality of this site?\n\n###\n\n", "completion": "Enabling JavaScript\n"}
+{"prompt": "How can I enable JavaScript in my web browser?\n\n###\n\n", "completion": "Follow the instructions\n"}
+{"prompt": "What are the instructions for enabling JavaScript in my web browser?\n\n###\n\n", "completion": "Instructions on how to enable JavaScript in your web browser\n"}
+{"prompt": "What is necessary to enable full functionality of this site?\n\n###\n\n", "completion": "Enabling JavaScript\n"}
+{"prompt": "How can I enable JavaScript in my web browser?\n\n###\n\n", "completion": "Follow the instructions\n"}
+{"prompt": "What are the instructions for enabling JavaScript in my web browser?\n\n###\n\n", "completion": "Instructions on how to enable JavaScript in your web browser\n"}
+{"prompt": "What is necessary to enable full functionality of this site?\n\n###\n\n", "completion": "Enabling JavaScript\n"}
+{"prompt": "How can I enable JavaScript in my web browser?\n\n###\n\n", "completion": "Follow the instructions\n"}
+{"prompt": "What are the instructions for enabling JavaScript in my web browser?\n\n###\n\n", "completion": "Instructions on how to enable JavaScript in your web browser\n"}
+{"prompt": "What is necessary to enable full functionality of this site?\n\n###\n\n", "completion": "Enabling JavaScript\n"}
+{"prompt": "How can I enable JavaScript in my web browser?\n\n###\n\n", "completion": "Follow the instructions\n"}
+{"prompt": "What are the instructions for enabling JavaScript in my web browser?\n\n###\n\n", "completion": "Instructions on how to enable JavaScript in your web browser\n"}
+{"prompt": "What is necessary to enable full functionality of this site?\n\n###\n\n", "completion": "Enabling JavaScript\n"}
+{"prompt": "How can I enable JavaScript in my web browser?\n\n###\n\n", "completion": "Follow the instructions\n"}
+{"prompt": "What are the instructions for enabling JavaScript in my web browser?\n\n###\n\n", "completion": "Instructions on how to enable JavaScript in your web browser\n"}
+{"prompt": "What is necessary to enable full functionality of this site?\n\n###\n\n", "completion": "It is necessary to enable JavaScript.\n"}
+{"prompt": "How can I enable JavaScript in my web browser?\n\n###\n\n", "completion": "Enable JavaScript in your web browser.\n"}
+{"prompt": "What are the instructions for enabling JavaScript in my web browser?\n\n###\n\n", "completion": "Here are the instructions how to enable JavaScript in your web browser.\n"}
+{"prompt": "What is the Stripe logo?\n\n###\n\n", "completion": "An image of the Stripe logo\n"}
+{"prompt": "What products does Stripe offer?\n\n###\n\n", "completion": "Payments, Business operations, Financial services, Developer tools, No-code\n"}
+{"prompt": "How do I get started with payments on Stripe?\n\n###\n\n", "completion": "Explore our guides and examples to integrate Stripe\n"}
+{"prompt": "What are test API keys?\n\n###\n\n", "completion": "Keys used to access the Stripe API for testing purposes\n"}
+{"prompt": "What is a test card number?\n\n###\n\n", "completion": "4242 4242 4242 4242\n"}
+{"prompt": "How can I sell and get paid online with Stripe?\n\n###\n\n", "completion": "Use a prebuilt checkout page, Set up the customer portal\n"}
+{"prompt": "How do I set up recurring payments with Stripe?\n\n###\n\n", "completion": "Set up recurring payments\n"}
+{"prompt": "What is the Stripe hosted checkout page?\n\n###\n\n", "completion": "A prebuilt checkout page\n"}
+{"prompt": "How do I create a pricing table with Stripe?\n\n###\n\n", "completion": "Create pricing table\n"}
+{"prompt": "Where can I find the API reference for developers on Stripe?\n\n###\n\n", "completion": "API reference\n"}
+{"prompt": "How do I build a custom payment flow on Stripe?\n\n###\n\n", "completion": "Development quickstart\n"}
+{"prompt": "What is the guide for?\n\n###\n\n", "completion": "Integrate Stripe's payments APIs\n"}
+{"prompt": "What are the options for getting started quickly without code?\n\n###\n\n", "completion": "Most popular, Online, In-person, Subscriptions, Invoicing\n"}
+{"prompt": "How can I accept online payments?\n\n###\n\n", "completion": "Build a payment form or use a prebuilt checkout page\n"}
+{"prompt": "How do I set up recurring billing for my business?\n\n###\n\n", "completion": "Set up recurring billing for your SaaS or e-commerce business\n"}
+{"prompt": "How do I set up my bank account to receive payouts?\n\n###\n\n", "completion": "Set up your bank account to receive payouts\n"}
+{"prompt": "What is Stripe Connect used for?\n\n###\n\n", "completion": "Build a platform, marketplace, or any two-sided business with Stripe Connect; facilitate direct payments between other businesses and their own customers\n"}
+{"prompt": "How can I add money and pay out my sellers or service providers without code?\n\n###\n\n", "completion": "Use top-ups to add money and pay out your sellers or service providers\n"}
+{"prompt": "What platforms are available to accept payments directly?\n\n###\n\n", "completion": "Web, iOS, Android\n"}
+{"prompt": "What is Mobile Web?\n\n###\n\n", "completion": "Mobile Web is a web page or website designed to be viewed on a mobile device such as a smartphone or tablet.\n"}
+{"prompt": "What is prebuilt checkout form?\n\n###\n\n", "completion": "A prebuilt checkout form is a form that has been pre-built and can be used to quickly and easily accept payments from customers.\n"}
+{"prompt": "How do cards work online step by step?\n\n###\n\n", "completion": "See how a credit or debit card payment works online step by step by entering the card information, verifying the payment, and completing the transaction.\n"}
+{"prompt": "How do you set up your bank account to receive payouts?\n\n###\n\n", "completion": "Set up your bank account to receive payouts by providing your bank account information and verifying it with your financial institution.\n"}
+{"prompt": "How do you identify causes and build automatic retries?\n\n###\n\n", "completion": "Identify causes and build automatic retries by analyzing failed payments and creating automated processes to retry them.\n"}
+{"prompt": "How do you send email receipts?\n\n###\n\n", "completion": "Send email receipts built by us or customized by creating custom templates for email receipts that can be sent to customers after they make a purchase.\n"}
+{"prompt": "How do you refund or cancel customers payments and avoid disputes?\n\n###\n\n", "completion": "Refund or cancel customers payments and avoid disputes by issuing refunds directly from the payment processor or canceling the payment before it is processed.\n"}
+{"prompt": "What are webhook events?\n\n###\n\n", "completion": "Webhook events are notifications sent when certain events occur in the payment process, such as when a customer makes a purchase or when a payment fails.\n"}
+{"prompt": "How do you integrate digital wallets like Alipay, Apple Pay, and Google Pay?\n\n###\n\n", "completion": "Integrate digital wallets like Alipay, Apple Pay, and Google Pay by connecting them to your payment processor so customers can use them to make payments.\n"}
+{"prompt": "What are the guides available for payment methods?\n\n###\n\n", "completion": "The guides available for payment methods include one-time payments, subscriptions, invoices, multiparty payments, in-person POS payments, bank debits, bank redirects, credit transfers, buy now pay later vouchers, wallets, managing payments, testing SCA regulation support, handling disputes, fraud prevention 3D Secure APIs Payment Intents Setup Intents Payment Methods Older APIs\n"}
+{"prompt": "What are the integrations available for payments?\n\n###\n\n", "completion": "The integrations available for payments include digital wallets like Alipay Apple Pay Google Pay bank debits bank redirects credit transfers buy now pay later vouchers wallets\n"}
+{"prompt": "What are the payment methods available for customers to pay with other payment methods like bank debits or transfers?\n\n###\n\n", "completion": "The payment methods available for customers to pay with other payment methods like bank debits or transfers include digital wallets like Alipay Apple Pay Google Pay bank debits bank redirects credit transfers buy now pay later vouchers wallets.\n"}
+{"prompt": "What is the Stripe CLI?\n\n###\n\n", "completion": "Interact with Stripe from your terminal to bootstrap sample projects, send test mode API requests, and debug your integration.\n"}
+{"prompt": "What are the development environment quickstarts?\n\n###\n\n", "completion": "Get up and running with a Stripe integration in your preferred programming language.\n"}
+{"prompt": "What are libraries and UI components?\n\n###\n\n", "completion": "Use our client, server, and UI libraries to integrate with Stripe.\n"}
+{"prompt": "Where can you find sample integrations?\n\n###\n\n", "completion": "Browse and clone working sample integrations from GitHub.\n"}
+{"prompt": "How do you get Stripe in your editor?\n\n###\n\n", "completion": "Set up Stripe for Visual Studio Code.\n"}
+{"prompt": "Where can you view developer tutorials?\n\n###\n\n", "completion": "View developer tutorials in our video library.\n"}
+{"prompt": "What are Stripe Apps?\n\n###\n\n", "completion": "Embed custom user experiences directly in the Stripe Dashboard and orchestrate the Stripe API.\n"}
+{"prompt": "Where can you find the API reference?\n\n###\n\n", "completion": "View all backend API objects, methods, attributes, and responses.\n"}
+{"prompt": "Where can you find the Stripe.js reference?\n\n###\n\n", "completion": "Look up objects.\n"}

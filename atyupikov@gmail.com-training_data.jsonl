@@ -1,0 +1,140 @@
+{"prompt": "What is the Stripe logo?\n\n###\n\n", "completion": "An image of the Stripe logo\n"}
+{"prompt": "What products does Stripe offer?\n\n###\n\n", "completion": "Payments, Business operations, Financial services, Developer tools, No-code\n"}
+{"prompt": "How do I get started with payments on Stripe?\n\n###\n\n", "completion": "Explore our guides and examples to integrate Stripe\n"}
+{"prompt": "What are test API keys?\n\n###\n\n", "completion": "Keys used to access the Stripe API in test mode\n"}
+{"prompt": "What is a test card number?\n\n###\n\n", "completion": "4242 4242 4242 4242\n"}
+{"prompt": "How can I sell and get paid online with Stripe?\n\n###\n\n", "completion": "Use a prebuilt checkout page\n"}
+{"prompt": "How do I set up recurring payments with Stripe?\n\n###\n\n", "completion": "Set up recurring payments\n"}
+{"prompt": "What is the Stripe hosted checkout page?\n\n###\n\n", "completion": "A prebuilt checkout page\n"}
+{"prompt": "How do I create a pricing table with Stripe?\n\n###\n\n", "completion": "Create pricing table\n"}
+{"prompt": "Where can I find the API reference for developers on Stripe?\n\n###\n\n", "completion": "API reference\n"}
+{"prompt": "What is the development quickstart for developers on Stripe?\n\n###\n\n", "completion": "Development quickstart\n"}
+{"prompt": "How do I start a payment on Stripe?\n\n###\n\n", "completion": "Start a payment\n"}
+{"prompt": "How do I issue coupons on Stripe?\n\n###\n\n", "completion": "Issue coupons\n"}
+{"prompt": "What is the Stripe logo?\n\n###\n\n", "completion": "An image of the Stripe logo\n"}
+{"prompt": "What products does Stripe offer?\n\n###\n\n", "completion": "Payments, Business operations, Financial services, Developer tools, No-code\n"}
+{"prompt": "How do I get started with payments on Stripe?\n\n###\n\n", "completion": "Explore our guides and examples to integrate Stripe\n"}
+{"prompt": "How do I test API keys on Stripe?\n\n###\n\n", "completion": "Sign in or create an account to load your test API keys\n"}
+{"prompt": "What test cards can I use on Stripe?\n\n###\n\n", "completion": "4242 4242 4242 4242\n"}
+{"prompt": "What are some no-code options for selling and getting paid online with Stripe?\n\n###\n\n", "completion": "Sell and get paid online, Invoice clients and customers, Set up recurring payments, Use a prebuilt checkout page, Set up the customer portal, Create pricing table\n"}
+{"prompt": "How do I set up recurring payments with Stripe?\n\n###\n\n", "completion": "Set up recurring payments with Stripe\n"}
+{"prompt": "What is the Stripe hosted checkout page?\n\n###\n\n", "completion": "A prebuilt checkout page\n"}
+{"prompt": "Where can I find the API reference for developers on Stripe?\n\n###\n\n", "completion": "API reference on Stripe's website\n"}
+{"prompt": "How do I start a payment on Stripe?\n\n###\n\n", "completion": "Start a payment on Stripe's website\n"}
+{"prompt": "What is yBanking-as-a-service?\n\n###\n\n", "completion": "yBanking-as-a-service is a financial service that provides linked financial account data.\n"}
+{"prompt": "What is Financial Connections?\n\n###\n\n", "completion": "Financial Connections is a service that links financial accounts.\n"}
+{"prompt": "How do I contact you?\n\n###\n\n", "completion": "You can contact us by using the Questions? Contact us link on the page.\n"}
+{"prompt": "Where can I watch developer tutorials?\n\n###\n\n", "completion": "You can watch developer tutorials on the page.\n"}
+{"prompt": "Where can I find the product changelog?\n\n###\n\n", "completion": "You can find the product changelog on the page.\n"}
+{"prompt": "What is Markdoc?\n\n###\n\n", "completion": "Markdoc is a platform that powers yBanking-as-a-service.\n"}
+{"prompt": "How do I sign up for developer updates?\n\n###\n\n", "completion": "You can sign up for developer updates by using the Sign up link on the page.\n"}
+{"prompt": "Can I unsubscribe at any time?\n\n###\n\n", "completion": "Yes, you can unsubscribe at any time.\n"}
+{"prompt": "Where can I read the privacy policy?\n\n###\n\n", "completion": "You can read the privacy policy on the page.\n"}
+{"prompt": "What is Stripe Shell?\n\n###\n\n", "completion": "Stripe Shell is a browser-based shell with the Stripe CLI pre-installed.\n"}
+{"prompt": "How do I start managing my Stripe resources in test mode?\n\n###\n\n", "completion": "You can start managing your Stripe resources in test mode by logging into Stripedocs and pressing Control + Backtick on your keyboard.\n"}
+{"prompt": "What is the Stripe logo?\n\n###\n\n", "completion": "An image of the Stripe logo\n"}
+{"prompt": "What are some examples of how to integrate Stripe?\n\n###\n\n", "completion": "Explore our guides and examples to integrate Stripe\n"}
+{"prompt": "What are test API keys?\n\n###\n\n", "completion": "Load your test API keys by signing in or creating an account\n"}
+{"prompt": "What are test cards?\n\n###\n\n", "completion": "4242 4242 4242 4242\n"}
+{"prompt": "What can you do with Stripe hosted?\n\n###\n\n", "completion": "Use a prebuilt checkout page, set up the customer portal, create pricing table\n"}
+{"prompt": "What is the API reference?\n\n###\n\n", "completion": "API reference for developers\n"}
+{"prompt": "How do you start a payment with Stripe?\n\n###\n\n", "completion": "Start a payment with Stripe using the development quickstart\n"}
+{"prompt": "How do you issue coupons with Stripe?\n\n###\n\n", "completion": "Issue coupons with Stripe using the development quickstart\n"}
+{"prompt": "How do you manage taxes with Stripe?\n\n###\n\n", "completion": "Manage taxes with Stripe by signing in to edit real requests\n"}
+{"prompt": "What is Stripe Elements?\n\n###\n\n", "completion": "Stripe Elements is a pre-built UI component library that helps you securely collect credit card and other sensitive information from your customers.\n"}
+{"prompt": "What is the purpose of the APIs?\n\n###\n\n", "completion": "The purpose of the APIs is to facilitate payments and money transfers between businesses and their customers.\n"}
+{"prompt": "What kind of regulation support does Stripe offer?\n\n###\n\n", "completion": "Stripe offers compliance support for PCI DSS, GDPR, SCA, and other regulations.\n"}
+{"prompt": "Where can I find implementation guides for Stripe?\n\n###\n\n", "completion": "Implementation guides for Stripe can be found on the Stripe website.\n"}
+{"prompt": "What options are available for getting started quickly without code?\n\n###\n\n", "completion": "Options for getting started quickly without code include using a prebuilt checkout page or using top-ups to add money.\n"}
+{"prompt": "How can I accept online payments with Stripe?\n\n###\n\n", "completion": "Online payments can be accepted by building a payment form or using a prebuilt checkout page.\n"}
+{"prompt": "How do I set up recurring billing for my business?\n\n###\n\n", "completion": "Subscriptions can be set up to enable recurring billing for SaaS or e-commerce businesses.\n"}
+{"prompt": "How do I set up my bank account to receive payouts from Stripe?\n\n###\n\n", "completion": "Bank accounts can be set up to receive payouts from Stripe.\n"}
+{"prompt": "How can I build a platform, marketplace, or two-sided business with Stripe Connect?\n\n###\n\n", "completion": "Platforms, marketplaces, or two-sided businesses can be built with Stripe Connect by collecting payments then paying out.\n"}
+{"prompt": "Can I use top-ups to add money with no code required?\n\n###\n\n", "completion": "Yes, top-ups can be used to add money with no code required.\n"}
+{"prompt": "How can businesses accept payments directly?\n\n###\n\n", "completion": "Businesses can accept payments directly by facilitating direct payments between themselves and their customers.\n"}
+{"prompt": "What is Connect?\n\n###\n\n", "completion": "Connect is a payment platform that allows you to accept money and pay out your sellers or service providers.\n"}
+{"prompt": "What are the platforms available for a sample project?\n\n###\n\n", "completion": "The platforms available for a sample project are Web, iOS, and Android.\n"}
+{"prompt": "How do credit or debit card payments work online?\n\n###\n\n", "completion": "Credit or debit card payments work online step by step.\n"}
+{"prompt": "How do you set up your bank account to receive payouts?\n\n###\n\n", "completion": "You set up your bank account to receive payouts by setting up the bank account with Connect.\n"}
+{"prompt": "How do you send email receipts?\n\n###\n\n", "completion": "Email receipts can be built by Connect or customized.\n"}
+{"prompt": "What are webhook events?\n\n###\n\n", "completion": "Webhook events are notifications about payment events that trigger actions.\n"}
+{"prompt": "What payment methods can be integrated with Connect?\n\n###\n\n", "completion": "Payment methods that can be integrated with Connect include digital wallets like Alipay, Apple Pay, Google Pay, bank debits, bank redirects, credit transfers, buy now pay later vouchers, and wallets.\n"}
+{"prompt": "What is the Stripe Shell best experienced on?\n\n###\n\n", "completion": "desktop\n"}
+{"prompt": "What is the image of the Stripe logo?\n\n###\n\n", "completion": "Create account\n"}
+{"prompt": "What are some of the developer tools offered by Stripe?\n\n###\n\n", "completion": "APIs & SDKs, Support, Fraud detection, Payment authentication reports, Revenue recognition, Startup incorporation, Climate, Identity, Tax, Financial Connections\n"}
+{"prompt": "What is Radar used for?\n\n###\n\n", "completion": "prevent fraud\n"}
+{"prompt": "What kind of financial reports can be generated with Stripe?\n\n###\n\n", "completion": "Dashboard, financial reports\n"}
+{"prompt": "What is Stripe Sigma?\n\n###\n\n", "completion": "Stripe Sigma is a tool to let accounting teams view and understand payment data in the browser.\n"}
+{"prompt": "How can I use the Dashboard to automate accrual accounting?\n\n###\n\n", "completion": "Use the Dashboard to automate accrual accounting with configurable revenue reporting.\n"}
+{"prompt": "What services does Stripe Atlas provide?\n\n###\n\n", "completion": "Stripe Atlas provides services to incorporate your startup and issue stock to founders.\n"}
+{"prompt": "What financial services does Stripe offer?\n\n###\n\n", "completion": "Stripe offers financial services, like corporate cards and loans.\n"}
+{"prompt": "How can I manage disputes to protect my business?\n\n###\n\n", "completion": "Manage disputes to protect your business from fines.\n"}
+{"prompt": "How can I set up payouts to sellers, freelancers, or service providers?\n\n###\n\n", "completion": "Set up payouts to sellers, freelancers, or service providers instantly or manually.\n"}
+{"prompt": "How can I create payment cards for couriers?\n\n###\n\n", "completion": "Create payment cards for couriers, or use cards to pay sellers and service providers quickly.\n"}
+{"prompt": "How can I verify my user's identity documents?\n\n###\n\n", "completion": "Increase th verification of user's identity documents.\n"}
+{"prompt": "What is the Stripe logo?\n\n###\n\n", "completion": "An image of the Stripe logo\n"}
+{"prompt": "What are the products offered by Stripe?\n\n###\n\n", "completion": "Payments, Business operations, Financial services, Developer tools, No-code\n"}
+{"prompt": "What is Stripe CLI?\n\n###\n\n", "completion": "Interact with Stripe from your terminal to bootstrap sample projects, send test mode API requests, and debug your integration.\n"}
+{"prompt": "What are the development environment quickstarts offered by Stripe?\n\n###\n\n", "completion": "Get up and running with a Stripe integration in your preferred programming language.\n"}
+{"prompt": "What libraries and UI components does Stripe offer?\n\n###\n\n", "completion": "Client, server, and UI libraries\n"}
+{"prompt": "Where can I find sample integrations for Stripe?\n\n###\n\n", "completion": "GitHub\n"}
+{"prompt": "How do I set up Stripe for Visual Studio Code?\n\n###\n\n", "completion": "Set up Stripe for Visual Studio Code by downloading the VS Code extension.\n"}
+{"prompt": "Where can I find developer tutorials?\n\n###\n\n", "completion": "Developer tutorials can be found in the video library.\n"}
+{"prompt": "What is the Stripe Dashboard?\n\n###\n\n", "completion": "The Stripe Dashboard is used to embed custom user experiences and orchestrate the Stripe API.\n"}
+{"prompt": "Where can I find the API reference?\n\n###\n\n", "completion": "The API reference can be found by viewing all backend API objects, methods, attributes, and responses.\n"}
+{"prompt": "What objects and methods are available in Stripe.js?\n\n###\n\n", "completion": "Objects and methods available in Stripe.js can be looked up in the browser-side JavaScript library.\n"}
+{"prompt": "How do I test my payments integration?\n\n###\n\n", "completion": "Test payments integration using test payment cards to prepare for different scenarios.\n"}
+{"prompt": "What should I do to ensure a smooth transition when taking my integration live?\n\n###\n\n", "completion": "Complete a go-live checklist to ensure a smooth transition when taking your integration live.\n"}
+{"prompt": "What are webhooks used for?\n\n###\n\n", "completion": "Webhooks are used to listen for events on your Stripe account and trigger reactions.\n"}
+{"prompt": "How can I keep track of changes and upgrades to the Stripe API?\n\n###\n\n", "completion": "Keep track of changes and upgrades to the Stripe API by referring to the API upgrades and changelog.\n"}
+{"prompt": "What are common error codes and how can they be resolved?\n\n###\n\n", "completion": "Common error codes can be resolved by learning more about them in the error codes section of the documentation.\n"}
+{"prompt": "What are API rate limits and how do I work with them?\n\n###\n\n", "completion": "API rate limits can be worked with by learning more about them in the rate limits section of the documentation.\n"}
+{"prompt": "What is Data Availability?\n\n###\n\n", "completion": "Data Availability refers to how data is stored and accessed.\n"}
+{"prompt": "What is the API data availability?\n\n###\n\n", "completion": "API data availability is the ability to access data.\n"}
+{"prompt": "How can I access data?\n\n###\n\n", "completion": "Data can be accessed through developer tools, YouTube tutorials, and Twitter updates.\n"}
+{"prompt": "Where can I watch developer tutorials?\n\n###\n\n", "completion": "Developer tutorials can be watched on Stripe's YouTube channel.\n"}
+{"prompt": "How do I sign up for the developer newsletter?\n\n###\n\n", "completion": "Sign up for the developer newsletter by visiting Stripe's website.\n"}
+{"prompt": "Where can I follow Stripe on Twitter?\n\n###\n\n", "completion": "Follow Stripe on Twitter to get updates and join their community.\n"}
+{"prompt": "Where can I chat live with other developers?\n\n###\n\n", "completion": "Chat live with other developers on the official Stripe Discord.\n"}
+{"prompt": "How can I tell Stripe about my experience with their developer tools?\n\n###\n\n", "completion": "Tell us about your experience with Stripe developer tools by submitting feedback on their website.\n"}
+{"prompt": "What questions do I have about joining the Stripe Partner Program?\n\n###\n\n", "completion": "Questions about joining the Stripe Partner Program can be answered by visiting their website or contacting them directly.\n"}
+{"prompt": "Was this page helpful?\n\n###\n\n", "completion": "Yes/No\n"}
+{"prompt": "Where can I watch Stripe's developer tutorials?\n\n###\n\n", "completion": "Watch Stripe's developer tutorials on their YouTube channel.\n"}
+{"prompt": "Where can I check out Stripe's product changelog?\n\n###\n\n", "completion": "Check out Stripe's product changelog by visiting their website.\n"}
+{"prompt": "How do I sign up for developer updates from Stripe?\n\n###\n\n", "completion": "Sign up for developer updates from Stripe by visiting their website and subscribing to their newsletter.\n"}
+{"prompt": "What is the Stripe Shell?\n\n###\n\n", "completion": "The Stripe Shell is a command line interface that allows developers to test code in a simulated environment.\n"}
+{"prompt": "What is the customer portal?\n\n###\n\n", "completion": "The customer portal is a portal that Stripe hosts that lets customers manage their billing and accounts.\n"}
+{"prompt": "What does PayoutsPay out money do?\n\n###\n\n", "completion": "PayoutsPay out money allows you to pay out money.\n"}
+{"prompt": "What are no-code options for using Stripe?\n\n###\n\n", "completion": "No-code options for using Stripe include creating reusable links to sell your product, designing branded invoices that your customers can pay and manage online, subscribing customers to your service, managing billing options, creating a hosted invoice page, and setting up the customer portal.\n"}
+{"prompt": "How can I accept payments?\n\n###\n\n", "completion": "You can accept payments by creating reusable links to sell your product and sharing them across channels.\n"}
+{"prompt": "How can I invoice clients and customers?\n\n###\n\n", "completion": "You can invoice clients and customers by designing branded invoices that they can pay and manage online.\n"}
+{"prompt": "How can I set up recurring payments?\n\n###\n\n", "completion": "You can set up recurring payments by subscribing customers to your service and managing billing options.\n"}
+{"prompt": "How can I host my customer experience on Stripe?\n\n###\n\n", "completion": "You can host your customer experience on Stripe by creating a hosted invoice page and setting up the customer portal.\n"}
+{"prompt": "How can I create a hosted invoice page?\n\n###\n\n", "completion": "You can create a hosted invoice page by letting your customers pay and download their invoices.\n"}
+{"prompt": "How can I set up the customer portal?\n\n###\n\n", "completion": "You can set up the customer portal by letting your customers manage their billing and accounts through a portal that Stripe hosts.\n"}
+{"prompt": "How can I create a pricing table?\n\n###\n\n", "completion": "You can create a pricing table with some code or design a custom pricing table.\n"}
+{"prompt": "What are some ways to use Stripe?\n\n###\n\n", "completion": "Explore more ways to use Stripe, browse Stripe partners, add Stripe Apps to your Dashboard\n"}
+{"prompt": "What tools can be found in the Stripe Dashboard?\n\n###\n\n", "completion": "Business tools like customer management and accounting systems\n"}
+{"prompt": "Is coding required to set up a website, shopping cart, and payments with Squarespace and ThriveCart?\n\n###\n\n", "completion": "No coding required\n"}
+{"prompt": "How do you access the Stripe Shell?\n\n###\n\n", "completion": "Login to Stripedocs and press Control + Backtick on your keyboard\n"}
+{"prompt": "What commands are supported in the Stripe Shell?\n\n###\n\n", "completion": "Help\n"}
+{"prompt": "What is the Stripe Shell?\n\n###\n\n", "completion": "The Stripe Shell is best experienced on desktop.\n"}
+{"prompt": "Where can I find Stripe Documentation?\n\n###\n\n", "completion": "Stripe Documentation can be found on the Stripe homepage.\n"}
+{"prompt": "How do I sign in to Stripe?\n\n###\n\n", "completion": "Sign in to Stripe by creating an account or signing in with an existing account.\n"}
+{"prompt": "What are test API keys?\n\n###\n\n", "completion": "Test API keys are used to load your test API keys.\n"}
+{"prompt": "How do I set up recurring payments with Stripe?\n\n###\n\n", "completion": "Set up recurring payments with Stripe by using a prebuilt checkout page, setting up the customer portal, or creating a pricing table.\n"}
+{"prompt": "What are the most popular payment options?\n\n###\n\n", "completion": "Online, In-person, Subscriptions, Invoicing\n"}
+{"prompt": "How do I accept online payments?\n\n###\n\n", "completion": "Build a payment form or use a prebuilt checkout page to accept online payments.\n"}
+{"prompt": "How do I set up a subscription?\n\n###\n\n", "completion": "Set up recurring billing for your SaaS or e-commerce business.\n"}
+{"prompt": "How do I receive payouts?\n\n###\n\n", "completion": "Set up your bank account to receive payouts.\n"}
+{"prompt": "How do I build a multiparty payment system?\n\n###\n\n", "completion": "Build a platform, marketplace, or any 'multiparty payment system'.\n"}
+{"prompt": "What is Stripe Connect?\n\n###\n\n", "completion": "Stripe Connect is a two-sided business that collects payments and pays out to sellers or service providers.\n"}
+{"prompt": "What does ConnectEnable businesses do?\n\n###\n\n", "completion": "ConnectEnable businesses to accept payments directly from their customers.\n"}
+{"prompt": "How can you add money and pay out your sellers or service providers?\n\n###\n\n", "completion": "Use top-ups to add money and pay out your sellers or service providers.\n"}
+{"prompt": "What platforms are available for a simple subscription?\n\n###\n\n", "completion": "Web, iOS, and Android are available for a simple subscription.\n"}
+{"prompt": "How does a credit or debit card payment work online step by step?\n\n###\n\n", "completion": "See how a credit or debit card payment works online step by step.\n"}
+{"prompt": "How do you set up your bank account to receive payouts?\n\n###\n\n", "completion": "Set up your bank account to receive payouts.\n"}
+{"prompt": "What are the options for sending email receipts?\n\n###\n\n", "completion": "Send email receipts built by us or customized.\n"}
+{"prompt": "How do you refund or cancel customers payments and avoid disputes?\n\n###\n\n", "completion": "Refund or cancel customers payments and avoid disputes.\n"}
+{"prompt": "What are webhook events used for?\n\n###\n\n", "completion": "Webhook events are used to get notified about payment events and trigger actions.\n"}
+{"prompt": "Which digital wallets can be integrated with payments?\n\n###\n\n", "completion": "Alipay, Apple Pay, and other digital wallets can be integrated with payments.\n"}
