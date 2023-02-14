@@ -6,6 +6,7 @@ from .scrap_ft import main, completion
 from .models import FineTunedModels
 from users.models import User 
 from django.views.generic.detail import DetailView
+from . import mqtt
 # import openai
 # openai.api_key = "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"
 # from .forms import SignUpForm
@@ -46,7 +47,7 @@ def answer(request):
 
 @login_required
 def setting(request):
-    # mqtt.client.loop_start()
+    mqtt.client.loop_start()
     usr = User.objects.filter(email=request.user).get()
     context = {
         'is_loading' : usr.is_loading,
