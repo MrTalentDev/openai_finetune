@@ -33,20 +33,29 @@
                     {{ model_id }}
                 </div>
                 {% endif %}
-                <form id="setting-form" method="POST" action="{% url 'home:setting' %}">
-                    {% csrf_token %}
+                <!-- <form id="setting-form" method="POST" action="{% url 'home:setting' %}">
+                    {% csrf_token %} -->
                     <fieldset class="form-group">
                         <div class="form-group">
                             <label class="content-label" for="password">Documentation URL</label>
-                            <input type="text" class="form-control" id="doc_url" name="doc_url" required value={{ doc_url }} >
+                            {% if is_loading %}
+                            <input type="text" class="form-control" id="doc_url" name="doc_url" disabled required value={{ loading_doc }} />
+                            {% else %}
+                            <input type="text" class="form-control" id="doc_url" name="doc_url" required />
+                            {% endif %}
+                            <input type="hidden" id="user" name="user" value={{ user }} />
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
                     </fieldset>
                     <div class="form-group">
-                        <button class="btn bg-yellow mt-4 pl-4 pr-4 item-right" id="updatebtn" type="submit" onclick="Loading()" >Update</button>
+                        {% if is_loading %}
+                        <input type="button" class="btn bg-yellow mt-4 pl-4 pr-4 item-right" id="updatebtn" value="Update" onclick="Loading()" disabled />
+                        {% else %}
+                        <input type="button" class="btn bg-yellow mt-4 pl-4 pr-4 item-right" id="updatebtn" value="Update" onclick="Loading()" />
+                        {% endif %}
                     </div>
-                </form>
+                <!-- </form> -->
             </div>
         </div>
       </div>
@@ -59,26 +68,30 @@
     <script>
         function Loading() {
             var btn = document.getElementById('updatebtn')
-            btn.disabled= true
-            var form = document.getElementById('setting-form')
-            form.submit()
-            
+            // btn.disabled= true
+            testpublish()
         }
     </script>
     <script>
-        $(document).ready(function() { 
-            $('#updatebtn').click(function() { 
-                $.blockUI({ css: { 
-                    border: 'none', 
-                    padding: '15px', 
-                    backgroundColor: '#000', 
-                    '-webkit-border-radius': '10px', 
-                    '-moz-border-radius': '10px', 
-                    opacity: .5, 
-                    color: '#fff' 
-                } }); 
-            }); 
-        }); 
-        
+        var count = 0;
+        var timer_id="_^_"
+        function testpublish() {
+            timer_id=setInterval(function(){publish();},1000);
+        }
+        function publish() {
+            if (client.connected == true){
+                payload = {
+                    doc_url: $("#doc_url").val(),
+                    user: $("#user").val()
+                }
+                var rc, mid = client.publish('django/request/setting',JSON.stringify(payload));
+                console.log('rc', rc, 'mid', mid)
+            }
+            if (++count>0) {
+                console.log(timer_id)
+                clearTimeout(timer_id); //stop timer
+                count=0
+            }
+        }
     </script>
 {% endblock scripts %}

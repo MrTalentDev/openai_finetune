@@ -92,20 +92,33 @@ def main( doc_url, userID ):
     result = []
     for i in range(math.ceil(len(Tcontext) / 1000)):
         context = Tcontext[i*1000:(i + 1)*1000]
-        questionArrayStr = get_questions(context)
-        answerArrayStr = get_answers(context, questionArrayStr)
-        createTrainData(questionArrayStr, answerArrayStr, userID)
-    print("fine tune started!!!",)
+        try:
+            questionArrayStr = get_questions(context)
+            answerArrayStr = get_answers(context, questionArrayStr)
+            createTrainData(questionArrayStr, answerArrayStr, userID)
+        except Exception as e:
+            pass
+    print("fine tune started!!!")
     try:
         fineTuneConfirm = out("openai api fine_tunes.create -t " + userID + "-training_data.jsonl -m davinci")
+        print('hehehehehehehehehehe')
     except:
-        return {"code": 500, "message": "failed", "body": "Install openai"}
+        print('gtr0-ey0re-y0e-y0-ey0-e0y-e0y-0-')
+        return {"code": 500, "message": "failed", "body": "please run \'pip install openai!\'"}
     while fineTuneConfirm.find("succeeded") < 0:
         print("#########", fineTuneConfirm.split("\n"))
         fineTuneConfirm = out(fineTuneConfirm.split("\n")[-3])
         
     print("***********", fineTuneConfirm.split("\n"), "=======", fineTuneConfirm.split("\n")[-4])
     return {"code": 200, "message": "success", "body": fineTuneConfirm.split("\n")[-4].split(":")[-2] + ":" + fineTuneConfirm.split("\n")[-4].split(":")[-1]}
+    # delay =200
+    # i = 0
+    # while i < delay :
+    #     print(i)
+    #     time.sleep(20)
+    #     i+=20
+    # return {"code": 200, "message": "success", "body": Tcontext}
+
 def completion(modelID, prompt):
     print("modelID:", modelID)
     if modelID == "":
