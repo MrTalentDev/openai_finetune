@@ -23,6 +23,12 @@ def on_disconnect(mqtt_client, userdata, rc):
 def newPublish(doc, user):
     # try:
     model_id = main(doc,user)
+    try:
+        FineTunedModels.objects.get(user_email=user)
+        FineTunedModels.objects.filter(user_email=user).update(model_id=model_id)
+    except FineTunedModels.DoesNotExist:
+        usr = FineTunedModels(user_email=user, model_id=model_id) # create new model instance
+        usr.save()
     data = {"code": 200, "message": "success", "body": model_id}
     # except Exception as e: 
         # data = {"code": 500, "message": "error", "body": "openai error"}
