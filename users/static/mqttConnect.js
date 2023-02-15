@@ -29,10 +29,14 @@ client.on('error', (error) => {
 client.on('message', (topic, message) => {
   console.log('receive message：', topic, message.toString())
   if (topic==="django/updated/setting/"+email) {
-    alert("Your resueste completed succefully. "+message.toString())
+    alert("Your request completed succefully. "+message.toString())
   }
   else if (topic==="django/response/setting/"+email) {
-    alert("Your resueste delivered succefully. ")
+    alert("Your request delivered succefully. ")
+  }
+  else if (topic==="django/progress/setting/"+email){
+    alert(message.toString())
+    $('#sample_goal').width(message.toString()+'%')
   }
 });
 
@@ -41,8 +45,9 @@ var topic="django/request/setting";
 // console.log("///////subscribing to topics");
 
 // client.subscribe(topic); //single topic
-client.subscribe("django/response/setting/"+email); //single topic
-client.subscribe("django/updated/setting/"+email); //single topic
+client.subscribe("django/response/setting/"+email); //receive response to update request
+client.subscribe("django/updated/setting/"+email); //receive model id after fine-tune finished
+client.subscribe("django/progress/setting/"+email); //receive progressive value
 // client.subscribe("django/response/setting/"+email); //single topic
 
 //notice this is printed even before we connect

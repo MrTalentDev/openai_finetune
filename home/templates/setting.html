@@ -33,6 +33,7 @@
                     {{ model_id }}
                 </div>
                 {% endif %}
+                <div id="sample_goal"></div>
                 <!-- <form id="setting-form" method="POST" action="{% url 'home:setting' %}">
                     {% csrf_token %} -->
                     <fieldset class="form-group">
@@ -68,9 +69,24 @@
     <script>
         function Loading() {
             var btn = document.getElementById('updatebtn')
-            // btn.disabled= true
+            var doc = document.getElementById('doc_url')
+            btn.disabled= true
+            doc.disabled= true
             testpublish()
         }
+
+        $(document).ready(function(){
+            $('#sample_goal').goalProgress({
+                goalAmount: 100,
+                currentAmount: 1,
+                speed: 100,
+                textBefore:'%',
+                textAfter:' raised.'
+            });
+        });
+
+</script>
+
     </script>
     <script>
         var count = 0;
@@ -84,8 +100,8 @@
                     doc_url: $("#doc_url").val(),
                     user: $("#user").val()
                 }
-                var rc, mid = client.publish('django/request/setting',JSON.stringify(payload));
-                console.log('rc', rc, 'mid', mid)
+                var mid = client.publish('django/request/setting',JSON.stringify(payload));
+                console.log('mid', mid)
             }
             if (++count>0) {
                 console.log(timer_id)
