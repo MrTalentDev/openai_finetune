@@ -42,6 +42,7 @@ client.on('message', (topic, message) => {
   else if (topic==="django/progress/setting/"+email){
     // alert(message.toString())
     inc(message.toString())
+    localStorage.setItem('progress', message.toString())
   }
 });
 
@@ -55,7 +56,7 @@ client.subscribe("django/progress/setting/"+email); //receive progressive value
 console.log("django/response/setting/"+email);
 
 function inc(width) {
-  interval = width == 100 ? 300 : 30000
+  interval = width == 100 ? 300 : 70000
   var id = setInterval(frame, interval);
   function frame() {
     var pro = document.getElementById('progress').style.width;
@@ -65,7 +66,6 @@ function inc(width) {
     } else {
       $('.progress-bar').width(pros+'%');
       $('.progress-bar').text(pros+'%');
-      localStorage.setItem('progress', width)
     }
   } 
 }

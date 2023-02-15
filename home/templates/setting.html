@@ -35,11 +35,11 @@
                 {% endif %}
                 {% if is_loading %}
                     <div class="progress" style="height:30px">
-                        <div id="progress" class="progress-bar progress-bar-striped progress-bar-animated bg-purple" style="width:30%;height:30px">30%</div>
+                        <div id="progress" class="progress-bar progress-bar-striped progress-bar-animated bg-purple" style="width:1%;height:30px">1%</div>
                     </div>
                 {% else %}
                     <div class="progress" style="height:0px">
-                        <div id="progress" class="progress-bar progress-bar-striped progress-bar-animated bg-purple" style="width:100%;height:30px">40%</div>
+                        <div id="progress" class="progress-bar progress-bar-striped progress-bar-animated bg-purple" style="width:1%;height:30px">1%</div>
                     </div>
                 {% endif %}
                 
@@ -79,15 +79,34 @@
             var doc = document.getElementById('doc_url')
             btn.disabled= true
             doc.disabled= true
+            localStorage.setItem('progress', '1');
             $('.progress').height('30px');
             testpublish()
         }
-        $(document).ready(function(){
-            width = localStorage.getItem('progress') ? localStorage.getItem('progress') : 1
-            $('.progress-bar').width(width+'%');
-        });
+        
 
     </script>
+    
+    {% if is_loading %}
+    <script>
+        $(document).ready(function(){
+            var id = setInterval(frame, 100);
+            width = 3
+            function frame() {
+                var pro = localStorage.getItem('progress');
+                var pros =parseInt(pro)
+                if (pros < width) {
+                clearInterval(id);
+                } else {
+                    width++;
+                    $('.progress-bar').width(width+'%');
+                        $('.progress-bar').text(width+'%');
+                }
+            } 
+        });
+    </script>
+    
+    {% endif %}
     <script>
         var count = 0;
         var timer_id="_^_"
@@ -110,4 +129,5 @@
             }
         }
     </script>
+
 {% endblock scripts %}
