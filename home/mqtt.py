@@ -5,7 +5,6 @@ from users.models import User
 from .models import FineTunedModels
 import json
 import time
-import concurrent.futures
 from threading import Thread
 from .mqtt_2 import client as mqtt_2_client
 
@@ -21,17 +20,28 @@ def on_disconnect(mqtt_client, userdata, rc):
     print('disconnected',rc)
 
 def newPublish(doc, user):
-    try:
-        model_id = main(doc,user)
+    # try:
+    time.sleep(1)
+    start_time = time.time()
+    finetuned = main(doc,user)
+    print("#####################",finetuned) 
+    print("--- %s seconds ---" % (time.time() - start_time))
+    if finetuned.get('code') == 200:
         try:
+            # print("#####################",finetuned.model_id) 
+            # print("#####################",finetuned.get('model_id')) 
             FineTunedModels.objects.get(user_email=user)
-            FineTunedModels.objects.filter(user_email=user).update(model_id=model_id)
+            FineTunedModels.objects.filter(user_email=user).update(model_id=finetuned.get('body'))
         except FineTunedModels.DoesNotExist:
-            usr = FineTunedModels(user_email=user, model_id=model_id) # create new model instance
+            usr = FineTunedModels(user_email=user, model_id=finetuned.get('body')) # create new model instance
             usr.save()
-        data = {"code": 200, "message": "success", "body": model_id}
-    except Exception as e: 
-        data = {"code": 500, "message": "error", "body": "openai error"}
+        except Exception as e:
+            print(e)
+        data = {"code": 200, "message": "success", "body": finetuned.get('body')}
+    elif finetuned.get('code') == 500:
+        data = {"code": 500, "message": "error", "body": finetuned.get('body')}
+    else :
+        data = {"code": 500, "message": "error", "body": "Error"}
 
     print(f'____________Web scrapping and Fine-Tuning is ended_______________')
     
@@ -47,37 +57,42 @@ def newPublish(doc, user):
             mqtt_2_client.reconnect()
     print(f'____________________Send Fine-Tuned Model Id_____________________')
     
-    User.objects.filter(email=user).update(is_loading=False, loading_doc='')
+    rs = User.objects.filter(email=user).update(is_loading=False, loading_doc='')
+    print('user table updated', rs)
+    
 def on_message(mqtt_client, userdata, msg):
     #1 receive request to update setting
     payload = json.loads(msg.payload)
     print("============================================================")
     print(payload)
     print("============================================================")
-    print(f'Received message on topic: {msg.topic} with payload: {msg.payload}')
+    # print(f'Received message on topic: {msg.topic} with payload: {msg.payload}')
     print(f'____________________Received Update Request______________________')
 
     # 2 send response to update request
     usr = User.objects.filter(email=payload['user']).get()
-    print('usr', usr.is_loading)
+    # print('usr', usr.is_loading)
     if usr.is_loading:
         resp = json.dumps({
+            'code': '500',
             'message': 'error',
-            'body': 'Now, server is fine-tuning your data'
+            'body': 'Now, server is fine-tuning on '+usr.loading_doc
         })
     else:
         resp = json.dumps({
+            'code': '200',
             'message': 'success',
             'body': 'Congratlation, Fine-Tuning started'
         })
         
         background_thread = Thread(target=newPublish, args=(payload['doc_url'],payload['user']))
         background_thread.start()
-    print('resp', resp)
-    User.objects.filter(email=payload['user']).update(is_loading=True, loading_doc=payload['doc_url'])
+        
+        User.objects.filter(email=payload['user']).update(is_loading=True, loading_doc=payload['doc_url'])
+    # print('resp', resp)
 
     rc, mid = mqtt_client.publish("django/response/setting/"+payload['user'], resp)
-    print('111rc',rc, 'mid', mid)
+    print('response ', 'rc', rc, 'mid', mid)
     print(f'________________Send Respond to Update Request___________________')
 
 client = mqtt.Client()

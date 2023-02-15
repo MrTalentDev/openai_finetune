@@ -6,6 +6,7 @@ import json
 import re
 import os
 from subprocess import PIPE, run
+from .mqtt_2 import client as mqtt_2_client
 openai.api_key = os.getenv("OPENAI_API_KEY")
 file_name = "training_data.jsonl"
 
@@ -83,10 +84,18 @@ def out(command):
     result = run(command, stdout=PIPE, stderr=PIPE, universal_newlines=True, shell=True)
     return result.stdout
 def main( doc_url, userID ):
-    Tcontext = scrapFromURL(doc_url)
+    pros=0
+    try:
+        Tcontext = scrapFromURL(doc_url)
+    except:
+        return {"code": 500, "message": "failed", "body": "We can't get data from your url"}
     Tcontext = Tcontext.strip()
     Tcontext = "".join(re.findall("[a-zA-Z 0-9:!@#$%^&*?/,.<>\|';{}=+-_()]", Tcontext))
     print('-------------Tcontext------------', Tcontext)
+    ## progress
+    pros+=4
+    rc, mid = mqtt_2_client.publish('django/progress/setting/'+userID, pros)
+    print(pros, '_rc',rc, 'mid', mid)    
     nToken = len(Tcontext.split())
     print('number of tokens', nToken)
     result = []
@@ -98,26 +107,32 @@ def main( doc_url, userID ):
             createTrainData(questionArrayStr, answerArrayStr, userID)
         except Exception as e:
             pass
+    ## progress
+    pros+=4
+    rc, mid = mqtt_2_client.publish('django/progress/setting/'+userID, pros)
+    print(pros, '_rc',rc, 'mid', mid)    
     print("fine tune started!!!")
     try:
         fineTuneConfirm = out("openai api fine_tunes.create -t " + userID + "-training_data.jsonl -m davinci")
-        print('hehehehehehehehehehe')
+        pros+=10
+        rc, mid = mqtt_2_client.publish('django/progress/setting/'+userID, pros)
+        print(pros, '_rc',rc, 'mid', mid)    
+        ## progress
     except:
-        print('gtr0-ey0re-y0e-y0-ey0-e0y-e0y-0-')
         return {"code": 500, "message": "failed", "body": "please run \'pip install openai!\'"}
     while fineTuneConfirm.find("succeeded") < 0:
         print("#########", fineTuneConfirm.split("\n"))
         fineTuneConfirm = out(fineTuneConfirm.split("\n")[-3])
-        
+        if pros<90:
+            pros+=10
+            rc, mid = mqtt_2_client.publish('django/progress/setting/'+userID, pros)
+            print(pros, '_rc',rc, 'mid', mid)  
+    ## 100%
+    pros=100
+    rc, mid = mqtt_2_client.publish('django/progress/setting/'+userID, pros)
+    print(pros, '_rc',rc, 'mid', mid)  
     print("***********", fineTuneConfirm.split("\n"), "=======", fineTuneConfirm.split("\n")[-4])
     return {"code": 200, "message": "success", "body": fineTuneConfirm.split("\n")[-4].split(":")[-2] + ":" + fineTuneConfirm.split("\n")[-4].split(":")[-1]}
-    # delay =200
-    # i = 0
-    # while i < delay :
-    #     print(i)
-    #     time.sleep(20)
-    #     i+=20
-    # return {"code": 200, "message": "success", "body": Tcontext}
 
 def completion(modelID, prompt):
     print("modelID:", modelID)

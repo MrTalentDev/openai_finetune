@@ -24,7 +24,6 @@ class HomeView(DetailView):
 @login_required
 def answer(request):
     if request.method == 'POST':
-        # form = SignUpForm(request.POST)
         form = request.POST
         question = form.get("question", "")
         model_id=""
@@ -39,8 +38,6 @@ def answer(request):
             
         answer = completion(model_id.strip(" "), question)
         print("=============", answer.get('code'))
-        # answer = "this is response"
-        # answer = json.loads(ans)
         context = {'question':question, 'answer':answer.get('body'), 'code':answer.get('code'), 'message':answer.get('message')}
         return render(request, 'answer.html', context)
     return render(request, 'answer.html')
