@@ -5,9 +5,16 @@ import math
 import json
 import re
 import os
+import smtplib
+from email.message import EmailMessage
 from subprocess import PIPE, run
+from django.conf import settings
+
 openai.api_key = os.getenv("OPENAI_API_KEY")
 file_name = "training_data.jsonl"
+
+msg = EmailMessage()
+msg.set_content("success!! Hello")
 
 def get_questions(context):
     print('context-----------', context)
@@ -83,6 +90,11 @@ def out(command):
     result = run(command, stdout=PIPE, stderr=PIPE, universal_newlines=True, shell=True)
     return result.stdout
 def main( doc_url, userID ):
+    print("sending!!!!!!!!!")
+    
+    email()
+    print("sent!!!!!!!!!")
+    return
     Tcontext = scrapFromURL(doc_url)
     Tcontext = Tcontext.strip()
     Tcontext = "".join(re.findall("[a-zA-Z 0-9:!@#$%^&*?/,.<>\|';{}=+-_()]", Tcontext))
@@ -137,5 +149,12 @@ def completion(modelID, prompt):
     if answer.choices[0].text.find("###") > 0:
         return {"code": 200, "message": "success", "body": answer.choices[0].text.split("###")[1].strip().split("\n")[0]}
     return {"code": 200, "message": "success", "body": answer.choices[0].text}
-    
+
+def email():
+    subject = 'SmartResponse'
+    message = ' Fine-tune is completed. Test your model. '
+    email_from = settings.EMAIL_HOST_USER
+    recipient_list = ['colleendlgd@gmail.com',]
+    send_mail( subject, message, email_from, recipient_list )
+    return
 # main("")
