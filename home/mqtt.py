@@ -51,9 +51,9 @@ def newPublish(doc, user):
 def on_message(mqtt_client, userdata, msg):
     #1 receive request to update setting
     payload = json.loads(msg.payload)
-    console.log("============================================================")
-    console.log(payload)
-    console.log("============================================================")
+    print("============================================================")
+    print(payload)
+    print("============================================================")
     print(f'Received message on topic: {msg.topic} with payload: {msg.payload}')
     print(f'____________________Received Update Request______________________')
 
