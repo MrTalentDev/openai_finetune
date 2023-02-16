@@ -47,7 +47,6 @@ def answer(request):
 
 @login_required
 def setting(request):
-    print("sssssssss")
     mqtt.client.loop_start()
     usr = User.objects.filter(email=request.user).get()
     context = {

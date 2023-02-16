@@ -33,20 +33,27 @@
                     {{ model_id }}
                 </div>
                 {% endif %}
-                <div id="sample_goal"></div>
+                {% if is_loading %}
+                    <div class="progress" style="height:30px">
+                        <div id="progress" class="progress-bar progress-bar-striped progress-bar-animated bg-purple" style="width:30%;height:30px">30%</div>
+                    </div>
+                {% else %}
+                    <div class="progress" style="height:0px">
+                        <div id="progress" class="progress-bar progress-bar-striped progress-bar-animated bg-purple" style="width:100%;height:30px">40%</div>
+                    </div>
+                {% endif %}
+                
                 <!-- <form id="setting-form" method="POST" action="{% url 'home:setting' %}">
                     {% csrf_token %} -->
                     <fieldset class="form-group">
                         <div class="form-group">
                             <label class="content-label" for="password">Documentation URL</label>
                             {% if is_loading %}
-                            <input type="text" class="form-control" id="doc_url" name="doc_url" disabled required value={{ loading_doc }} />
+                                <input type="text" class="form-control" id="doc_url" name="doc_url" disabled required value={{ loading_doc }} />
                             {% else %}
-                            <input type="text" class="form-control" id="doc_url" name="doc_url" required />
+                                <input type="text" class="form-control" id="doc_url" name="doc_url" required value={{ loading_doc }} />
                             {% endif %}
                             <input type="hidden" id="user" name="user" value={{ user }} />
-                            <div class="valid-feedback">Valid.</div>
-                            <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
                     </fieldset>
                     <div class="form-group">
@@ -72,20 +79,13 @@
             var doc = document.getElementById('doc_url')
             btn.disabled= true
             doc.disabled= true
+            $('.progress').height('30px');
             testpublish()
         }
-
         $(document).ready(function(){
-            $('#sample_goal').goalProgress({
-                goalAmount: 100,
-                currentAmount: 1,
-                speed: 100,
-                textBefore:'%',
-                textAfter:' raised.'
-            });
+            width = localStorage.getItem('progress') ? localStorage.getItem('progress') : 1
+            $('.progress-bar').width(width+'%');
         });
-
-</script>
 
     </script>
     <script>
