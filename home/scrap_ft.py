@@ -138,9 +138,9 @@ def main( doc_url, userID ):
     pros=100
     rc, mid = mqtt_2_client.publish('django/progress/setting/'+userID, pros)
     print(pros, '_rc',rc, 'mid', mid)  
-    print("***********", fineTuneConfirm.split("\n"), "=======", fineTuneConfirm.split("\n")[-4])
-    email(userID, ' Fine-tune is completed. Test your model. ')
-    return {"code": 200, "message": "success", "body": fineTuneConfirm.split("\n")[-4].split(":")[-2] + ":" + fineTuneConfirm.split("\n")[-4].split(":")[-1]}
+    print("***********", fineTuneConfirm.split("\n"), "=======", fineTuneConfirm.split("\n")[-2])
+    email(userID, ' Fine-tune is completed. Test your model. \n ModelID:' + fineTuneConfirm.split("\n")[-2].split(" ")[4])
+    return {"code": 200, "message": "success", "body": fineTuneConfirm.split("\n")[-2].split(" ")[4]}
 
 def completion(modelID, prompt):
     print("modelID:", modelID)
