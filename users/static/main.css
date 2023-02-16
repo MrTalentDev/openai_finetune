@@ -41,6 +41,7 @@ ul {
 .bg-purple {
   background-color: #874ef1;
   color: #dddddd;
+  animation: progress-bar-stripes 1s linear infinite;
 }
 
 .bg-yellow {
