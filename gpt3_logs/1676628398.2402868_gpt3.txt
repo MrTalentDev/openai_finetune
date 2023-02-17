@@ -1,0 +1,13 @@
+PROMPT:
+
+Write a detailed summary of the following:
+
+Elements is a set of tools that allows you to easily collect and manage payments and recurring revenue. With Stripe Elements, you can create and manage subscriptions, recurring payments, and recurring revenue with the Stripe Billing APIs. You can also use webhooks to receive notifications of subscription activity and manage triggers.  Stripe Elements is a set of pre-built UI components that help you build your own custom payment flows. With Stripe Elements, you can create beautiful, responsive forms and buttons, and accept payments in over 135 currencies.  Stripe Elements is a set of pre-built UI components that help you securely collect your customer's card details. With Stripe Elements, you can create beautiful, responsive checkout forms that are mobile-friendly and PCI-compliant.  Stripe Elements is a set of tools that allows businesses to accept payments online. It includes a payment gateway, a way to process credit and debit card payments, and a way to manage customer subscriptions. Stripe Elements is a powerful tool that can help businesses grow their online presence and take their business to the next level.  Stripe Elements is a browser-based shell with the Stripe CLI pre-installed. Login to your Stripe account and press Control + Backtick on your keyboard to start managing your Stripe resources in test mode.
+
+DETAILED SUMMARY:
+
+==========
+
+RESPONSE:
+
+Stripe Elements is a set of tools that allows businesses to easily collect and manage payments and recurring revenue online. With Stripe Elements, businesses can create and manage subscriptions, recurring payments, and recurring revenue with the Stripe Billing APIs. They can also use webhooks to receive notifications of subscription activity and manage triggers. Stripe Elements includes a payment gateway, a way to process credit and debit card payments, and a way to manage customer subscriptions. It is a powerful tool that can help businesses grow their online presence and take their business to the next level. Stripe Elements is a browser-based shell with the Stripe CLI pre-installed. Login to your Stripe account and press Control + Backtick on your keyboard to start managing your Stripe resources in test mode.

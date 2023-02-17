@@ -24,31 +24,31 @@ def newPublish(doc, user):
     time.sleep(1)
     start_time = time.time()
     finetuned = main(doc,user)
-    print("#####################",finetuned) 
+    # print("#####################",finetuned) 
     print("--- %s seconds ---" % (time.time() - start_time))
-    if finetuned.get('code') == 200:
-        try:
-            # print("#####################",finetuned.model_id) 
-            # print("#####################",finetuned.get('model_id')) 
-            FineTunedModels.objects.get(user_email=user)
-            FineTunedModels.objects.filter(user_email=user).update(model_id=finetuned.get('body'))
-        except FineTunedModels.DoesNotExist:
-            usr = FineTunedModels(user_email=user, model_id=finetuned.get('body')) # create new model instance
-            usr.save()
-        except Exception as e:
-            print(e)
-        data = {"code": 200, "message": "success", "body": finetuned.get('body')}
-    elif finetuned.get('code') == 500:
-        data = {"code": 500, "message": "error", "body": finetuned.get('body')}
-    else :
-        data = {"code": 500, "message": "error", "body": "Error"}
+    # if finetuned.get('code') == 200:
+    #     try:
+    #         # print("#####################",finetuned.model_id) 
+    #         # print("#####################",finetuned.get('model_id')) 
+    #         FineTunedModels.objects.get(user_email=user)
+    #         FineTunedModels.objects.filter(user_email=user).update(model_id=finetuned.get('body'))
+    #     except FineTunedModels.DoesNotExist:
+    #         usr = FineTunedModels(user_email=user, model_id=finetuned.get('body')) # create new model instance
+    #         usr.save()
+    #     except Exception as e:
+    #         print(e)
+    #     data = {"code": 200, "message": "success", "body": finetuned.get('body')}
+    # elif finetuned.get('code') == 500:
+    #     data = {"code": 500, "message": "error", "body": finetuned.get('body')}
+    # else :
+    #     data = {"code": 500, "message": "error", "body": "Error"}
 
     print(f'____________Web scrapping and Fine-Tuning is ended_______________')
     
     # 4 send model_id
     while True:
         if mqtt_2_client.is_connected:
-            rc, mid = mqtt_2_client.publish('django/updated/setting/freefox0101@outlook.com', json.dumps(data))
+            rc, mid = mqtt_2_client.publish('django/updated/setting/freefox0101@outlook.com', json.dumps(finetuned))
             print('rc',rc, 'mid', mid)
             # i+=1
             break
@@ -82,13 +82,13 @@ def on_message(mqtt_client, userdata, msg):
         resp = json.dumps({
             'code': '200',
             'message': 'success',
-            'body': 'Congratlation, Fine-Tuning started'
+            'body': 'Congratulation, Fine-Tuning started'
         })
         
         background_thread = Thread(target=newPublish, args=(payload['doc_url'],payload['user']))
         background_thread.start()
         
-        User.objects.filter(email=payload['user']).update(is_loading=True, loading_doc=payload['doc_url'])
+        # User.objects.filter(email=payload['user']).update(is_loading=True, loading_doc=payload['doc_url'])
     # print('resp', resp)
 
     rc, mid = mqtt_client.publish("django/response/setting/"+payload['user'], resp)

@@ -8,7 +8,6 @@ from users.models import User
 from django.views.generic.detail import DetailView
 from . import mqtt
 # import openai
-# openai.api_key = "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"
 # from .forms import SignUpForm
 
 @login_required
@@ -37,7 +36,7 @@ def answer(request):
         except FineTunedModels.DoesNotExist:
             print("print_id does not exist")
             
-        answer = completion(model_id.strip(" "), question)
+        answer = completion(str(request.user), question)
         print("=============", answer.get('code'))
         # answer = "this is response"
         # answer = json.loads(ans)

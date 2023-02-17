@@ -1,0 +1,13 @@
+PROMPT:
+
+Write a detailed summary of the following:
+
+Colleen Delgado is a skilled web developer with over 9 years of experience in web development. She has expertise in ReactJS, NodeJS, Rust, and various programming languages and frameworks such as PHP, Laravel, and Angular. Colleen is also experienced in working with databases such as MySQL, MongoDB, and PostgreSQL. In addition to her development skills, Colleen is also experienced in project management and has worked with clients to help them adapt their websites to changing industry standards.
+
+DETAILED SUMMARY:
+
+==========
+
+RESPONSE:
+
+Colleen Delgado is a skilled web developer with over 9 years of experience in web development. She has expertise in ReactJS, NodeJS, Rust, and various programming languages and frameworks such as PHP, Laravel, and Angular. Colleen is also experienced in working with databases such as MySQL, MongoDB, and PostgreSQL. In addition to her development skills, Colleen is also experienced in project management and has worked with clients to help them adapt their websites to changing industry standards.

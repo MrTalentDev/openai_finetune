@@ -1,0 +1,18 @@
+PROMPT:
+
+Use the following passage to give a detailed answer to the question:
+
+
+QUESTION: What is stripe?
+
+
+PASSAGE: Business Users privacy practices, choices and controls, or contact the Business User directly.Stripe logoUnited StatesSign up instantlyAustraliaAustriaBelgiumBrazilBulgariaCanadaCroatiaCyprusCzech RepublicDenmarkEstoniaFinlandFranceGermanyGibraltarGreeceHong KongHungaryIndiaIrelandItalyJapanLatviaLiechtensteinLithuaniaLuxembourgMalaysiaMaltaMexicoNetherlandsNew ZealandNorwayPolandPortugalRomaniaSingaporeSlovakiaSloveniaSpainSwedenSwitzerlandThailandUnited Arab EmiratesUnited KingdomUnited StatesRequest an inviteEnglish (United States)DeutschEnglish (United States)English (United Kingdom)Espaol (Amrica Latina)Espaol (Espaa)Franais (France)Franais (Canada)Bahasa IndonesiaItalianoNederlandsPortugus (Brasil)Svenska         20112023 Stripe, Inc.    ProductsAtlasBillingCapitalCheckoutClimateConnectCorporate CardData PipelineElementsFinancial ConnectionsIdentityInvoicingIssuingLinkPaymentsPayment LinksPayoutsPricingRadarRevenue RecognitionSigmaTaxTerminalTreasurySolutionsEcommerceSaaSMarketplacesEmbedded FinancePlatformsCreator EconomyCrypto                      Global Businesses                  Integrations & Custom SolutionsApp MarketplacePartner EcosystemProfessional ServicesDevelopersDocumentationAPI ReferenceAPI StatusAPI ChangelogBuild a Stripe AppResourcesSupport CenterSupport PlansGuidesCustomer StoriesBlogAnnual ConferenceContact SalesPrivacy & TermsLicensesCOVID-19SitemapCookie settingsYour CA Privacy ChoicesCompanyJobsNewsroomStripe PressBecome a Partner
+
+
+DETAILED ANSWER:
+
+==========
+
+RESPONSE:
+
+Stripe is a technology company that provides payment processing and other financial services for businesses. Stripe offers a suite of products and services that businesses can use to accept payments, manage their finances, and more. Stripe also has a partner ecosystem of businesses that offer integrations and custom solutions for businesses using Stripe.

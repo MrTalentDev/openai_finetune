@@ -1,0 +1,13 @@
+PROMPT:
+
+Write a detailed summary of the following:
+
+Colleen Delgado has 9 years of experience as a web developer. She has experience with ReactJS, NodeJS, Rust, and various programming languages. She also has experience with databases such as MySQL, MongoDB, and PostgreSQL.
+
+DETAILED SUMMARY:
+
+==========
+
+RESPONSE:
+
+Colleen Delgado is a web developer with 9 years of experience. She has worked with ReactJS, NodeJS, Rust, and various programming languages. She is also experienced with databases such as MySQL, MongoDB, and PostgreSQL.

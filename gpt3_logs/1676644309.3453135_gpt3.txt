@@ -1,0 +1,18 @@
+PROMPT:
+
+Use the following passage to give a detailed answer to the question:
+
+
+QUESTION: What is stripe?
+
+
+PASSAGE: verify your identity and confirm that you provided the authorized agent permission to submit the request.Do Not Track and signals. Learn more about how we honor do not track and other signals.9. Contact usIf you have any questions or complaints about this Policy, please contact us. If you are an End Customer (i.e. an individual doing business or transacting with a Business User), please refer to the privacy policy or notice of the Business User for information regarding the Business Users privacy practices, choices and controls, or contact the Business User directly.Stripe logoUnited StatesSign up instantlyAustraliaAustriaBelgiumBrazilBulgariaCanadaCroatiaCyprusCzech RepublicDenmarkEstoniaFinlandFranceGermanyGibraltarGreeceHong KongHungaryIndiaIrelandItalyJapanLatviaLiechtensteinLithuaniaLuxembourgMalaysiaMaltaMexicoNetherlandsNew ZealandNorwayPolandPortugalRomaniaSingaporeSlovakiaSloveniaSpainSwedenSwitzerlandThailandUnited Arab EmiratesUnited KingdomUnited StatesRequest an inviteEnglish (United States)DeutschEnglish (United States)English (United Kingdom)Espaol (Amrica Latina)Espaol (Espaa)Franais (France)Franais (Canada)Bahasa IndonesiaItalianoNederlandsPortugus (Brasil)Svenska         20112023 Stripe, Inc.    ProductsAtlasBillingCapitalCheckoutClimateConnectCorporate CardData PipelineElementsFinancial ConnectionsIdentityInvoicingIssuingLinkPaymentsPayment LinksPayoutsPricingRadarRevenue RecognitionSigmaTaxTerminalTreasurySolutionsEcommerceSaaSMarketplacesEmbedded FinancePlatformsCreator EconomyCrypto                      Global Businesses                  Integrations & Custom SolutionsApp MarketplacePartner EcosystemProfessional ServicesDevelopersDocumentationAPI ReferenceAPI StatusAPI ChangelogBuild a Stripe AppResourcesSupport CenterSupport PlansGuidesCustomer StoriesBlogAnnual ConferenceContact SalesPrivacy & TermsLicensesCOVID-19SitemapCookie settingsYour CA Privacy ChoicesCompanyJobsNewsroomStripe PressBecome a Partner
+
+
+DETAILED ANSWER:
+
+==========
+
+RESPONSE:
+
+Stripe is a technology company that provides a platform for businesses to accept payments online. Stripe offers a variety of features and services, including a payment gateway, merchant account, and fraud prevention. Stripe also provides a number of tools and resources for developers, such as an API and SDK.

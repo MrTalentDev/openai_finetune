@@ -1,0 +1,13 @@
+PROMPT:
+
+Write a detailed summary of the following:
+
+Colleen Delgado is a skilled web developer with over 9 years of experience. She has expertise in ReactJS, NodeJS, Rust, and various programming languages and frameworks. She is also experienced in database management and web development tools. In her previous roles, she has developed and maintained microservices for a large-scale trading platform and designed and implemented highly scalable solutions. Additionally, she has participated in code reviews and ensured that all code adheres to company standards. Colleen is currently a Full Stack Web Developer at Hop Studios Inc.
+
+DETAILED SUMMARY:
+
+==========
+
+RESPONSE:
+
+Colleen Delgado is a skilled web developer with over 9 years of experience. She has expertise in ReactJS, NodeJS, Rust, and various programming languages and frameworks. She is also experienced in database management and web development tools. In her previous roles, she has developed and maintained microservices for a large-scale trading platform and designed and implemented highly scalable solutions. Additionally, she has participated in code reviews and ensured that all code adheres to company standards. Colleen is currently a Full Stack Web Developer at Hop Studios Inc.

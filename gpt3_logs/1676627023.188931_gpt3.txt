@@ -1,0 +1,18 @@
+PROMPT:
+
+Use the following passage to give a detailed answer to the question:
+
+
+QUESTION: What are Colleen Delgado?
+
+
+PASSAGE: Home | Colleen Delgadotop of pageThis site was designed with the .com website builder. Create your website today.Start NowCDColleen DelgadoFull Stack Web DeveloperAboutContactMoreUse tab to navigate through the menu items.Log InColleen DelgadoFull Stack DeveloperOver 9 years experiences with Web DevelopmentHi, I'm Colleen Delgado,a Skilled Web developing ProfessionalHi, Thanks for visiting here! I've been working as a Web Developer for a long time. And, this is what i like to do 24/7! I've many skills which includes these -1. ReactJS expert 8 years experiences.2. NodeJS expert 7 years experiences.(Express.js, Vue.js, Angular)3. Rust expert 7 years experiences.4. Database - MySQL, MongoDB, postgresql5. JavaScript - jQuery, jQuery UI, jQuery Mobile.6. PHP - Laravel, CodeIgniter, WordPress7. CSS/CSS3 - Bootstrap, Material Design UI, Foundation, SASS, LESS etc.Read MoreWhat Can I Do For You?I will do everything for my clients.I ensure my development speed and quality assurance.My ExperiencesRust DeveloperMar 2015 - Jan 2018MALICIS ComponyMontral, CanadaDeveloped and maintained Rust microservices for a large-scale, highthroughput trading platform with 100+ developers in the team. Implemented RESTful APIs to connect frontend applications with backend services using Go channels and goroutines. Designed and implemented highly scalable solutions by leveraging concurrency primitives such as multi-threading, mutexes, semaphores etc., along with best practices like TDD (Test Driven Development). Participated in code reviews of other engineers work and ensured that all code adheres to companys coding standards & guidelines. Used tools such as Git, Jira, Slack for version control, bug tracking and communication respectively.1Full Stack Web DeveloperMar 2018 - Jul 2021HOP STUDIOS INC.Vancouver, CanadaUsed understanding of React fundamentals to promote better component lifecycle practices, increasing turnaround speed by 23% with 100% deadline adherence. Communicated with other teams and senior management to adapt 50+ clients websites to adapt to changing industry standards. Introduced wider use of isomorphic React and Node.js for web applications, decreasing load times by roughly 35%. Followed documentation to always remain up-to-speed on what needs to be updated in response to new release versions.2Skills:University of Regina.Bachelor's degree of Computer Science.RustReact.jsNode.jsAngularPHPJavascriptJavaC, C++, C#jQueryExpress.js, Vue.jsGitHubLaravelFirebaseAWSExperienced ProjectsHOP STUDIOSMALICISGENIEALLInformediaGroupGet in Touchcolleendlgd@gmail.comFirst NameLast NameEmailMessageSendThanks for submitting!Let's Take Your Business to the Next LevelContact Me 2035 by Maggie Brightstone. Powered and secured by Wixbottom of page Error 404 occurredRegardless, we recommend you to update your browser.
+
+
+DETAILED ANSWER:
+
+==========
+
+RESPONSE:
+
+Colleen Delgado is a skilled web developer with over 9 years of experience. She has expertise in ReactJS, NodeJS, Rust, and various programming languages and frameworks. She is also experienced in database management and web development tools and technologies.

@@ -28,6 +28,7 @@ client.on('error', (error) => {
 
 client.on('message', (topic, message) => {
   console.log('receive message：', topic, message.toString())
+  console.log("django/progress/setting/"+email)
   if (topic==="django/updated/setting/"+email) {
     alert(JSON.parse(message).body);
     var btn = document.getElementById('updatebtn');
@@ -41,6 +42,7 @@ client.on('message', (topic, message) => {
   }
   else if (topic==="django/progress/setting/"+email){
     // alert(message.toString())
+    console.log('receive message：', topic, message.toString())
     inc(message.toString())
     localStorage.setItem('progress', message.toString())
   }
@@ -53,10 +55,11 @@ client.subscribe("django/updated/setting/"+email); //receive model id after fine
 client.subscribe("django/progress/setting/"+email); //receive progressive value
 
 //notice this is printed even before we connect
-console.log("django/response/setting/"+email);
+console.log("django/progress/setting/"+email);
 
 function inc(width) {
-  interval = width == 100 ? 300 : 70000
+  console.log(width)
+  interval = width == 100 ? 300 : 1000
   var id = setInterval(frame, interval);
   function frame() {
     var pro = document.getElementById('progress').style.width;
