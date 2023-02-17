@@ -16,10 +16,14 @@
                 </div>
             </div>
             <div class="col col-8">
-                <div class="home-content">
+                <div class="home-content" style="position:relative">
                     <!-- <form id="answer-form" method="POST" action="{% url 'home:answer' %}" onsubmit="Loading()"> -->
                         <!-- {% csrf_token %} -->
-                        <label for = "question">Smart response</label>
+                        <label for = "question">Smart response</label><div class="typing-indicator" id="container-loading">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" id="question" name="question" value="{{ question }}">
                             <div class="input-group-append">
@@ -28,14 +32,10 @@
                             <input type="hidden" id="user" name="user" value={{ user }} />
                         </div>
                     <!-- </form> -->
-                    <div class = "form-group mt-10" style="position:relative">
+                    <div class = "form-group mt-10">
                         <label for = "name">Smart response</label>
                         <textarea class = "form-control" id="answer" name="answer" rows = "8">{{answer}}</textarea>
-                        <div class="typing-indicator" id="container-loading">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                          </div>
+                        
                     </div>
                     <div class="form-group">
                         <button class="btn bg-yellow mt-4 pl-4 pr-4 item-right" onclick="CopyText()" id="copybtn">Copy</button>
