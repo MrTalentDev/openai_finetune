@@ -118,8 +118,8 @@ def gpt3_embedding(content, engine='text-similarity-ada-001'):
     return vector
 
 def makeJsonFile(content, userID):
-    pros = 10
-    rc, mid = mqtt_2_client.publish('django/progress/setting/'+userID, pros)
+    # pros = 10
+    # rc, mid = mqtt_2_client.publish('django/progress/setting/'+userID, pros)
     alltext = content
     chunks = textwrap.wrap(alltext, 4000)
     result = list()
@@ -185,9 +185,11 @@ def scrapFromURL(userID, url:str)->str:
         print("*******************", aList[i].get("href"))
         if(aList[i].get("href") == None):
             i += 1
+            print('##',i)
             continue
         if aList[i].get("href")[0] == '/' or aList[i].get("href").find(baseURL) > 0:
             pros =10 + math.floor(70/len(aList)) * i
+            print('##',i)
             rc, mid = mqtt_2_client.publish('django/progress/setting/'+userID, pros)
             print('scraping related url', baseURL + aList[i].get("href"))
             resultStr += BeautifulSoup(requests.get(baseURL + aList[i].get("href")).content, 'html.parser').get_text()
@@ -222,10 +224,11 @@ def out(command):
     return result.stdout
 def main( doc_url, userID ):
     pros=0
-    print("111111111111111111111111111111111111")
+    # print("111111111111111111111111111111111111")
     try:
         Tcontext = scrapFromURL(userID, doc_url)
-    except:
+    except Exception as e:
+        print(e)
         return {"code": 500, "message": "failed", "body": "We can't get data from your url"}
     Tcontext = Tcontext.strip()
     Tcontext = "".join(re.findall("[a-zA-Z 0-9:!@#$%^&*?/,.<>\|';{}=+-_()]", Tcontext))

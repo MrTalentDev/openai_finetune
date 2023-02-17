@@ -87,7 +87,7 @@ function inc(width) {
       $('.progress-bar').width(pros+'%');
       $('.progress-bar').text(pros+'%');
       if (pros === 100){
-        $("progress-bar").css("background-color","red");
+        $(".progress-bar").css("background-color","#5cb85c");
         alert('Your request successfuly finished')
       }
 
