@@ -17,19 +17,26 @@
             </div>
             <div class="col col-8">
                 <div class="home-content">
-                    <form id="answer-form" method="POST" action="{% url 'home:answer' %}">
-                        {% csrf_token %}
+                    <!-- <form id="answer-form" method="POST" action="{% url 'home:answer' %}" onsubmit="Loading()"> -->
+                        <!-- {% csrf_token %} -->
                         <label for = "question">Smart response</label>
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" id="question" name="question" value="{{ question }}">
                             <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="submit" id="sendbtn"  onclick="Loading()" ><i class="fas fa-location-arrow"></i></button>
+                                <button class="btn btn-outline-secondary" type="submit" id="sendbtn" onclick="Loading()"><i class="fas fa-location-arrow"></i></button>
                             </div>
+                            <input type="hidden" id="user" name="user" value={{ user }} />
                         </div>
-                    </form>
-                    <div class = "form-group mt-10">
+                    <!-- </form> -->
+                    <div class = "form-group mt-10" style="position:relative">
                         <label for = "name">Smart response</label>
                         <textarea class = "form-control" id="answer" name="answer" rows = "8">{{answer}}</textarea>
+                        <div class="container-loading" id="container-loading" style="display:none">
+                            <div class="dash uno"></div>
+                            <div class="dash dos"></div>
+                            <div class="dash tres"></div>
+                            <div class="dash cuatro"></div>
+                        </div>
                     </div>
                     <div class="form-group">
                         <button class="btn bg-yellow mt-4 pl-4 pr-4 item-right" onclick="CopyText()" id="copybtn">Copy</button>
@@ -58,17 +65,29 @@
     </script>
     <script>
         function Loading() {
-            var btn = document.getElementById('sndbtn')
+            var btn = document.getElementById('sendbtn')
+            var question = document.getElementById('question')
+            var answer = document.getElementById('answer')
+            var wait = document.getElementById('container-loading')
+            wait.style.display="flex"
             btn.disabled= true
-            var form = document.getElementById('answer-form')
-            form.submit()
+            question.disabled= true
+            answer.disabled= true
+            // var form = document.getElementById('answer-form')
+            // form.submit()
+            payload = {
+                question: $("#question").val(),
+                user: $("#user").val()
+            }
+            var mid = client.publish('django/request/answer',JSON.stringify(payload));
+            console.log('mid', mid)
         }
     </script>
     <script>
         let answer = document.getElementById('answer');
-        let btn = document.getElementById('copybtn');
-        if(!answer.value)
-            btn.disabled=true
+        // let btn = document.getElementById('copybtn');
+        // if(!answer.value)
+        //     btn.disabled=true
         let senbtn = document.getElementById('sendbtn');
         let question = document.getElementById('question');
         if(!question.value)

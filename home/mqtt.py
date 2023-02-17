@@ -1,6 +1,6 @@
 import paho.mqtt.client as mqtt
 from django.conf import settings
-from .scrap_ft import main
+from .scrap_ft import main, completion
 from users.models import User
 from .models import FineTunedModels
 import json
@@ -48,7 +48,7 @@ def newPublish(doc, user):
     # 4 send model_id
     while True:
         if mqtt_2_client.is_connected:
-            rc, mid = mqtt_2_client.publish('django/updated/setting/freefox0101@outlook.com', json.dumps(finetuned))
+            rc, mid = mqtt_2_client.publish('django/updated/setting/'+user, json.dumps(finetuned))
             print('rc',rc, 'mid', mid)
             # i+=1
             break
@@ -61,39 +61,54 @@ def newPublish(doc, user):
     print('user table updated', rs)
     
 def on_message(mqtt_client, userdata, msg):
-    #1 receive request to update setting
-    payload = json.loads(msg.payload)
-    print("============================================================")
-    print(payload)
-    print("============================================================")
-    # print(f'Received message on topic: {msg.topic} with payload: {msg.payload}')
-    print(f'____________________Received Update Request______________________')
+    if msg.topic == 'django/request/setting':
+        #1 receive request to update setting
+        payload = json.loads(msg.payload)
+        print("============================================================")
+        print(payload)
+        print("============================================================")
+        # print(f'Received message on topic: {msg.topic} with payload: {msg.payload}')
+        print(f'____________________Received Update Request______________________')
 
-    # 2 send response to update request
-    usr = User.objects.filter(email=payload['user']).get()
-    # print('usr', usr.is_loading)
-    if usr.is_loading:
-        resp = json.dumps({
-            'code': '500',
-            'message': 'error',
-            'body': 'Now, server is fine-tuning on '+usr.loading_doc
-        })
-    else:
-        resp = json.dumps({
-            'code': '200',
-            'message': 'success',
-            'body': 'Congratulation, Fine-Tuning started'
-        })
-        
-        background_thread = Thread(target=newPublish, args=(payload['doc_url'],payload['user']))
-        background_thread.start()
-        
-        # User.objects.filter(email=payload['user']).update(is_loading=True, loading_doc=payload['doc_url'])
-    # print('resp', resp)
+        # 2 send response to update request
+        usr = User.objects.filter(email=payload['user']).get()
+        # print('usr', usr.is_loading)
+        if usr.is_loading:
+            resp = json.dumps({
+                'code': '500',
+                'message': 'error',
+                'body': 'Now, server is fine-tuning on '+usr.loading_doc
+            })
+        else:
+            resp = json.dumps({
+                'code': '200',
+                'message': 'success',
+                'body': 'Congratulation, Fine-Tuning started'
+            })
+            print('######################')
+            background_thread = Thread(target=newPublish, args=(payload['doc_url'],payload['user']))
+            background_thread.start()
+            
+            # User.objects.filter(email=payload['user']).update(is_loading=True, loading_doc=payload['doc_url'])
+        # print('resp', resp)
 
-    rc, mid = mqtt_client.publish("django/response/setting/"+payload['user'], resp)
-    print('response ', 'rc', rc, 'mid', mid)
-    print(f'________________Send Respond to Update Request___________________')
+        rc, mid = mqtt_client.publish("django/response/setting/"+payload['user'], resp)
+        print('response ', 'rc', rc, 'mid', mid)
+        print(f'________________Send Respond to Update Request___________________')
+    elif msg.topic == 'django/request/answer':
+        payload = json.loads(msg.payload)
+        print(payload)
+        answer = completion(payload['user'], payload['question'])
+        while True:
+            if mqtt_2_client.is_connected:
+                rc, mid = mqtt_2_client.publish("django/response/answer/"+payload['user'], json.dumps(answer))
+                print('response', 'rc',rc, 'mid', mid)
+                # i+=1
+                break
+            else:
+                time.sleep(1)
+                mqtt_2_client.reconnect()
+        print(f'________________Send Respond to question Request___________________')
 
 client = mqtt.Client()
 client.connected_flag=False#create flag in class
@@ -111,3 +126,6 @@ client.connect(
 while not client.connected_flag: #wait in loop
     print("In wait loop")
     time.sleep(1)
+
+client.subscribe('django/request/setting')
+client.subscribe('django/request/answer')

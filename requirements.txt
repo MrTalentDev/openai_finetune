@@ -2,3 +2,4 @@ bs4
 requests
 openai
 paho-mqtt
+numpy

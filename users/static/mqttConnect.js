@@ -27,24 +27,40 @@ client.on('error', (error) => {
 });
 
 client.on('message', (topic, message) => {
-  console.log('receive message：', topic, message.toString())
-  console.log("django/progress/setting/"+email)
+  console.log('receive message：', topic, message.toString());
+  console.log("django/progress/setting/"+email);
+  msg = JSON.parse(message);
   if (topic==="django/updated/setting/"+email) {
-    alert(JSON.parse(message).body);
     var btn = document.getElementById('updatebtn');
     var doc = document.getElementById('doc_url');
     btn.disabled= false
     doc.disabled= false;
   }
   else if (topic==="django/response/setting/"+email) {
-    if (JSON.parse(message).code === '200')
-      alert(JSON.parse(message).body);
+    if (msg.code === '200')
+    console.log(msg.body)
+      // alert(msg.body);
   }
   else if (topic==="django/progress/setting/"+email){
-    // alert(message.toString())
     console.log('receive message：', topic, message.toString())
+    // $('.progress-bar').width(message.toString()+'%');
+    // $('.progress-bar').text(message.toString()+'%');
     inc(message.toString())
     localStorage.setItem('progress', message.toString())
+  }
+  else if (topic==="django/response/answer/"+email){
+    
+    if (msg.code === 200){
+      let answer = document.getElementById('answer');
+      let btn = document.getElementById('sendbtn')
+      let question = document.getElementById('question')
+      let wait = document.getElementById('container-loading')
+      wait.style.display="none"
+      btn.disabled= false
+      question.disabled= false
+      answer.disabled= false
+      answer.value = msg.body;
+    }
   }
 });
 
@@ -54,12 +70,13 @@ client.subscribe("django/response/setting/"+email); //receive response to update
 client.subscribe("django/updated/setting/"+email); //receive model id after fine-tune finished
 client.subscribe("django/progress/setting/"+email); //receive progressive value
 
+client.subscribe("django/response/answer/"+email); //receive progressive value
+
 //notice this is printed even before we connect
 console.log("django/progress/setting/"+email);
 
 function inc(width) {
-  console.log(width)
-  interval = width == 100 ? 300 : 1000
+  interval = width == 100 ? 100 : 200
   var id = setInterval(frame, interval);
   function frame() {
     var pro = document.getElementById('progress').style.width;
@@ -69,6 +86,11 @@ function inc(width) {
     } else {
       $('.progress-bar').width(pros+'%');
       $('.progress-bar').text(pros+'%');
+      if (pros === 100){
+        $("progress-bar").css("background-color","red");
+        alert('Your request successfuly finished')
+      }
+
     }
   } 
 }
