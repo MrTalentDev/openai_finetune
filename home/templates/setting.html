@@ -77,11 +77,16 @@
         function Loading() {
             var btn = document.getElementById('updatebtn')
             var doc = document.getElementById('doc_url')
-            btn.disabled= true
-            doc.disabled= true
-            localStorage.setItem('progress', '1');
-            $('.progress').height('30px');
-            testpublish()
+            try {
+                const url_a = new URL($("#doc_url").val())
+                btn.disabled= true
+                doc.disabled= true
+                localStorage.setItem('progress', '1');
+                $('.progress').height('30px');
+                testpublish()
+            } catch (error) {
+                alert("invalid url")
+            }
         }
         
 
@@ -110,13 +115,14 @@
     <script>
         var count = 0;
         var timer_id="_^_"
-        function testpublish() {
-            timer_id=setInterval(function(){publish();},1000);
+        function testpublish(url) {
+            timer_id=setInterval(function(url){publish(url);},1000);
         }
-        function publish() {
+        function publish(url) {
             if (client.connected == true){
+                const url_a = new URL($("#doc_url").val())
                 payload = {
-                    doc_url: $("#doc_url").val(),
+                    doc_url: url_a.href,
                     user: $("#user").val()
                 }
                 var mid = client.publish('django/request/setting',JSON.stringify(payload));
