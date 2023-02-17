@@ -31,12 +31,11 @@
                     <div class = "form-group mt-10" style="position:relative">
                         <label for = "name">Smart response</label>
                         <textarea class = "form-control" id="answer" name="answer" rows = "8">{{answer}}</textarea>
-                        <div class="container-loading" id="container-loading" style="display:none">
-                            <div class="dash uno"></div>
-                            <div class="dash dos"></div>
-                            <div class="dash tres"></div>
-                            <div class="dash cuatro"></div>
-                        </div>
+                        <div class="typing-indicator" id="container-loading">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                          </div>
                     </div>
                     <div class="form-group">
                         <button class="btn bg-yellow mt-4 pl-4 pr-4 item-right" onclick="CopyText()" id="copybtn">Copy</button>
